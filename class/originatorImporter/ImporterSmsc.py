@@ -7,13 +7,7 @@ from Importer import importer
 from OriginatorSmsc import originatorSmsc
 
 class importerSmsc(importer):
-    SmscStatuses = {
-        '3' : 'допущено оператором',
-        '4' : 'не принято оператором',
-        '7' : 'необходимы подтверждающие документы',
-        '2' : 'отправлено на регистрацию',
-        '2' : 'ожидает регистрации'
-    }
+    Statuses = dict()
     OperatorsGroups = {
         '1;5' : ['Мегафон (платно): ', r'Мегафон \(платно\): '],
         '1;4' : ['Мегафон (бесплатно): ', r'Мегафон \(бесплатно\): '],
@@ -25,10 +19,19 @@ class importerSmsc(importer):
     OriginatorsAB = dict()
     OriginatorsBC = dict()
 
+    def load(self, extension, providerCode, fileName):
+        if extension == 'csv' and providerCode in ('SMSC'):
+            with open('./originators/' + fileName, 'r', encoding='cp1251') as fileCsv:
+                for string in csv.DictReader(fileCsv, delimiter=';'):
+                    self.input(string)
+        else:
+            print('Неподдерживаемое расширение входящего файла!')
+            quit()
+    
     def input(self, string):
-        for status_id in self.SmscStatuses.keys():
-            string['status'] = self.SmscStatuses[status_id]
-            string['status_id'] = status_id
+        for statusString in self.Statuses.keys():
+            string['status'] = statusString
+            string['status_id'] = self.Statuses[statusString]
 
             for operator_group_key in self.OperatorsGroups.keys():
                 operator_group_find, operator_group_regexp = self.OperatorsGroups[operator_group_key]
@@ -102,3 +105,21 @@ class importerSmsc(importer):
             
             self.outerOriginatorsAppend(OriginatorSmsc)
             self.appendSmscOriginatorChange(stringYota)
+
+    def loadConfig(self, selfParam, fileName, key, columns):
+        filePath = './input/' + 'smscStatus.csv'
+        with open(filePath, 'r', encoding='cp1251') as fileCsv:
+            for string in csv.DictReader(fileCsv, delimiter=';'):
+                self.Statuses.update({string[key] : string['status_id']})
+        return filePath
+    
+    def loadStatus(self):
+        loadConfig(self.Status, 'smscStatus.csv', 'message', ['status_id'])
+
+    def loadStatus(self):
+        filePath = './input/' + 'rejectMessageMts.csv'
+        with open(filePath, 'r', encoding='cp1251') as fileCsv:
+            for string in csv.DictReader(fileCsv, delimiter=';'):
+                if string['status_id'] > '0':
+                    self.Statuses.update({string['message'] : string['status_id']})
+        return filePath

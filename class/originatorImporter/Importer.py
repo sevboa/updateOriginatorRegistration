@@ -20,46 +20,14 @@ class importer:
 
         self.load(extension, providerCode, fileName)
 
+        print('import ' + fileName + ' complete')
+
     def load(self, extension, providerCode, fileName):
         
         limit = 100000000
         offset = 1
 
-        if extension == 'csv' and providerCode in ('Beeline', 'SMSC'):
-            with open('./originators/' + fileName, 'r', encoding='cp1251') as fileCsv:
-                for string in csv.DictReader(fileCsv, delimiter=';'):
-                    self.input(string)
-        
-        elif extension == 'csv' and providerCode in ('Tele2'):
-            with open('./originators/' + fileName, 'r', encoding='cp1251') as fileCsv:
-                i = int()
-                for string in csv.reader(fileCsv, delimiter=';'):
-                    i+=1
-                    if i>= offset: 
-                        self.input(string)
-                    if i > limit: break
-        
-        elif extension == 'xlsx' and providerCode in ('BT'):
-            wb = load_workbook(filename = './originators/' + fileName)
-            for sheetName in wb.sheetnames[:1]:
-                sheet = wb[sheetName]
-                i = int()
-                while True:
-                    i+=1
-                    if sheet['A' + str(i)].value == None:
-                        break
-                    try:
-                        if sheet['A' + str(i)].value == None:
-                            break
-                        for stringObject in sheet['A' + str(i):'D' + str(i)]:
-                            if i>= offset: 
-                                self.input(stringObject)
-                    except AttributeError:
-                        break
-                    if i > limit:
-                        break
-
-        elif extension == 'xlsx' and providerCode in ('Motiv'):
+        if extension == 'xlsx' and providerCode in ('Motiv'):
             '''
             def exportMotiv(fileName):
                 print('export originator of provider Motiv')
@@ -90,8 +58,6 @@ class importer:
         else:
             print('Неподдерживаемое расширение входящего файла!')
             quit()
-        
-        print('import ' + fileName + ' complete')
     
     def input(self, string, rejected=False):
         ''
