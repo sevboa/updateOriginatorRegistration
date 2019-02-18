@@ -8,7 +8,7 @@ from OriginatorBeeline import originatorBeeline
 
 class importerBeeline(importer):
     
-    def load(extension, providerCode, fileName):
+    def load(self, extension, providerCode, fileName):
         if extension == 'csv' and providerCode in ('Beeline', 'SMSC'):
             with open('./originators/' + fileName, 'r', encoding='cp1251') as fileCsv:
                 for string in csv.DictReader(fileCsv, delimiter=';'):
