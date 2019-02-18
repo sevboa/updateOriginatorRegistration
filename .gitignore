@@ -2,11 +2,10 @@
 .vscode
 __pycache__
 output/*
-originators/*
-input/*
-input/inputDocs/*
-!.gitkeep
 !output/.gitkeep
+originators/*
 !originators/.gitkeep
-!input/.gitkeep
+input/inputDocs/*
 !input/inputDocs/.gitkeep
+input/*.*
+!input/.gitkeep
