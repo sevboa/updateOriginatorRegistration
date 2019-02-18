@@ -1,7 +1,12 @@
-__pycache__
-output/**/*
-originators/**/*
-input/**/*
-!.gitkeep
 *~
 .vscode
+__pycache__
+output/*
+originators/*
+input/*
+input/inputDocs/*
+!.gitkeep
+!output/.gitkeep
+!originators/.gitkeep
+!input/.gitkeep
+!input/inputDocs/.gitkeep
