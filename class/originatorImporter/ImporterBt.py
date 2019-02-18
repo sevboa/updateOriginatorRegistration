@@ -13,5 +13,5 @@ class importerBt(importer):
             if self.GlobalOriginators.isdisjoint({originator.Originator + ';' + str(originator.ProviderId)}):
                 self.Originators.add(originator)
 
-    def input(self, stringObject):
+    def input(self, stringObject, rejected=Null):
         self.outerOriginatorsAppend(stringObject)

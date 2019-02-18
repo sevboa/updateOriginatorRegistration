@@ -145,8 +145,7 @@ class importer:
                 writeCsv = csv.writer(fileCsv, delimiter=';')
 
                 wb = load_workbook(filename = './originators/' + fileName)
-                sheets = wb.get_sheet_names()
-                for sheetName in sheets[:1]:
+                for sheetName in wb.sheetnames[:1]:
                     sheet = wb[sheetName]
                     i = int()
                     while True:
@@ -159,16 +158,19 @@ class importer:
                             for stringObject in sheet['A' + str(i):'D' + str(i)]:
                                 if i>= offset: 
                                     if re.sub(r'[^\d]+', '', str(stringObject[2].value)) != '':
-                                        stateMessage = str(stringObject[3].value)
-                                        statusAndIsIncorrectInn = self.RejectMessageMts.get(stateMessage)
-                                        if statusAndIsIncorrectInn == None:
-                                            print(str(stringObject[3].value))
-                                            print('Неожиданный статус!')
-                                            writeCsv.writerow([stringObject[3].value, '', ''])
-                                            self.RejectMessageMts.update({stringObject[3].value : '0' + ';' + '0'})
-                                        elif statusAndIsIncorrectInn != '0;0':
+                                        if 'MTS_error_' in fileName:
+                                            stateMessage = str(stringObject[3].value)
+                                            statusAndIsIncorrectInn = self.RejectMessageMts.get(stateMessage)
+                                            if statusAndIsIncorrectInn == None:
+                                                print(str(stringObject[3].value))
+                                                print('Неожиданный статус!')
+                                                writeCsv.writerow([stringObject[3].value, '', ''])
+                                                self.RejectMessageMts.update({stringObject[3].value : '0' + ';' + '0'})
+                                            elif statusAndIsIncorrectInn != '0;0':
+                                                self.input(stringObject, True)
+                                        else:
                                             self.input(stringObject)
-                                    
+                                        
                         except AttributeError:
                             break
                         if i > limit:
@@ -176,8 +178,7 @@ class importer:
 
         elif extension == 'xlsx' and providerCode in ('BT'):
             wb = load_workbook(filename = './originators/' + fileName)
-            sheets = wb.get_sheet_names()
-            for sheetName in sheets[:1]:
+            for sheetName in wb.sheetnames[:1]:
                 sheet = wb[sheetName]
                 i = int()
                 while True:
@@ -229,7 +230,7 @@ class importer:
         
         print('import ' + fileName + ' complete')
     
-    def input(self,string):
+    def input(self, string, rejected=False):
         ''
     
     def loadRejectMessageMts(self):
