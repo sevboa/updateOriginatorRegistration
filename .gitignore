@@ -1,7 +1,7 @@
-!.gitignore
 __pycache__
 output/**/*
 originators/**/*
 input/**/*
+!.gitkeep
 *~
 .vscode
