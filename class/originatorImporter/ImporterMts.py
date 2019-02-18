@@ -47,7 +47,8 @@ class importerMts(importer):
                         except AttributeError:
                             break
         else:
-            print('Unsupported file format')
+            print('Неподдерживаемое расширение входящего файла!')
+            quit()
     
     def input(self, stringObject, rejected=False):
         if rejected == True:

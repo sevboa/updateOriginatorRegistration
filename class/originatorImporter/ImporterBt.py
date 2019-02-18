@@ -7,6 +7,30 @@ from OriginatorMts import originatorMts
 
 class importerBt(importer):
     
+    def load():
+        if extension == 'xlsx' and providerCode in ('BT'):
+            wb = load_workbook(filename = './originators/' + fileName)
+            for sheetName in wb.sheetnames[:1]:
+                sheet = wb[sheetName]
+                i = int()
+                while True:
+                    i+=1
+                    if sheet['A' + str(i)].value == None:
+                        break
+                    try:
+                        if sheet['A' + str(i)].value == None:
+                            break
+                        for stringObject in sheet['A' + str(i):'D' + str(i)]:
+                            if i>= offset: 
+                                self.input(stringObject)
+                    except AttributeError:
+                        break
+                    if i > limit:
+                        break
+        else:
+            print('Неподдерживаемое расширение входящего файла!')
+            quit()
+
     def outerOriginatorsAppend(self, stringObject):
         if type(stringObject[2].value) == type(int()):
             originator = originatorMts(stringObject, self.RejectMessageMts)
