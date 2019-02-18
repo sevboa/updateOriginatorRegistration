@@ -52,6 +52,7 @@ for key in list(Originators.OriginatorsByOperatorsGropupId.keys()):
         f = open('./output/originators_smsc_' + key + '_' + str(fileCount) + '.sql', 'w', encoding='utf8')
         f.write(query)
 '''
+
 ## Генерация запроса в один файл
 queryString = Originators.sqlGenerate(Originators.Originators, 20000)
 queryString = re.sub(r'\n+\s+', ' ', queryString)
@@ -62,6 +63,10 @@ f = open('./output/originators_smsc.sql', 'w', encoding='utf8')
 f.write(queryString)
 
 ## Генерация запроса написания имен
-query = Originators.spellingOriginatorsSqlGenerate()
+querySpellingString = Originators.spellingOriginatorsSqlGenerate()
+querySpellingString = re.sub(r'\n+\s+', ' ', querySpellingString)
+querySpellingString = re.sub(r'\s+\n+', ' ', querySpellingString)
+querySpellingString = re.sub(r'\n+', ' ', querySpellingString)
+querySpellingString = re.sub(r'\s', ' ', querySpellingString)
 f = open('./output/spelling_originators_smsc.sql', 'w', encoding='utf8')
-f.write(query)
+f.write(querySpellingString)
