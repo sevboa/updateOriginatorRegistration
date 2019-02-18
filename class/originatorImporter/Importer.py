@@ -27,12 +27,8 @@ class importer:
 
         if extension == 'csv' and providerCode in ('Beeline', 'SMSC'):
             with open('./originators/' + fileName, 'r', encoding='cp1251') as fileCsv:
-                i = int()
                 for string in csv.DictReader(fileCsv, delimiter=';'):
-                    i+=1
-                    if i>= offset: 
-                        self.input(string)
-                    if i > limit: break
+                    self.input(string)
         
         elif extension == 'csv' and providerCode in ('Tele2'):
             with open('./originators/' + fileName, 'r', encoding='cp1251') as fileCsv:
