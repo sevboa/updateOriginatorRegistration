@@ -1,12 +1,19 @@
-import sys, csv
-from openpyxl import load_workbook
-from operator import itemgetter
+import os
+import urllib.request
 
-sys.path.append('./class')
+from zipfile import ZipFile
 
-a = {1,2,3}
-b = {1,2}
+print('Downloading...')
 
-print(
-    b.issubset(a)
-)
+url = 'https://github.com/sevboa/updateOriginatorRegistration/archive/master.zip'  
+urllib.request.urlretrieve(url, 'master.zip')
+
+#quit()
+
+with ZipFile('master.zip', 'r') as zipFile:
+    for name in zipFile.namelist():
+        print('Extracted '+ '/'.join(name.split('/')[1:]))
+        
+        zipFile.extractall()
+        #os.rename(name,name.decode('cp866'))
+    #os.removedirs(list_files[0])
