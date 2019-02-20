@@ -5,11 +5,13 @@ import shutil
 from zipfile import ZipFile
 
 class updater:
+    BranchName = str()
     ArhiveName = str()
     Url = str()
 
-    def __init__(self, arhiveName):
-        self.ArhiveName = arhiveName
+    def __init__(self, branchName):
+        self.BranchName = branchName
+        self.ArhiveName = branchName + '.zip'
 
     def downloadArhive(self):
         self.Url = 'https://github.com/sevboa/updateOriginatorRegistration/archive/' + self.ArhiveName
@@ -49,7 +51,7 @@ class updater:
             #os.removedirs(list_files[0])
         os.remove(self.ArhiveName)
 
-Updater = updater('master.zip')
+Updater = updater('master')
 
 Updater.downloadArhive()
 Updater.unzipArhive()
