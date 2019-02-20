@@ -17,4 +17,4 @@ with ZipFile('master.zip', 'r') as zipFile:
         zipFile.extractall()
         #zipFile.extract('/'.join(name.split('/')[1:]))
         #os.rename(name,name.decode('cp866'))
-    #os.removedirs(list_files[0])
+    #os.removedirs(list_files[0]) 
