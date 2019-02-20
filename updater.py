@@ -3,18 +3,35 @@ import urllib.request
 
 from zipfile import ZipFile
 
+arhiveName = 'master.zip'
+url = 'https://github.com/sevboa/updateOriginatorRegistration/archive/' + arhiveName  
+
 print('Downloading...')
 
-url = 'https://github.com/sevboa/updateOriginatorRegistration/archive/master.zip'  
-urllib.request.urlretrieve(url, 'master.zip')
+#try:
+##urllib.request.urlretrieve(url, arhiveName)
+#except(urllib.error.URLError):
+#    print('Error host!')
+#    quit()
 
-#quit()
-
-with ZipFile('master.zip', 'r') as zipFile:
+with ZipFile(arhiveName, 'r') as zipFile:
+    #os.remove('test')
     for name in zipFile.namelist():
-        print('Extracted '+ '/'.join(name.split('/')[1:]))
+        #zipFile.extractall()
+        print(name)
+        file = '/'.join(name.split('/')[1:])
+        print(file)
+        if file != '':
+            try:
+                os.makedirs(os.getcwd()+'/test/'+'/'.join(name.split('/')[1:-1]))
+            except(FileExistsError):
+                print('file exists')
+            #quit()
+            with open('test/'+'/'.join(name.split('/')[1:]), 'wb') as f:
+                f.write(zipFile.read(name))
+                print('Extracted '+ '/'.join(name.split('/')[1:]))
         
-        zipFile.extractall()
-        #zipFile.extract('/'.join(name.split('/')[1:]))
+        #zipFile.extract(name, 'test/'+'/'.join(name.split('/')[1:]))
         #os.rename(name,name.decode('cp866'))
     #os.removedirs(list_files[0])
+    ##os.remove(arhiveName)
