@@ -1,37 +1,55 @@
 import os
 import urllib.request
+import shutil
 
 from zipfile import ZipFile
 
-arhiveName = 'master.zip'
-url = 'https://github.com/sevboa/updateOriginatorRegistration/archive/' + arhiveName  
+class updater:
+    ArhiveName = str()
+    Url = str()
 
-print('Downloading...')
+    def __init__(self, arhiveName):
+        self.ArhiveName = arhiveName
 
-#try:
-##urllib.request.urlretrieve(url, arhiveName)
-#except(urllib.error.URLError):
-#    print('Error host!')
-#    quit()
+    def downloadArhive(self):
+        self.Url = 'https://github.com/sevboa/updateOriginatorRegistration/archive/' + self.ArhiveName
+        print('Downloading...')
+        urllib.request.urlretrieve(self.Url, self.ArhiveName)
 
-with ZipFile(arhiveName, 'r') as zipFile:
-    #os.remove('test')
-    for name in zipFile.namelist():
-        #zipFile.extractall()
-        print(name)
-        file = '/'.join(name.split('/')[1:])
-        print(file)
-        if file != '':
+    def unzipArhive(self):
+        with ZipFile(self.ArhiveName, 'r') as zipFile:
             try:
-                os.makedirs(os.getcwd()+'/test/'+'/'.join(name.split('/')[1:-1]))
-            except(FileExistsError):
-                print('file exists')
-            #quit()
-            with open('test/'+'/'.join(name.split('/')[1:]), 'wb') as f:
-                f.write(zipFile.read(name))
-                print('Extracted '+ '/'.join(name.split('/')[1:]))
-        
-        #zipFile.extract(name, 'test/'+'/'.join(name.split('/')[1:]))
-        #os.rename(name,name.decode('cp866'))
-    #os.removedirs(list_files[0])
-    ##os.remove(arhiveName)
+                shutil.rmtree('class/', ignore_errors=False, onerror=None)
+            except(FileNotFoundError):
+                ''
+            try:
+                os.remove('test.py')
+            except(FileNotFoundError):
+                ''
+            try:   
+                os.remove('update.py')
+            except(FileNotFoundError):
+                ''
+            for name in zipFile.namelist():
+                print(name)
+                fileName = '/'.join(name.split('/')[1:])
+                print(fileName)
+                if fileName != '':
+                    if fileName[-1] == '/':
+                        try:
+                            os.makedirs(fileName)
+                            print('Directory create '+ fileName)
+                        except(FileExistsError):
+                            print('Directory exist '+ fileName)
+                    else:
+                        with open(fileName, 'wb') as f:
+                            f.write(zipFile.read(name))
+                            print('Extracted '+ '/'.join(name.split('/')[1:]))
+                
+            #os.removedirs(list_files[0])
+        os.remove(self.ArhiveName)
+
+Updater = updater('master.zip')
+
+Updater.downloadArhive()
+Updater.unzipArhive()

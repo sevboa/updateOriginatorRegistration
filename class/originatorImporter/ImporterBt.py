@@ -1,13 +1,15 @@
 import re
 import sys
 
+from openpyxl import load_workbook
+
 sys.path.append('./class/originatorImporter')
 from Importer import importer
 from OriginatorMts import originatorMts
 
 class importerBt(importer):
     
-    def load():
+    def load(self, extension, providerCode, fileName):
         if extension == 'xlsx' and providerCode in ('BT'):
             wb = load_workbook(filename = './originators/' + fileName)
             for sheetName in wb.sheetnames[:1]:
@@ -21,11 +23,8 @@ class importerBt(importer):
                         if sheet['A' + str(i)].value == None:
                             break
                         for stringObject in sheet['A' + str(i):'D' + str(i)]:
-                            if i>= offset: 
                                 self.input(stringObject)
                     except AttributeError:
-                        break
-                    if i > limit:
                         break
         else:
             print('Неподдерживаемое расширение входящего файла!')

@@ -12,8 +12,7 @@ class importerTele2(importer):
         if extension == 'csv' and providerCode in ('Tele2'):
             with open('./originators/' + fileName, 'r', encoding='cp1251') as fileCsv:
                 for string in csv.reader(fileCsv, delimiter=';'):
-                    if i>= offset: 
-                        self.input(string)
+                    self.input(string)
         else:
             print('Неподдерживаемое расширение входящего файла!')
             quit()
