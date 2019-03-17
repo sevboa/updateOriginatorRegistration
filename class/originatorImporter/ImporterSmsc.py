@@ -2,13 +2,19 @@ import csv
 import re
 import sys
 
+sys.path.append('./class')
+from ConfigParserJson import configParserJson
+
 sys.path.append('./class/originatorImporter')
 from Importer import importer
 from OriginatorSmsc import originatorSmsc
+import sys
+
+config = configParserJson().originatorImporter['smsc']
 
 class importerSmsc(importer):
     Statuses = dict()
-    OperatorsGroups = {
+    Operators = {
         '1;5' : ['Мегафон (платно): ', r'Мегафон \(платно\): '],
         '1;4' : ['Мегафон (бесплатно): ', r'Мегафон \(бесплатно\): '],
         '3;4' : ['МТС: ', r'МТС: '],
@@ -33,8 +39,8 @@ class importerSmsc(importer):
             string['status'] = statusString
             string['status_id'] = self.Statuses[statusString]
 
-            for operator_group_key in self.OperatorsGroups.keys():
-                operator_group_find, operator_group_regexp = self.OperatorsGroups[operator_group_key]
+            for operator_group_key in self.Operators.keys():
+                operator_group_find, operator_group_regexp = self.Operators[operator_group_key]
                 string['operator_group_id'], string['service_type_id'] = operator_group_key.split(';')
                 
                 if string['Оператор'].find(operator_group_find + string['status']) != -1:
@@ -107,19 +113,6 @@ class importerSmsc(importer):
             self.appendSmscOriginatorChange(stringYota)
 
     def loadConfig(self, selfParam, fileName, key, columns):
-        filePath = './input/' + 'smscStatus.csv'
-        with open(filePath, 'r', encoding='cp1251') as fileCsv:
-            for string in csv.DictReader(fileCsv, delimiter=';'):
-                self.Statuses.update({string[key] : string['status_id']})
-        return filePath
-    
-    def loadStatus(self):
-        loadConfig(self.Status, 'smscStatus.csv', 'message', ['status_id'])
-
-    def loadStatus(self):
-        filePath = './input/' + 'rejectMessageMts.csv'
-        with open(filePath, 'r', encoding='cp1251') as fileCsv:
-            for string in csv.DictReader(fileCsv, delimiter=';'):
-                if string['status_id'] > '0':
-                    self.Statuses.update({string['message'] : string['status_id']})
-        return filePath
+        config = configParserJson().originatorImporter['smsc']
+        self.Statuses = config['statuses']
+        self.Operators = config['operators']

@@ -1,5 +1,10 @@
-import os
-import urllib.request
+import sys
 
-name = 'rwqtqw'
-print(name[-1])
+sys.path.append('./class')
+from ConfigParserJson import configParserJson
+
+#ConfigParserJson = configParserJson()
+
+config = configParserJson().originatorImporter['smsc']
+
+print(config['operators'])
