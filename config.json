@@ -1,0 +1,17 @@
+{
+	"originatorImporter": {
+		"global": [
+		 "Wargaming"
+		],
+	 "smsc": {
+	 	"operators": [
+	 	 {
+	 	 	"text": "Мегафон (платно): ",
+	 	 	"operator_group_id": 1,
+	 	 	"service_type_id": 5,
+	 	 	"regexp": "Мегафон \(платно\): "
+	 	 }
+	 	]
+	 }
+	}
+}
