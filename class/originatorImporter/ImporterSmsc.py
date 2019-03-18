@@ -2,9 +2,6 @@ import csv
 import re
 import sys
 
-sys.path.append('./class')
-from ConfigParserJson import configParserJson
-
 sys.path.append('./class/originatorImporter')
 from Importer import importer
 from OriginatorSmsc import originatorSmsc

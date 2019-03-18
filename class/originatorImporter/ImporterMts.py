@@ -55,9 +55,7 @@ class importerMts(importer):
             originator = originatorMts(stringObject, self.StatusesCache)
         else:
             originator = originatorMts(stringObject)
-        # непонятно почему ProviderId вместо OperatorGroupId
-        if self.GlobalOriginatorsCache.isdisjoint({originator.Originator + ';' + str(originator.ProviderId)}):
-            self.Originators.add(originator)
+        self.Originators.add(originator)
 
     def createStatusesCache(self):
         for status in self.Statuses:

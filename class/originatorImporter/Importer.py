@@ -87,5 +87,4 @@ class importer:
     def outerOriginatorsAppend(self, originator):
         if (self.GlobalOriginatorsCache.isdisjoint({originator.Originator + ';' + str(originator.OperatorGroupId)}) and 
          originator.Originator != ''):
-            #self.OriginatorsString.add(originator.Originator + ';' + str(originator.OperatorGroupId))
             self.Originators.add(originator)
