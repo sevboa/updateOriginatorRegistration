@@ -88,3 +88,6 @@ class importer:
         if (self.GlobalOriginatorsCache.isdisjoint({originator.Originator + ';' + str(originator.OperatorGroupId)}) and 
          originator.Originator != ''):
             self.Originators.add(originator)
+        else:
+            originator.StatusId = 0
+            self.Originators.add(originator)

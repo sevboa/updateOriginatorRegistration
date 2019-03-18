@@ -10,7 +10,7 @@ import sys
 class importerSmsc(importer):
     Statuses = list()
     StatusesCache = dict()
-    Operators = set()
+    Operators = list()
     OperatorsCache = dict()
     OriginatorsAB = dict()
     OriginatorsBC = dict()
@@ -18,7 +18,7 @@ class importerSmsc(importer):
     def loadConfig(self):
         self.Statuses.extend(self.Config['smsc']['statuses'])
         self.createStatusesCache()
-        self.Operators = self.Config['smsc']['operators']
+        self.Operators.extend(self.Config['smsc']['operators'])
         self.createOperatorsCache()
     
     def load(self, extension, providerCode, fileName):
@@ -31,22 +31,33 @@ class importerSmsc(importer):
             quit()
     
     def input(self, string):
-        for statusString in self.StatusesCache.keys():
-            string['status'] = statusString
-            string['status_id'] = self.StatusesCache[statusString]
+        
 
-            for operator_group_key in self.OperatorsCache.keys():
-                operator_group_find, operator_group_regexp = self.OperatorsCache[operator_group_key]
-                string['operator_group_id'], string['service_type_id'] = operator_group_key.split(';')
+        for operator_group_key in self.OperatorsCache.keys():
+            operator_group_find, operator_group_regexp = self.OperatorsCache[operator_group_key]
+            string['operator_group_id'], string['service_type_id'] = operator_group_key.split(';')
+
+            for statusString in self.StatusesCache.keys():
+                string['status'] = statusString
+                string['status_id'] = self.StatusesCache[statusString]
                 
                 if string['Оператор'].find(operator_group_find + string['status']) != -1:
                     result = re.search(r'(?<=' + operator_group_regexp + string['status'] + r' \()[^\)]*', string['Оператор'])
                     if result != None:
+                        result2 = re.search(operator_group_regexp + string['status'] + r' \(.{0,11}\)\s*', string['Оператор'])
+                        #print('\'' + result2.group(0) + '\'')
+                        string['Оператор'] = re.sub(operator_group_regexp + string['status'] + r' \(.{0,11}\)\s*', '', string['Оператор'])
                         string.update(originator_change=result.group(0))
                         self.appendSmscOriginator(string)
                     else:
+                        result2 = re.search(operator_group_regexp + string['status'] + r'\s*', string['Оператор'])
+                        #print('\'' + result2.group(0) + '\'')
+                        string['Оператор'] = re.sub(operator_group_regexp + string['status'] + r'\s*', '', string['Оператор'])
                         string.update(originator_change=string['Имя'])
                         self.appendSmscOriginator(string)
+        if string['Оператор'] != '' and string['Оператор'] != ' Теле2 (бесплатно): допущено оператором':
+            if re.match(r'^\s*$', string['Оператор']) == None:
+                print('\'' + string['Оператор'] + '\'')
 
     def OriginatorsABBCCheck(self, originator):
         ABArrayKey = originator.OriginatorChange + ";" + str(originator.OperatorGroupId) + ";" + str(originator.ServiceTypeId) + ";" + str(originator.StatusId)

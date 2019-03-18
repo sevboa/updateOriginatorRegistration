@@ -5519,6 +5519,12 @@
 					"regexp": "Теле2 \\(платно\\): "
 				},
 				{
+					"text": "Теле2 (бесплатно): ",
+					"operator_group_id": 4,
+					"service_type_id": 4,
+					"regexp": "Теле2 \\(бесплатно\\): "
+				},
+				{
 					"text": "Билайн (платно): ",
 					"operator_group_id": 2,
 					"service_type_id": 5,
