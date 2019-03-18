@@ -10,21 +10,20 @@ from Importer import importer
 from OriginatorSmsc import originatorSmsc
 import sys
 
-config = configParserJson().originatorImporter['smsc']
-
 class importerSmsc(importer):
-    Statuses = dict()
-    Operators = {
-        '1;5' : ['Мегафон (платно): ', r'Мегафон \(платно\): '],
-        '1;4' : ['Мегафон (бесплатно): ', r'Мегафон \(бесплатно\): '],
-        '3;4' : ['МТС: ', r'МТС: '],
-        '4;5' : ['Теле2 (платно): ', r'Теле2 \(платно\): '],
-        '2;5' : ['Билайн (платно): ', r'Билайн \(платно\): '],
-        '2;4' : ['Билайн (бесплатно): ', r'Билайн \(бесплатно\): ']
-    }
+    Statuses = list()
+    StatusesCache = dict()
+    Operators = set()
+    OperatorsCache = dict()
     OriginatorsAB = dict()
     OriginatorsBC = dict()
 
+    def loadConfig(self):
+        self.Statuses.extend(self.Config['smsc']['statuses'])
+        self.createStatusesCache()
+        self.Operators = self.Config['smsc']['operators']
+        self.createOperatorsCache()
+    
     def load(self, extension, providerCode, fileName):
         if extension == 'csv' and providerCode in ('SMSC'):
             with open('./originators/' + fileName, 'r', encoding='cp1251') as fileCsv:
@@ -35,12 +34,12 @@ class importerSmsc(importer):
             quit()
     
     def input(self, string):
-        for statusString in self.Statuses.keys():
+        for statusString in self.StatusesCache.keys():
             string['status'] = statusString
-            string['status_id'] = self.Statuses[statusString]
+            string['status_id'] = self.StatusesCache[statusString]
 
-            for operator_group_key in self.Operators.keys():
-                operator_group_find, operator_group_regexp = self.Operators[operator_group_key]
+            for operator_group_key in self.OperatorsCache.keys():
+                operator_group_find, operator_group_regexp = self.OperatorsCache[operator_group_key]
                 string['operator_group_id'], string['service_type_id'] = operator_group_key.split(';')
                 
                 if string['Оператор'].find(operator_group_find + string['status']) != -1:
@@ -112,7 +111,10 @@ class importerSmsc(importer):
             self.outerOriginatorsAppend(OriginatorSmsc)
             self.appendSmscOriginatorChange(stringYota)
 
-    def loadConfig(self, selfParam, fileName, key, columns):
-        config = configParserJson().originatorImporter['smsc']
-        self.Statuses = config['statuses']
-        self.Operators = config['operators']
+    def createStatusesCache(self):
+        for status in self.Statuses:
+            self.StatusesCache.update({status['text']: str(status['registration_status_id'])})
+
+    def createOperatorsCache(self):
+        for operator in self.Operators:
+            self.OperatorsCache.update({str(operator['operator_group_id']) + ';' + str(operator['service_type_id']): [operator['text'], operator['regexp']]})

@@ -1,10 +1,14 @@
 import sys
+import json
+import csv
 
-sys.path.append('./class')
-from ConfigParserJson import configParserJson
+RejectMessageMts = list()
 
-#ConfigParserJson = configParserJson()
+filePath = './input/' + 'rejectMessageMts.csv'
+with open(filePath, 'r', encoding='utf-8') as fileCsv:
+    for string in csv.DictReader(fileCsv, delimiter=';'):
+        if string['registration_status_id'] > '0':
+            RejectMessageMts.append(string)
 
-config = configParserJson().originatorImporter['smsc']
-
-print(config['operators'])
+with open("statusesMts.json", "w", encoding="utf-8") as file:
+    json.dump(RejectMessageMts, file,ensure_ascii=False,indent=4)
