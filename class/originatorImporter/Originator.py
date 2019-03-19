@@ -13,12 +13,12 @@ class originator:
         '5': 'Платная регистрация',
         '4': 'Бесплатная регистрация'
     })
-    OperatorsGroups = dict ({
+    OperatorsGroups = dict({
         '2': 'Билайн',
         '1': 'Мегафон',
         '3': 'МТС',
         '4': 'Теле2',
-        '15':'Yota'
+        '15': 'Yota'
     })
     Statuses = dict({
         '3': 'Зарегистрированно',
@@ -37,7 +37,9 @@ class originator:
         '3': 7,
         '4': 1,
         '7': 4,
-        '2': 5
+        '2': 5,
+        '0': 0,
+        '8': 8
     })
 
     def checkInn(self, inn):

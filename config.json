@@ -1,1 +1,6082 @@
-{"originatorImporter":{"all":{"globalOriginators":[{"originator":"ALIPAY","operator_group_id":2},{"originator":"Alpari","operator_group_id":2},{"originator":"Amazon","operator_group_id":2},{"originator":"AMWAY","operator_group_id":2},{"originator":"Apple","operator_group_id":2},{"originator":"authmsg","operator_group_id":2},{"originator":"Badoo","operator_group_id":2},{"originator":"BangkokAir","operator_group_id":2},{"originator":"Betfair","operator_group_id":2},{"originator":"BlaBlaCar","operator_group_id":2},{"originator":"Blockchain","operator_group_id":2},{"originator":"Booking","operator_group_id":2},{"originator":"Booking.com","operator_group_id":2},{"originator":"DHL","operator_group_id":2},{"originator":"DHLEXPRESS","operator_group_id":2},{"originator":"Electropay","operator_group_id":2},{"originator":"Facebook","operator_group_id":2},{"originator":"Galaxy","operator_group_id":2},{"originator":"GameXP","operator_group_id":2},{"originator":"Google","operator_group_id":2},{"originator":"ICloud","operator_group_id":2},{"originator":"IMO","operator_group_id":2},{"originator":"INFOSMS","operator_group_id":2},{"originator":"Instagram","operator_group_id":2},{"originator":"INTERCOM","operator_group_id":2},{"originator":"INTINF","operator_group_id":2},{"originator":"KakaoTalk","operator_group_id":2},{"originator":"LINe","operator_group_id":2},{"originator":"LPTracker","operator_group_id":2},{"originator":"Lufthansa","operator_group_id":2},{"originator":"MaxiMarkets","operator_group_id":2},{"originator":"Microsoft","operator_group_id":2},{"originator":"MoneyTalk","operator_group_id":2},{"originator":"myCom","operator_group_id":2},{"originator":"NAVERLINE","operator_group_id":2},{"originator":"NixMoney","operator_group_id":2},{"originator":"NXSMS","operator_group_id":2},{"originator":"OKPAY","operator_group_id":2},{"originator":"OTPSMS","operator_group_id":2},{"originator":"PayAnyWay","operator_group_id":2},{"originator":"Payeer.com","operator_group_id":2},{"originator":"PayPal","operator_group_id":2},{"originator":"PHILIPS","operator_group_id":2},{"originator":"PlayPass","operator_group_id":2},{"originator":"Samsung","operator_group_id":2},{"originator":"Skype","operator_group_id":2},{"originator":"Snapchat","operator_group_id":2},{"originator":"Telegram","operator_group_id":2},{"originator":"Twitter","operator_group_id":2},{"originator":"Uber","operator_group_id":2},{"originator":"Viber","operator_group_id":2},{"originator":"WalletOne","operator_group_id":2},{"originator":"Wargaming","operator_group_id":2},{"originator":"WeChat","operator_group_id":2},{"originator":"WhatsApp","operator_group_id":2},{"originator":"WhatsCall","operator_group_id":2},{"originator":"Xiaomi","operator_group_id":2},{"originator":"Yahoo","operator_group_id":2},{"originator":"#ИМЯ?","operator_group_id":4},{"originator":"PLEIN","operator_group_id":4},{"originator":"AbsGamers","operator_group_id":4},{"originator":"AcademPoker","operator_group_id":4},{"originator":"Adobe","operator_group_id":4},{"originator":"Agoda","operator_group_id":4},{"originator":"AGROPOISK","operator_group_id":4},{"originator":"Air France","operator_group_id":4},{"originator":"Airbnb","operator_group_id":4},{"originator":"aliexpress","operator_group_id":4},{"originator":"AliPay","operator_group_id":4},{"originator":"Alpari","operator_group_id":4},{"originator":"alshaer.com","operator_group_id":4},{"originator":"AMAZON","operator_group_id":4},{"originator":"AMWAY","operator_group_id":4},{"originator":"APPCODE","operator_group_id":4},{"originator":"Apple","operator_group_id":4},{"originator":"Azure","operator_group_id":4},{"originator":"BADOO","operator_group_id":4},{"originator":"BangkokAir","operator_group_id":4},{"originator":"WstrnUnion","operator_group_id":4},{"originator":"Alibaba","operator_group_id":4},{"originator":"AppleiCloud","operator_group_id":4},{"originator":"AppleStore","operator_group_id":4},{"originator":"Autosprite","operator_group_id":4},{"originator":"Baanan","operator_group_id":4},{"originator":"Badoo.com","operator_group_id":4},{"originator":"BANDUS","operator_group_id":4},{"originator":"Blendr","operator_group_id":4},{"originator":"CamScanner","operator_group_id":4},{"originator":"Chappy","operator_group_id":4},{"originator":"ENERGOTRUCK","operator_group_id":4},{"originator":"Extranet","operator_group_id":4},{"originator":"F-Club","operator_group_id":4},{"originator":"Fiesta","operator_group_id":4},{"originator":"GitHub","operator_group_id":4},{"originator":"Glopart.ru","operator_group_id":4},{"originator":"HotorNot","operator_group_id":4},{"originator":"huawei","operator_group_id":4},{"originator":"Imo Code","operator_group_id":4},{"originator":"IQ+Option","operator_group_id":4},{"originator":"JD.ru","operator_group_id":4},{"originator":"Confide","operator_group_id":4},{"originator":"cubie","operator_group_id":4},{"originator":"Dafiti","operator_group_id":4},{"originator":"Deliveroo","operator_group_id":4},{"originator":"fanatics","operator_group_id":4},{"originator":"Flipkart","operator_group_id":4},{"originator":"Flipkey","operator_group_id":4},{"originator":"foursquare","operator_group_id":4},{"originator":"Freshdesk","operator_group_id":4},{"originator":"Generali","operator_group_id":4},{"originator":"GFG","operator_group_id":4},{"originator":"GO SMS","operator_group_id":4},{"originator":"FOREXCLUB","operator_group_id":4},{"originator":"Ayyo","operator_group_id":4},{"originator":"nyxcosmetic","operator_group_id":4},{"originator":"UberService","operator_group_id":4},{"originator":"BeeTalk","operator_group_id":4},{"originator":"Betfair","operator_group_id":4},{"originator":"BingoHall","operator_group_id":4},{"originator":"Bitcoin","operator_group_id":4},{"originator":"BlaBlaCar","operator_group_id":4},{"originator":"BLINDSPOT","operator_group_id":4},{"originator":"Blockchain","operator_group_id":4},{"originator":"Booking","operator_group_id":4},{"originator":"Booking.com","operator_group_id":4},{"originator":"Bumble","operator_group_id":4},{"originator":"CallsApp","operator_group_id":4},{"originator":"ChatOn","operator_group_id":4},{"originator":"Chitchat","operator_group_id":4},{"originator":"Dating.com","operator_group_id":4},{"originator":"DHL","operator_group_id":4},{"originator":"Ding","operator_group_id":4},{"originator":"Di-pay.club","operator_group_id":4},{"originator":"Dropbox","operator_group_id":4},{"originator":"eBay","operator_group_id":4},{"originator":"eduget.com","operator_group_id":4},{"originator":"XBOX games","operator_group_id":4},{"originator":"KakaoC","operator_group_id":4},{"originator":"Kopikot","operator_group_id":4},{"originator":"LeEco","operator_group_id":4},{"originator":"LeRee","operator_group_id":4},{"originator":"MuzApp","operator_group_id":4},{"originator":"NixMoney ","operator_group_id":4},{"originator":"NumBuster","operator_group_id":4},{"originator":"NXverify","operator_group_id":4},{"originator":"Outbox","operator_group_id":4},{"originator":"Pingdom","operator_group_id":4},{"originator":"Quantum","operator_group_id":4},{"originator":"Roamer","operator_group_id":4},{"originator":"SAP","operator_group_id":4},{"originator":"Skillaz","operator_group_id":4},{"originator":"SNOW","operator_group_id":4},{"originator":"Stalker","operator_group_id":4},{"originator":"Tango","operator_group_id":4},{"originator":"Tencent QQ","operator_group_id":4},{"originator":"Truecaller","operator_group_id":4},{"originator":"UBERRUSSIA","operator_group_id":4},{"originator":"Vestiaire","operator_group_id":4},{"originator":"Hive","operator_group_id":4},{"originator":"HP","operator_group_id":4},{"originator":"ICICI Bank","operator_group_id":4},{"originator":"ING","operator_group_id":4},{"originator":"Itau","operator_group_id":4},{"originator":"Jabong","operator_group_id":4},{"originator":"Jumia","operator_group_id":4},{"originator":"Kakao ","operator_group_id":4},{"originator":"Keeper","operator_group_id":4},{"originator":"Kik","operator_group_id":4},{"originator":"Leomaster","operator_group_id":4},{"originator":"LG","operator_group_id":4},{"originator":"Salesforce","operator_group_id":4},{"originator":"Ayyo Movies","operator_group_id":4},{"originator":"Urban Decay","operator_group_id":4},{"originator":"CallMe","operator_group_id":4},{"originator":"Electropay","operator_group_id":4},{"originator":"Emirates","operator_group_id":4},{"originator":"ePayService","operator_group_id":4},{"originator":"Eskhata","operator_group_id":4},{"originator":"EVENTUM","operator_group_id":4},{"originator":"Evernote","operator_group_id":4},{"originator":"Ezycloud","operator_group_id":4},{"originator":"FACEBOOK","operator_group_id":4},{"originator":"FastFriend","operator_group_id":4},{"originator":"Firechat","operator_group_id":4},{"originator":"Galaxy","operator_group_id":4},{"originator":"GameNews","operator_group_id":4},{"originator":"gamestore","operator_group_id":4},{"originator":"GameXP","operator_group_id":4},{"originator":"Google","operator_group_id":4},{"originator":"GroupMe","operator_group_id":4},{"originator":"Hangouts","operator_group_id":4},{"originator":"Helixmoney","operator_group_id":4},{"originator":"Hotmail","operator_group_id":4},{"originator":"Huggle","operator_group_id":4},{"originator":"XGame","operator_group_id":4},{"originator":"weibo","operator_group_id":4},{"originator":"WURussia","operator_group_id":4},{"originator":"Xapo","operator_group_id":4},{"originator":"Yolla","operator_group_id":4},{"originator":"Youtube ","operator_group_id":4},{"originator":"ZambaCaller","operator_group_id":4},{"originator":"ZCLOUD","operator_group_id":4},{"originator":"BlackLane","operator_group_id":4},{"originator":"VFS","operator_group_id":4},{"originator":"VFSSMS","operator_group_id":4},{"originator":"UOB","operator_group_id":4},{"originator":"AmberShark","operator_group_id":4},{"originator":"EPA","operator_group_id":4},{"originator":"FML Group","operator_group_id":4},{"originator":"Lazada","operator_group_id":4},{"originator":"NetOne","operator_group_id":4},{"originator":"Nimses","operator_group_id":4},{"originator":"ringID","operator_group_id":4},{"originator":"Ptester","operator_group_id":4},{"originator":"Exmo","operator_group_id":4},{"originator":"Logmein","operator_group_id":4},{"originator":"M4Marry","operator_group_id":4},{"originator":"Mapfre","operator_group_id":4},{"originator":"Mayzus","operator_group_id":4},{"originator":"Messenger","operator_group_id":4},{"originator":"Metlife","operator_group_id":4},{"originator":"mgm","operator_group_id":4},{"originator":"Mico","operator_group_id":4},{"originator":"Mirage","operator_group_id":4},{"originator":"Mo+","operator_group_id":4},{"originator":"Mobu","operator_group_id":4},{"originator":"QUELLE","operator_group_id":4},{"originator":"Efun","operator_group_id":4},{"originator":"4game","operator_group_id":4},{"originator":"Reebok","operator_group_id":4},{"originator":"IKEAWIFI","operator_group_id":4},{"originator":"iCloud","operator_group_id":4},{"originator":"IKEA FAMILY","operator_group_id":4},{"originator":"IMO","operator_group_id":4},{"originator":"Infomessage","operator_group_id":4},{"originator":"instaforex","operator_group_id":4},{"originator":"Instagram","operator_group_id":4},{"originator":"INTERCOM","operator_group_id":4},{"originator":"Investec","operator_group_id":4},{"originator":"iTunes","operator_group_id":4},{"originator":"JackpotCity","operator_group_id":4},{"originator":"JoinUP","operator_group_id":4},{"originator":"KakaoTalk","operator_group_id":4},{"originator":"KLM","operator_group_id":4},{"originator":"LINE","operator_group_id":4},{"originator":"LinkApp","operator_group_id":4},{"originator":"LinkedIn","operator_group_id":4},{"originator":"LITB","operator_group_id":4},{"originator":"Zurich","operator_group_id":4},{"originator":"Lufthansa","operator_group_id":4},{"originator":"LuLu","operator_group_id":4},{"originator":"Xiaomi","operator_group_id":4},{"originator":"24option","operator_group_id":4},{"originator":"AMD","operator_group_id":4},{"originator":"beline","operator_group_id":4},{"originator":"Dukascopy","operator_group_id":4},{"originator":"foodpanda","operator_group_id":4},{"originator":"Glide","operator_group_id":4},{"originator":"Homestay","operator_group_id":4},{"originator":"Jongla","operator_group_id":4},{"originator":"Markets.com","operator_group_id":4},{"originator":"Meitu","operator_group_id":4},{"originator":"NetEase","operator_group_id":4},{"originator":"Nettia","operator_group_id":4},{"originator":"NOTICE","operator_group_id":4},{"originator":"Path","operator_group_id":4},{"originator":"RINGCV","operator_group_id":4},{"originator":"ROBOFOREX","operator_group_id":4},{"originator":"Tantan","operator_group_id":4},{"originator":"Trade12","operator_group_id":4},{"originator":"Twoo","operator_group_id":4},{"originator":"ukit","operator_group_id":4},{"originator":"xCFD","operator_group_id":4},{"originator":"Myntra","operator_group_id":4},{"originator":"Namshi","operator_group_id":4},{"originator":"netcode","operator_group_id":4},{"originator":"NetQin","operator_group_id":4},{"originator":"Nobelapp","operator_group_id":4},{"originator":"numberbook","operator_group_id":4},{"originator":"Nymgo","operator_group_id":4},{"originator":"oamc","operator_group_id":4},{"originator":"Olala","operator_group_id":4},{"originator":"OTO Global","operator_group_id":4},{"originator":"Pal+","operator_group_id":4},{"originator":"LaRedoute","operator_group_id":4},{"originator":"TRPMSG","operator_group_id":4},{"originator":"Fayrix","operator_group_id":4},{"originator":"WU Russia","operator_group_id":4},{"originator":"Payture","operator_group_id":4},{"originator":"MasterCard","operator_group_id":4},{"originator":"MaxiMarkets","operator_group_id":4},{"originator":"McAfee","operator_group_id":4},{"originator":"MeetMe","operator_group_id":4},{"originator":"Microsoft","operator_group_id":4},{"originator":"MOGO","operator_group_id":4},{"originator":"MS_Verify","operator_group_id":4},{"originator":"YouTube","operator_group_id":4},{"originator":"NAVERLINE","operator_group_id":4},{"originator":"Netflix","operator_group_id":4},{"originator":"NFC","operator_group_id":4},{"originator":"NixMoney","operator_group_id":4},{"originator":"nlstar.com","operator_group_id":4},{"originator":"Norton","operator_group_id":4},{"originator":"NXSMS","operator_group_id":4},{"originator":"OKPAY","operator_group_id":4},{"originator":"OnApp","operator_group_id":4},{"originator":"OnlineGames","operator_group_id":4},{"originator":"ONVERIFY","operator_group_id":4},{"originator":"XMATTERS","operator_group_id":4},{"originator":"Zalo","operator_group_id":4},{"originator":"FMl","operator_group_id":4},{"originator":"m-service","operator_group_id":4},{"originator":"BetBoom","operator_group_id":4},{"originator":"BingoLive24","operator_group_id":4},{"originator":"Esports.bet","operator_group_id":4},{"originator":"FXTM","operator_group_id":4},{"originator":"svadba.com","operator_group_id":4},{"originator":"VIPole","operator_group_id":4},{"originator":"aliases","operator_group_id":4},{"originator":"ABRITEL","operator_group_id":4},{"originator":"KFC BATTLE","operator_group_id":4},{"originator":"AIRASIA","operator_group_id":4},{"originator":"AJURA","operator_group_id":4},{"originator":"ALLIANZ","operator_group_id":4},{"originator":"AMBANK","operator_group_id":4},{"originator":"ANYTALK","operator_group_id":4},{"originator":"ANZBANK","operator_group_id":4},{"originator":"AOL","operator_group_id":4},{"originator":"Quantas","operator_group_id":4},{"originator":"ringhop","operator_group_id":4},{"originator":"Santander","operator_group_id":4},{"originator":"Seven Luck","operator_group_id":4},{"originator":"Shopclues","operator_group_id":4},{"originator":"Shots","operator_group_id":4},{"originator":"Shpock","operator_group_id":4},{"originator":"Slack","operator_group_id":4},{"originator":"smartcycle","operator_group_id":4},{"originator":"Snapdeal","operator_group_id":4},{"originator":"Soundcloud","operator_group_id":4},{"originator":"Space VoIP","operator_group_id":4},{"originator":"Oriflame","operator_group_id":4},{"originator":"Shell","operator_group_id":4},{"originator":"IKEA","operator_group_id":4},{"originator":"PLUSPAY","operator_group_id":4},{"originator":"FISHKA KFC","operator_group_id":4},{"originator":"ooVoo","operator_group_id":4},{"originator":"Pay Pro","operator_group_id":4},{"originator":"PayAnyWay","operator_group_id":4},{"originator":"PayBox","operator_group_id":4},{"originator":"Payeer.com","operator_group_id":4},{"originator":"PayLater","operator_group_id":4},{"originator":"PayMe","operator_group_id":4},{"originator":"PayPal","operator_group_id":4},{"originator":"Paysystem","operator_group_id":4},{"originator":"PHILIPS","operator_group_id":4},{"originator":"play2money","operator_group_id":4},{"originator":"PlayPass","operator_group_id":4},{"originator":"PokerStars","operator_group_id":4},{"originator":"PRMTRC","operator_group_id":4},{"originator":"Qiwi","operator_group_id":4},{"originator":"Reservise","operator_group_id":4},{"originator":"Samsung","operator_group_id":4},{"originator":"SAS","operator_group_id":4},{"originator":"Skype","operator_group_id":4},{"originator":"Snapchat","operator_group_id":4},{"originator":"Yahoo","operator_group_id":4},{"originator":"APPLEREQ","operator_group_id":4},{"originator":"APPLERESP","operator_group_id":4},{"originator":"ARENANET","operator_group_id":4},{"originator":"AUTHY","operator_group_id":4},{"originator":"AVAST","operator_group_id":4},{"originator":"AVIVA","operator_group_id":4},{"originator":"AYABANK","operator_group_id":4},{"originator":"AZARLIVE","operator_group_id":4},{"originator":"AZNOG","operator_group_id":4},{"originator":"BARODABANK","operator_group_id":4},{"originator":"belneft","operator_group_id":4},{"originator":"BENBRIA","operator_group_id":4},{"originator":"BIGO","operator_group_id":4},{"originator":"BLUEMAIL","operator_group_id":4},{"originator":"BMOBILE","operator_group_id":4},{"originator":"BOOKDOC","operator_group_id":4},{"originator":"Betmaster","operator_group_id":4},{"originator":"BOSSREV","operator_group_id":4},{"originator":"BOURSORAMA","operator_group_id":4},{"originator":"BULLIONSTAR","operator_group_id":4},{"originator":"Target Hero","operator_group_id":4},{"originator":"Tata motors","operator_group_id":4},{"originator":"Telintel","operator_group_id":4},{"originator":"Tencent","operator_group_id":4},{"originator":"Trello","operator_group_id":4},{"originator":"Tribe","operator_group_id":4},{"originator":"Trium","operator_group_id":4},{"originator":"tumblr","operator_group_id":4},{"originator":"UC Browser","operator_group_id":4},{"originator":"v2uclub","operator_group_id":4},{"originator":"Vonage","operator_group_id":4},{"originator":"Fonbet","operator_group_id":4},{"originator":"MANGO","operator_group_id":4},{"originator":"CNET","operator_group_id":4},{"originator":"Wakie","operator_group_id":4},{"originator":"SOMA","operator_group_id":4},{"originator":"Steam","operator_group_id":4},{"originator":"TAOBAO","operator_group_id":4},{"originator":"Telegram","operator_group_id":4},{"originator":"TeleVerify","operator_group_id":4},{"originator":"Topface","operator_group_id":4},{"originator":"Twitter","operator_group_id":4},{"originator":"Uber","operator_group_id":4},{"originator":"UltraPay","operator_group_id":4},{"originator":"Verify","operator_group_id":4},{"originator":"Viber","operator_group_id":4},{"originator":"VisaService","operator_group_id":4},{"originator":"Wallet One","operator_group_id":4},{"originator":"Wargaming","operator_group_id":4},{"originator":"waze","operator_group_id":4},{"originator":"WeChat","operator_group_id":4},{"originator":"WhatsApp","operator_group_id":4},{"originator":"WhatsCall","operator_group_id":4},{"originator":"Wire","operator_group_id":4},{"originator":"WORLDTRACER","operator_group_id":4},{"originator":"CACTUS","operator_group_id":4},{"originator":"CAFETRIO","operator_group_id":4},{"originator":"CEX","operator_group_id":4},{"originator":"CIMB","operator_group_id":4},{"originator":"CISCO","operator_group_id":4},{"originator":"CLEANMASTER","operator_group_id":4},{"originator":"COINBASE","operator_group_id":4},{"originator":"COMFI","operator_group_id":4},{"originator":"CONNECT","operator_group_id":4},{"originator":"CORNERCARD","operator_group_id":4},{"originator":"COUCHSURF","operator_group_id":4},{"originator":"CRESCENDOCT","operator_group_id":4},{"originator":"DAILYDEAL","operator_group_id":4},{"originator":"DINGTONE","operator_group_id":4},{"originator":"DOMLEC","operator_group_id":4},{"originator":"DUO","operator_group_id":4},{"originator":"FAMILO","operator_group_id":4},{"originator":"FOREX","operator_group_id":4},{"originator":"FOTOPLACE","operator_group_id":4},{"originator":"FREELANCER","operator_group_id":4},{"originator":"FRESHFOREX","operator_group_id":4},{"originator":"BNP Paribas","operator_group_id":4},{"originator":"btree4u","operator_group_id":4},{"originator":"Canara Bank","operator_group_id":4},{"originator":"catchall","operator_group_id":4},{"originator":"Clicksure","operator_group_id":4},{"originator":"CM backup","operator_group_id":4},{"originator":"CMCM","operator_group_id":4},{"originator":"Coco","operator_group_id":4},{"originator":"HDFC Bank","operator_group_id":4},{"originator":"HelloFresh","operator_group_id":4},{"originator":"Hike","operator_group_id":4},{"originator":"BaltPlay","operator_group_id":4},{"originator":"Adidas","operator_group_id":4},{"originator":"Eteam","operator_group_id":4},{"originator":"ShoppingMap","operator_group_id":4},{"originator":"MAC","operator_group_id":4},{"originator":"GOLDHILL","operator_group_id":4},{"originator":"GOSMS","operator_group_id":4},{"originator":"GPS","operator_group_id":4},{"originator":"GRAB","operator_group_id":4},{"originator":"GRABPAY","operator_group_id":4},{"originator":"HIVEMOBILE","operator_group_id":4},{"originator":"HLBBANK","operator_group_id":4},{"originator":"HOMEAWAY","operator_group_id":4},{"originator":"HSBC","operator_group_id":4},{"originator":"IMDB","operator_group_id":4},{"originator":"IMESSAGE","operator_group_id":4},{"originator":"IROKOTV","operator_group_id":4},{"originator":"LASTPASS","operator_group_id":4},{"originator":"LIBON","operator_group_id":4},{"originator":"LIFE360","operator_group_id":4},{"originator":"LOKLOK","operator_group_id":4},{"originator":"LYFT","operator_group_id":4},{"originator":"MAILCHIMP","operator_group_id":4},{"originator":"MAILGUN","operator_group_id":4},{"originator":"MALAYSIAAIR","operator_group_id":4},{"originator":"MAUKERJA","operator_group_id":4},{"originator":"MAXTHON","operator_group_id":4},{"originator":"MAYBANK","operator_group_id":4},{"originator":"MCDONALDS","operator_group_id":4},{"originator":"MCENT","operator_group_id":4},{"originator":"MONEYGRAM","operator_group_id":4},{"originator":"MONZOON","operator_group_id":4},{"originator":"MOPLUS","operator_group_id":4},{"originator":"MQL5","operator_group_id":4},{"originator":"mytaxi.com","operator_group_id":4},{"originator":"NAMECHEAP","operator_group_id":4},{"originator":"NAVER","operator_group_id":4},{"originator":"NEXTPLUS","operator_group_id":4},{"originator":"OFFICE365","operator_group_id":4},{"originator":"OTP_BASIC","operator_group_id":4},{"originator":"PAYEER","operator_group_id":4},{"originator":"PAYTOO","operator_group_id":4},{"originator":"PERISCOPE","operator_group_id":4},{"originator":"PIRATE","operator_group_id":4},{"originator":"QUISK","operator_group_id":4},{"originator":"REBTEL","operator_group_id":4},{"originator":"Wasabee","operator_group_id":4},{"originator":"Wells Fargo","operator_group_id":4},{"originator":"Whoscall","operator_group_id":4},{"originator":"Xender","operator_group_id":4},{"originator":"Yik Tak","operator_group_id":4},{"originator":"Money Map","operator_group_id":4},{"originator":"MSFT","operator_group_id":4},{"originator":"Mxit","operator_group_id":4},{"originator":"My7Club","operator_group_id":4},{"originator":"Life 360","operator_group_id":4},{"originator":"Livechat","operator_group_id":4},{"originator":"Kwai ","operator_group_id":4},{"originator":"KFC","operator_group_id":4},{"originator":"OTPSMS","operator_group_id":4},{"originator":"G2A ","operator_group_id":4},{"originator":"Privileges","operator_group_id":4},{"originator":"RINBOO","operator_group_id":4},{"originator":"ROYALMOBILE","operator_group_id":4},{"originator":"SAGICOR","operator_group_id":4},{"originator":"SAYHI","operator_group_id":4},{"originator":"SBIINB","operator_group_id":4},{"originator":"SHADII","operator_group_id":4},{"originator":"SKOUT","operator_group_id":4},{"originator":"SKRILL","operator_group_id":4},{"originator":"smartcall","operator_group_id":4},{"originator":"SNAAPY","operator_group_id":4},{"originator":"STANCHART","operator_group_id":4},{"originator":"TALKU","operator_group_id":4},{"originator":"TAPEACALL","operator_group_id":4},{"originator":"TIMEHOP","operator_group_id":4},{"originator":"TINDER","operator_group_id":4},{"originator":"TRANSFER","operator_group_id":4},{"originator":"TRAVELOKA","operator_group_id":4},{"originator":"TRIPADVISOR","operator_group_id":4},{"originator":"VERSY","operator_group_id":4},{"originator":"VIPPIE","operator_group_id":4},{"originator":"VOXOFON","operator_group_id":4},{"originator":"VOXOX","operator_group_id":4},{"originator":"VOXOXO","operator_group_id":4},{"originator":"WAZAPP","operator_group_id":4},{"originator":"WebMoney","operator_group_id":4},{"originator":"WECALL","operator_group_id":4},{"originator":"Wickr","operator_group_id":4},{"originator":"WIFICHANGI","operator_group_id":4},{"originator":"WORDPRESS","operator_group_id":4},{"originator":"WOWAPP","operator_group_id":4},{"originator":"XOOM","operator_group_id":4},{"originator":"YEECALL","operator_group_id":4},{"originator":"YUP","operator_group_id":4},{"originator":"YUPPTV","operator_group_id":4},{"originator":"ZOHO","operator_group_id":4},{"originator":"AppMe","operator_group_id":4},{"originator":"Askmebazaar","operator_group_id":4},{"originator":"ATC Cable","operator_group_id":4},{"originator":"AXA","operator_group_id":4},{"originator":"Axisbank","operator_group_id":4},{"originator":"Barclays","operator_group_id":4},{"originator":"BBVA","operator_group_id":4},{"originator":"Spotify","operator_group_id":4},{"originator":"Square","operator_group_id":4},{"originator":"Talkray","operator_group_id":4},{"originator":"Zalora","operator_group_id":4},{"originator":"Phhhoto","operator_group_id":4},{"originator":"pinterest","operator_group_id":4},{"originator":"PowerGold","operator_group_id":4},{"originator":"ofo","operator_group_id":4},{"originator":"Zendesk","operator_group_id":4},{"originator":"Lloyds","operator_group_id":4},{"originator":"MANGOMan","operator_group_id":4},{"originator":"Unilever","operator_group_id":4},{"originator":"Drotr ","operator_group_id":4},{"originator":"Zenly","operator_group_id":4},{"originator":"SPICApp","operator_group_id":4},{"originator":"Backblaze","operator_group_id":4},{"originator":"Paymo","operator_group_id":4},{"originator":"PepsiCo","operator_group_id":4},{"originator":"Upwork","operator_group_id":4},{"originator":"AGROBAZAR","operator_group_id":4},{"originator":"AIG","operator_group_id":4},{"originator":"AIRSERBIA","operator_group_id":4},{"originator":"Altassian","operator_group_id":4},{"originator":"TWILIO","operator_group_id":4},{"originator":"BBM","operator_group_id":4},{"originator":"BBT","operator_group_id":4},{"originator":"FLIPAGRAM","operator_group_id":4},{"originator":"FREESPIN","operator_group_id":4},{"originator":"GENERIC","operator_group_id":4},{"originator":"KIBO","operator_group_id":4},{"originator":"LPTracker","operator_group_id":4},{"originator":"MEECHA","operator_group_id":4},{"originator":"NUTCALL","operator_group_id":4},{"originator":"oDesk","operator_group_id":4},{"originator":"OMGATES","operator_group_id":4},{"originator":"OTP","operator_group_id":4},{"originator":"SIMBOX","operator_group_id":4},{"originator":"APPBOOKING","operator_group_id":4},{"originator":"GAMEFLIP","operator_group_id":4},{"originator":"MQL","operator_group_id":4},{"originator":"SESSUPPORT","operator_group_id":4},{"originator":"SINGAL","operator_group_id":4},{"originator":"STRIPE","operator_group_id":4},{"originator":"STUDYPOOL","operator_group_id":4},{"originator":"WATSONS","operator_group_id":4},{"originator":"Hilti","operator_group_id":4},{"originator":"Jo Malone","operator_group_id":4},{"originator":"Uber.ru","operator_group_id":4},{"originator":"Bristol","operator_group_id":4},{"originator":"topshop","operator_group_id":4},{"originator":"CS","operator_group_id":4},{"originator":"PHOTODEMY","operator_group_id":4},{"originator":"inglot","operator_group_id":4},{"originator":".CS.","operator_group_id":4},{"originator":"AquaChudesa","operator_group_id":4},{"originator":"calvinklein","operator_group_id":4},{"originator":"Bridgestone","operator_group_id":4},{"originator":"DEMIX","operator_group_id":4},{"originator":"Pandora","operator_group_id":4},{"originator":"Phone CodeG ","operator_group_id":4},{"originator":"YY.COM","operator_group_id":4},{"originator":"ammopay","operator_group_id":4},{"originator":"2keys","operator_group_id":4},{"originator":"HARIBO","operator_group_id":4},{"originator":"haribo.ru","operator_group_id":4},{"originator":"KIABI ","operator_group_id":4},{"originator":"Webmoney.ru","operator_group_id":4},{"originator":"MC.KHL.RU.","operator_group_id":4},{"originator":"NOIZZ","operator_group_id":4},{"originator":"pay-me.ru","operator_group_id":4},{"originator":"VBR","operator_group_id":4},{"originator":"Coccodrillo","operator_group_id":4},{"originator":"OfficeHQ","operator_group_id":4},{"originator":"Snap_Vrfy","operator_group_id":4},{"originator":"IBT","operator_group_id":4},{"originator":"EGlobal","operator_group_id":4},{"originator":"alpha","operator_group_id":4},{"originator":"BITCON","operator_group_id":4},{"originator":"Bet-Boom","operator_group_id":4},{"originator":"BET-BOOM","operator_group_id":4},{"originator":"Bitcon","operator_group_id":4},{"originator":"Paymoney","operator_group_id":4},{"originator":"PayMoney","operator_group_id":4},{"originator":"A.McQueen","operator_group_id":4},{"originator":"Armani","operator_group_id":4},{"originator":"Baccarat","operator_group_id":4},{"originator":"Bentley","operator_group_id":4},{"originator":"Billionaire","operator_group_id":4},{"originator":"SunGrp","operator_group_id":4},{"originator":"BLV","operator_group_id":4},{"originator":"BOTTEGA","operator_group_id":4},{"originator":"BRIONI","operator_group_id":4},{"originator":"BURBERRY","operator_group_id":4},{"originator":"CELINE","operator_group_id":4},{"originator":"BOTIMS ","operator_group_id":4},{"originator":"ConcertHall","operator_group_id":4},{"originator":"CR_Baccarat","operator_group_id":4},{"originator":"D\u0026GABBANA","operator_group_id":4},{"originator":"DSQUARED2","operator_group_id":4},{"originator":"EmilioPucci","operator_group_id":4},{"originator":"ValveVerify","operator_group_id":4},{"originator":"KITON","operator_group_id":4},{"originator":"La_Perla","operator_group_id":4},{"originator":"Lalique","operator_group_id":4},{"originator":"LANVIN","operator_group_id":4},{"originator":"LORO_PIANA","operator_group_id":4},{"originator":"PhoneCode","operator_group_id":4},{"originator":"Zegna","operator_group_id":4},{"originator":"R.CAVALLI","operator_group_id":4},{"originator":"CHLOE","operator_group_id":4},{"originator":"KidStoreBLV","operator_group_id":4},{"originator":"TDM","operator_group_id":4},{"originator":"Heptral","operator_group_id":4},{"originator":"OTP_tlsgn ","operator_group_id":4},{"originator":"NexmoSMS","operator_group_id":4},{"originator":"Ricom","operator_group_id":4},{"originator":"CloudCom","operator_group_id":4},{"originator":"APPLECARE","operator_group_id":4},{"originator":"Yllo","operator_group_id":1},{"originator":"AbsGamers","operator_group_id":1},{"originator":"AcademPoker","operator_group_id":1},{"originator":"Agoda","operator_group_id":1},{"originator":"AIRBNB","operator_group_id":1},{"originator":"Alibaba","operator_group_id":1},{"originator":"aliexpress","operator_group_id":1},{"originator":"ALIPAY","operator_group_id":1},{"originator":"Alpari","operator_group_id":1},{"originator":"Amazon","operator_group_id":1},{"originator":"APPCODE","operator_group_id":1},{"originator":"Apple","operator_group_id":1},{"originator":"AppleiCloud","operator_group_id":1},{"originator":"AppleStore","operator_group_id":1},{"originator":"Autosprite","operator_group_id":1},{"originator":"Baanan","operator_group_id":1},{"originator":"Badoo","operator_group_id":1},{"originator":"Badoo.com","operator_group_id":1},{"originator":"BANDUS","operator_group_id":1},{"originator":"BangkokAir","operator_group_id":1},{"originator":"BeeTalk","operator_group_id":1},{"originator":"Betfair","operator_group_id":1},{"originator":"Blendr","operator_group_id":1},{"originator":"Blockchain","operator_group_id":1},{"originator":"Bumble","operator_group_id":1},{"originator":"CallsApp","operator_group_id":1},{"originator":"CamScanner","operator_group_id":1},{"originator":"Chappy","operator_group_id":1},{"originator":"ChatOn","operator_group_id":1},{"originator":"Dating.com","operator_group_id":1},{"originator":"Electropay","operator_group_id":1},{"originator":"ENERGOTRUCK","operator_group_id":1},{"originator":"ePayService","operator_group_id":1},{"originator":"Eskhata","operator_group_id":1},{"originator":"EVENTUM","operator_group_id":1},{"originator":"Extranet","operator_group_id":1},{"originator":"Facebook","operator_group_id":1},{"originator":"F-Club","operator_group_id":1},{"originator":"Fiesta","operator_group_id":1},{"originator":"GameNews","operator_group_id":1},{"originator":"gamestore","operator_group_id":1},{"originator":"GameXP","operator_group_id":1},{"originator":"GitHub","operator_group_id":1},{"originator":"Glopart.ru","operator_group_id":1},{"originator":"Google","operator_group_id":1},{"originator":"Helixmoney","operator_group_id":1},{"originator":"HotorNot","operator_group_id":1},{"originator":"huawei","operator_group_id":1},{"originator":"Huggle","operator_group_id":1},{"originator":"iCloud","operator_group_id":1},{"originator":"IMO","operator_group_id":1},{"originator":"Imo Code","operator_group_id":1},{"originator":"instaforex","operator_group_id":1},{"originator":"Instagram","operator_group_id":1},{"originator":"IQ+Option","operator_group_id":1},{"originator":"iTunes","operator_group_id":1},{"originator":"JackpotCity","operator_group_id":1},{"originator":"JD.ru","operator_group_id":1},{"originator":"JoinUP","operator_group_id":1},{"originator":"KakaoC","operator_group_id":1},{"originator":"KakaoTalk","operator_group_id":1},{"originator":"Kopikot","operator_group_id":1},{"originator":"LeEco","operator_group_id":1},{"originator":"LeRee","operator_group_id":1},{"originator":"LINE","operator_group_id":1},{"originator":"LinkApp","operator_group_id":1},{"originator":"LinkedIn","operator_group_id":1},{"originator":"LITB","operator_group_id":1},{"originator":"Lufthansa","operator_group_id":1},{"originator":"MasterCard","operator_group_id":1},{"originator":"MaxiMarkets","operator_group_id":1},{"originator":"Microsoft","operator_group_id":1},{"originator":"MOGO","operator_group_id":1},{"originator":"MS_Verify","operator_group_id":1},{"originator":"MuzApp","operator_group_id":1},{"originator":"NAVERLINE","operator_group_id":1},{"originator":"NFC","operator_group_id":1},{"originator":"NixMoney ","operator_group_id":1},{"originator":"NumBuster","operator_group_id":1},{"originator":"NXSMS","operator_group_id":1},{"originator":"NXverify","operator_group_id":1},{"originator":"OKPAY","operator_group_id":1},{"originator":"OnApp","operator_group_id":1},{"originator":"OnlineGames","operator_group_id":1},{"originator":"ONVERIFY","operator_group_id":1},{"originator":"ooVoo","operator_group_id":1},{"originator":"Outbox","operator_group_id":1},{"originator":"Pay Pro","operator_group_id":1},{"originator":"PayBox","operator_group_id":1},{"originator":"Payeer.com","operator_group_id":1},{"originator":"PayLater","operator_group_id":1},{"originator":"Paysystem","operator_group_id":1},{"originator":"Pingdom","operator_group_id":1},{"originator":"play2money","operator_group_id":1},{"originator":"PlayPass","operator_group_id":1},{"originator":"Quantum","operator_group_id":1},{"originator":"Roamer","operator_group_id":1},{"originator":"SAP","operator_group_id":1},{"originator":"Skillaz","operator_group_id":1},{"originator":"Skype","operator_group_id":1},{"originator":"Snapchat","operator_group_id":1},{"originator":"SNOW","operator_group_id":1},{"originator":"SOMA","operator_group_id":1},{"originator":"Stalker","operator_group_id":1},{"originator":"Steam","operator_group_id":1},{"originator":"Tango","operator_group_id":1},{"originator":"TAOBAO","operator_group_id":1},{"originator":"Telegram","operator_group_id":1},{"originator":"Tencent QQ","operator_group_id":1},{"originator":"Truecaller","operator_group_id":1},{"originator":"Twitter","operator_group_id":1},{"originator":"Uber","operator_group_id":1},{"originator":"UBERRUSSIA","operator_group_id":1},{"originator":"Vestiaire","operator_group_id":1},{"originator":"Viber","operator_group_id":1},{"originator":"VisaService","operator_group_id":1},{"originator":"Wallet One","operator_group_id":1},{"originator":"Wargaming","operator_group_id":1},{"originator":"WeChat","operator_group_id":1},{"originator":"weibo","operator_group_id":1},{"originator":"WhatsApp","operator_group_id":1},{"originator":"WhatsCall","operator_group_id":1},{"originator":"Wire","operator_group_id":1},{"originator":"WORLDTRACER","operator_group_id":1},{"originator":"WstrnUnion","operator_group_id":1},{"originator":"WURussia","operator_group_id":1},{"originator":"Xapo","operator_group_id":1},{"originator":"XBOX games","operator_group_id":1},{"originator":"XGame","operator_group_id":1},{"originator":"Xiaomi","operator_group_id":1},{"originator":"Yahoo","operator_group_id":1},{"originator":"Yolla","operator_group_id":1},{"originator":"Youtube ","operator_group_id":1},{"originator":"ZambaCaller","operator_group_id":1},{"originator":"ZCLOUD","operator_group_id":1},{"originator":"BlackLane","operator_group_id":1},{"originator":"PayPal","operator_group_id":1},{"originator":"VFS","operator_group_id":1},{"originator":"VFSSMS","operator_group_id":1},{"originator":" UOB","operator_group_id":1},{"originator":"AmberShark","operator_group_id":1},{"originator":"BITCON","operator_group_id":1},{"originator":"EPA","operator_group_id":1},{"originator":"FML Group","operator_group_id":1},{"originator":"Lazada","operator_group_id":1},{"originator":"NetOne","operator_group_id":1},{"originator":"Nimses","operator_group_id":1},{"originator":"ringID","operator_group_id":1},{"originator":"Waze","operator_group_id":1},{"originator":"Ptester","operator_group_id":1},{"originator":"Exmo","operator_group_id":1},{"originator":"24option","operator_group_id":1},{"originator":"AMD","operator_group_id":1},{"originator":"beline","operator_group_id":1},{"originator":"Dukascopy","operator_group_id":1},{"originator":"foodpanda","operator_group_id":1},{"originator":"Glide","operator_group_id":1},{"originator":"Homestay","operator_group_id":1},{"originator":"INTERCOM","operator_group_id":1},{"originator":"Jongla","operator_group_id":1},{"originator":"Markets.com","operator_group_id":1},{"originator":"Meitu","operator_group_id":1},{"originator":"NetEase","operator_group_id":1},{"originator":"Nettia","operator_group_id":1},{"originator":"NOTICE","operator_group_id":1},{"originator":"Path","operator_group_id":1},{"originator":"RINGCV","operator_group_id":1},{"originator":"ROBOFOREX","operator_group_id":1},{"originator":"Tantan","operator_group_id":1},{"originator":"Trade12","operator_group_id":1},{"originator":"Twoo","operator_group_id":1},{"originator":"ukit","operator_group_id":1},{"originator":"xCFD","operator_group_id":1},{"originator":"Zalo","operator_group_id":1},{"originator":"FMl","operator_group_id":1},{"originator":"BetBoom","operator_group_id":1},{"originator":"Bet-Boom","operator_group_id":1},{"originator":"BET-BOOM","operator_group_id":1},{"originator":"BingoLive24","operator_group_id":1},{"originator":"Esports.bet","operator_group_id":1},{"originator":"FXTM","operator_group_id":1},{"originator":"svadba.com","operator_group_id":1},{"originator":"QSMS","operator_group_id":1},{"originator":"Daum","operator_group_id":1},{"originator":"CoopBank","operator_group_id":1},{"originator":"Meizu","operator_group_id":1},{"originator":"AdvCash","operator_group_id":1},{"originator":"PayiQ ","operator_group_id":1},{"originator":"TELE_SIGN","operator_group_id":1},{"originator":"TL_SGN ","operator_group_id":1},{"originator":"Tlsign","operator_group_id":1},{"originator":"telesign","operator_group_id":1},{"originator":"TLSGN","operator_group_id":1},{"originator":"EXNESS","operator_group_id":1},{"originator":"Nas-Broker","operator_group_id":1},{"originator":"Windbet","operator_group_id":1},{"originator":"OTP_tlsgn","operator_group_id":1},{"originator":"Tlsgn_otp","operator_group_id":1},{"originator":"IntegraPay","operator_group_id":1},{"originator":"PRMTRC","operator_group_id":1},{"originator":"KaVoService","operator_group_id":1},{"originator":"DesertOps","operator_group_id":1},{"originator":"cninfo","operator_group_id":1},{"originator":"MOMO","operator_group_id":1},{"originator":"ChiGap","operator_group_id":1},{"originator":"OTPSMS","operator_group_id":1},{"originator":"Mailchimp","operator_group_id":1},{"originator":"tour4tour","operator_group_id":1},{"originator":"C Med","operator_group_id":1},{"originator":"YOUDIALOG","operator_group_id":1},{"originator":"YouDialog","operator_group_id":1},{"originator":"Youdialog","operator_group_id":1},{"originator":"youdialog","operator_group_id":1},{"originator":"Next Group","operator_group_id":1},{"originator":"Mashreq","operator_group_id":1},{"originator":"Iamreefer","operator_group_id":1},{"originator":"YotiID","operator_group_id":1},{"originator":"H P","operator_group_id":1},{"originator":"UFX","operator_group_id":1},{"originator":"CLICKNBOAT","operator_group_id":1},{"originator":"MTB","operator_group_id":1},{"originator":"NAVER","operator_group_id":1},{"originator":"Chummy","operator_group_id":1},{"originator":"Youtube","operator_group_id":1},{"originator":"ofo","operator_group_id":1},{"originator":"BOCMessage","operator_group_id":1},{"originator":"LIUJO SPA","operator_group_id":1},{"originator":"CNET","operator_group_id":1},{"originator":"TAOVIP","operator_group_id":1},{"originator":"medbank.lt","operator_group_id":1},{"originator":"BOC Message","operator_group_id":1},{"originator":"GIRTEKA ","operator_group_id":1},{"originator":"Taxify","operator_group_id":1},{"originator":"TALKTOUCH","operator_group_id":1},{"originator":"JDRU","operator_group_id":1},{"originator":"Hot or Not","operator_group_id":1},{"originator":"IQOption","operator_group_id":1},{"originator":"Bunasta","operator_group_id":1},{"originator":"Wari","operator_group_id":1},{"originator":"Alcatel","operator_group_id":1},{"originator":"AIR ASTANA","operator_group_id":1},{"originator":"OTP","operator_group_id":1},{"originator":"Ezviz","operator_group_id":1},{"originator":"DSX","operator_group_id":1},{"originator":"Dmarket","operator_group_id":1},{"originator":"YunGO","operator_group_id":1},{"originator":"WellGot","operator_group_id":1},{"originator":"RHBank","operator_group_id":1},{"originator":"Pincd","operator_group_id":1},{"originator":"Msgbrd","operator_group_id":1},{"originator":"Mcconcierge","operator_group_id":1},{"originator":"GLOVent","operator_group_id":1},{"originator":" BOTIMS","operator_group_id":1},{"originator":"MessageBird","operator_group_id":1},{"originator":"MegaChat","operator_group_id":1},{"originator":"BITHUMB","operator_group_id":1},{"originator":"MashreqBank","operator_group_id":1},{"originator":"SBIINB","operator_group_id":1},{"originator":"Blizzard","operator_group_id":1},{"originator":"Dropbox","operator_group_id":1},{"originator":"Forex4you","operator_group_id":1},{"originator":"Meetme","operator_group_id":1},{"originator":"Skout","operator_group_id":1},{"originator":"BUTB.BY","operator_group_id":1},{"originator":"ECP.BY","operator_group_id":1},{"originator":"MiTalk","operator_group_id":1},{"originator":"EA","operator_group_id":1},{"originator":"MOBILNIK.KG","operator_group_id":1},{"originator":"HEPSICEBNDE","operator_group_id":1},{"originator":"Fayrix","operator_group_id":1},{"originator":"INANOMO","operator_group_id":1},{"originator":"PushMe","operator_group_id":1},{"originator":"LIKE","operator_group_id":1},{"originator":"ProNet","operator_group_id":1},{"originator":"UNIBANK ","operator_group_id":1},{"originator":"iDiscount","operator_group_id":1},{"originator":"Bookitnet","operator_group_id":1},{"originator":"LUMINOR","operator_group_id":1},{"originator":"Ding","operator_group_id":1},{"originator":"EniNews","operator_group_id":1},{"originator":"Just2Trade","operator_group_id":1},{"originator":" Microsoft","operator_group_id":1},{"originator":"Shell","operator_group_id":1},{"originator":"BaltIntBank","operator_group_id":1},{"originator":"Bank.M2M.EU","operator_group_id":1},{"originator":"Rigensis","operator_group_id":1},{"originator":"iR-sms","operator_group_id":1},{"originator":"Alfaparcel","operator_group_id":1},{"originator":"HotSpotVPN","operator_group_id":1},{"originator":"izobility","operator_group_id":1},{"originator":"ErsteBank","operator_group_id":1},{"originator":"Modem2ls","operator_group_id":1},{"originator":"VoxTorrent","operator_group_id":1},{"originator":"Smsimapp","operator_group_id":1},{"originator":"Looksery","operator_group_id":1},{"originator":"minutta","operator_group_id":1},{"originator":"izyskanije","operator_group_id":1},{"originator":"MusicMsgr","operator_group_id":1},{"originator":"Nymgo","operator_group_id":1},{"originator":"Marathonbet","operator_group_id":1},{"originator":"Titanium, fly.me","operator_group_id":1},{"originator":"WISPI","operator_group_id":1},{"originator":"BLINDSPOT","operator_group_id":1},{"originator":"PDapp","operator_group_id":1},{"originator":"OrNot","operator_group_id":1},{"originator":"BBM","operator_group_id":1},{"originator":"Youroam","operator_group_id":1},{"originator":"Adjarabet","operator_group_id":1},{"originator":"Jollychic","operator_group_id":1},{"originator":"INGRAD","operator_group_id":1},{"originator":"WinLine","operator_group_id":1},{"originator":"Eseye","operator_group_id":1},{"originator":"Adobe","operator_group_id":1},{"originator":"Backblaze Inc.","operator_group_id":1},{"originator":"Zzzzz.by","operator_group_id":1},{"originator":"12.by","operator_group_id":1},{"originator":"1bags.by","operator_group_id":1},{"originator":"Adentina.by","operator_group_id":1},{"originator":"Alfatron.by","operator_group_id":1},{"originator":"Alloplus.by","operator_group_id":1},{"originator":"Ananas.by","operator_group_id":1},{"originator":"Aromir.by","operator_group_id":1},{"originator":"Astravit.by","operator_group_id":1},{"originator":"Belkomfort","operator_group_id":1},{"originator":"Belvti.com","operator_group_id":1},{"originator":"Beregeja.by","operator_group_id":1},{"originator":"Betp.by","operator_group_id":1},{"originator":"BOBR.by","operator_group_id":1},{"originator":"Bobrio.com","operator_group_id":1},{"originator":"Bookhole.by","operator_group_id":1},{"originator":"Bykhov.by","operator_group_id":1},{"originator":"Comandir.by","operator_group_id":1},{"originator":"Deloton.by","operator_group_id":1},{"originator":"Dimoha.by","operator_group_id":1},{"originator":"Dinamed.by","operator_group_id":1},{"originator":"Doggydog.by","operator_group_id":1},{"originator":"Dostavim.by","operator_group_id":1},{"originator":"Driant.by","operator_group_id":1},{"originator":"Dtshop.by","operator_group_id":1},{"originator":"Erydit.by","operator_group_id":1},{"originator":"Golden.by","operator_group_id":1},{"originator":"Goldmark.by","operator_group_id":1},{"originator":"HelpdeskBY","operator_group_id":1},{"originator":"Hotimsk.by","operator_group_id":1},{"originator":"Idinasvetby","operator_group_id":1},{"originator":"Inex.by","operator_group_id":1},{"originator":"iqarenda.by","operator_group_id":1},{"originator":"Ivacevdrev","operator_group_id":1},{"originator":"Kamaev.by","operator_group_id":1},{"originator":"Kirovsk.by","operator_group_id":1},{"originator":"Kroy.bel","operator_group_id":1},{"originator":"Kypi-tut.by","operator_group_id":1},{"originator":"Lovifish.by","operator_group_id":1},{"originator":"Lu4she.bel","operator_group_id":1},{"originator":"Malam.by","operator_group_id":1},{"originator":"Media.by","operator_group_id":1},{"originator":"Medtut.bel","operator_group_id":1},{"originator":"Minoblsantr","operator_group_id":1},{"originator":"Modnyytrakt","operator_group_id":1},{"originator":"Mtex.by","operator_group_id":1},{"originator":"Mybrands.by","operator_group_id":1},{"originator":"Mylo.by","operator_group_id":1},{"originator":"MySoligorsk","operator_group_id":1},{"originator":"Ofisdom.by","operator_group_id":1},{"originator":"Paperapress","operator_group_id":1},{"originator":"Pekidoma.by","operator_group_id":1},{"originator":"Perevedi.by","operator_group_id":1},{"originator":"Polese.by","operator_group_id":1},{"originator":"Pshop.by","operator_group_id":1},{"originator":"Rn-profi.by","operator_group_id":1},{"originator":"Savish.by","operator_group_id":1},{"originator":"Sekator.by","operator_group_id":1},{"originator":"Selaton.by","operator_group_id":1},{"originator":"Siger.by","operator_group_id":1},{"originator":"Smartdom.by","operator_group_id":1},{"originator":"Smart-minsk","operator_group_id":1},{"originator":"Stomost.by","operator_group_id":1},{"originator":"Tea4u.by","operator_group_id":1},{"originator":"Telepult.by","operator_group_id":1},{"originator":"T-yarn.by","operator_group_id":1},{"originator":"Vam-svet.by","operator_group_id":1},{"originator":"Vanechka.by","operator_group_id":1},{"originator":"Voengrad.by","operator_group_id":1},{"originator":"Websvet.by","operator_group_id":1},{"originator":"Weekend.by","operator_group_id":1},{"originator":"OrangeMD","operator_group_id":1},{"originator":"Digi","operator_group_id":1},{"originator":"Vodafone","operator_group_id":1},{"originator":"DenizBank","operator_group_id":1},{"originator":"AEROBILET","operator_group_id":1},{"originator":"KUVEYTTURK","operator_group_id":1},{"originator":"Cryptaur","operator_group_id":1},{"originator":"BeeRent","operator_group_id":1},{"originator":"RingCaptcha","operator_group_id":1},{"originator":"Paymoney","operator_group_id":1},{"originator":"EsteriaINFO","operator_group_id":1},{"originator":"Medcentras","operator_group_id":1},{"originator":"Transporeon","operator_group_id":1},{"originator":"UKCamp","operator_group_id":1},{"originator":"Mango","operator_group_id":1},{"originator":"Dreamlines","operator_group_id":1},{"originator":"Involatus","operator_group_id":1},{"originator":"RETN","operator_group_id":1},{"originator":"Coinbase","operator_group_id":1},{"originator":"eBay","operator_group_id":1},{"originator":"GOOSEberry","operator_group_id":1},{"originator":"forspo.com","operator_group_id":1},{"originator":"Phone Code","operator_group_id":1},{"originator":"MeinFernbus","operator_group_id":1},{"originator":"gg_sms","operator_group_id":1},{"originator":"gg_info","operator_group_id":1},{"originator":"HKAirlines","operator_group_id":1},{"originator":"HK Airlines","operator_group_id":1},{"originator":"StanChart","operator_group_id":1},{"originator":"Girteka","operator_group_id":1},{"originator":"Kuhni_Bel","operator_group_id":1},{"originator":"SMSvinjetes","operator_group_id":1},{"originator":"LOCALETH","operator_group_id":1},{"originator":"WUListens","operator_group_id":1},{"originator":"autobrit.by","operator_group_id":1},{"originator":"GRK_M-1","operator_group_id":1},{"originator":"KRC.KORONA","operator_group_id":1},{"originator":"EUROdengi","operator_group_id":1},{"originator":"Eobot","operator_group_id":1},{"originator":"EcoTaxi.kz","operator_group_id":1},{"originator":"StartTaxikz","operator_group_id":1},{"originator":"Ofree","operator_group_id":1},{"originator":"ROYAL_MINSK","operator_group_id":1},{"originator":"uTrader","operator_group_id":1},{"originator":"ROZA","operator_group_id":1},{"originator":"AYKAMA","operator_group_id":1},{"originator":"PHOTODEMY","operator_group_id":1},{"originator":"GOLDCOACH","operator_group_id":1},{"originator":"Moneyto","operator_group_id":1},{"originator":"QCLOUD","operator_group_id":1},{"originator":"MaxiTrade","operator_group_id":1},{"originator":"Phone CodeG","operator_group_id":1},{"originator":"CloudCom","operator_group_id":1},{"originator":"LTsms","operator_group_id":1},{"originator":"InterFly","operator_group_id":1},{"originator":"Leonbets","operator_group_id":1},{"originator":"FNB","operator_group_id":1},{"originator":"RoyalPay","operator_group_id":1},{"originator":"REMEXIM","operator_group_id":1},{"originator":"Classerium","operator_group_id":1},{"originator":"Binance","operator_group_id":1},{"originator":"Vialet","operator_group_id":1},{"originator":"SGBL.SMS","operator_group_id":1},{"originator":"Qunar","operator_group_id":1},{"originator":"Qunar12","operator_group_id":1},{"originator":"Qunar20","operator_group_id":1},{"originator":"Qunar2034","operator_group_id":1},{"originator":"Qunar2142","operator_group_id":1},{"originator":"Qunar2151","operator_group_id":1},{"originator":"Qunar2153","operator_group_id":1},{"originator":"Qunar2666","operator_group_id":1},{"originator":"Qunar2797","operator_group_id":1},{"originator":"Qunar3","operator_group_id":1},{"originator":"Qunar4391","operator_group_id":1},{"originator":"Qunar4537","operator_group_id":1},{"originator":"Qunar4953","operator_group_id":1},{"originator":"Qunar5013","operator_group_id":1},{"originator":"Qunar5406","operator_group_id":1},{"originator":"Qunar5410","operator_group_id":1},{"originator":"Qunar5465","operator_group_id":1},{"originator":"Qunar5701","operator_group_id":1},{"originator":"Qunar5811","operator_group_id":1},{"originator":"Qunar6081","operator_group_id":1},{"originator":"Qunar6114","operator_group_id":1},{"originator":"Qunar6255","operator_group_id":1},{"originator":"A.Karpeko","operator_group_id":1},{"originator":"FastWeb","operator_group_id":1},{"originator":"TWApp","operator_group_id":1},{"originator":"ZEGNA","operator_group_id":1},{"originator":"ELBANK SAL","operator_group_id":1},{"originator":"YY.COM","operator_group_id":1},{"originator":"IQ+Option","operator_group_id":1},{"originator":"IQ_Option","operator_group_id":1},{"originator":"POMELLATO","operator_group_id":1},{"originator":"Pomellato","operator_group_id":1},{"originator":"AstroBank","operator_group_id":1},{"originator":"DigitalAMS","operator_group_id":1},{"originator":"AMRA_BANK","operator_group_id":1},{"originator":"HANATRAVEL","operator_group_id":1},{"originator":"TCELL WiFi","operator_group_id":1},{"originator":"Quartel","operator_group_id":1},{"originator":"Banuba","operator_group_id":1},{"originator":"cninfo","operator_group_id":1},{"originator":"Tmaster","operator_group_id":1},{"originator":"BIP","operator_group_id":1},{"originator":"OKTOS","operator_group_id":1},{"originator":"TURNA.COM","operator_group_id":1},{"originator":"Mercuryo","operator_group_id":1},{"originator":"YARDIMELI","operator_group_id":1},{"originator":"UNDSS TR","operator_group_id":1},{"originator":"COURSEBOOK","operator_group_id":1},{"originator":"MottoJoy","operator_group_id":1},{"originator":"JollyChic","operator_group_id":1},{"originator":"JollyInfo","operator_group_id":1},{"originator":"payboy","operator_group_id":1},{"originator":"Boomware","operator_group_id":1},{"originator":"PayMoney","operator_group_id":1},{"originator":"MarkaVIP","operator_group_id":1},{"originator":"Bytedance","operator_group_id":1},{"originator":"Kudizmo","operator_group_id":1},{"originator":"RZRPAY","operator_group_id":1},{"originator":"LogMeIn","operator_group_id":1},{"originator":"Fura","operator_group_id":1},{"originator":"PayIQ","operator_group_id":1},{"originator":"Investing","operator_group_id":1},{"originator":"LiteFx","operator_group_id":1},{"originator":"Pregnabit","operator_group_id":1},{"originator":"HAGO","operator_group_id":1},{"originator":"NOIZZ","operator_group_id":1},{"originator":"YYCOM","operator_group_id":1},{"originator":"SBIGLS","operator_group_id":1},{"originator":"SBIBNK","operator_group_id":1},{"originator":"CBSSBI","operator_group_id":1},{"originator":"PayiQ","operator_group_id":1},{"originator":"VERIFY","operator_group_id":1},{"originator":"Masterpass","operator_group_id":1},{"originator":"CUBETV","operator_group_id":1},{"originator":"metodsilva","operator_group_id":1},{"originator":"Tway","operator_group_id":1},{"originator":"Qunar6042","operator_group_id":1},{"originator":"Backblaze","operator_group_id":1},{"originator":"UNIBANK","operator_group_id":1},{"originator":"4B2.com","operator_group_id":1},{"originator":"TD-HIKE","operator_group_id":1},{"originator":"TAOVIP","operator_group_id":1},{"originator":"Replika.ai","operator_group_id":1},{"originator":"SHCLWH","operator_group_id":1},{"originator":"AlpariForex","operator_group_id":1},{"originator":"AlpariTotal","operator_group_id":1},{"originator":"RIBBANK","operator_group_id":1},{"originator":"SartRossi","operator_group_id":1},{"originator":"FIFA Info","operator_group_id":1},{"originator":"YYLIVE","operator_group_id":1},{"originator":"OperaWifi","operator_group_id":1},{"originator":"Vezuha","operator_group_id":1},{"originator":"GARANTI","operator_group_id":1},{"originator":"twayair","operator_group_id":1},{"originator":"LiteForex","operator_group_id":1},{"originator":"Terminus","operator_group_id":1},{"originator":"BANDEROLKA","operator_group_id":1},{"originator":"ReservHD","operator_group_id":1},{"originator":"TBBiBank","operator_group_id":1},{"originator":"PROCREDITBA","operator_group_id":1},{"originator":"YILDIZHOLD","operator_group_id":1},{"originator":"Travel_Sok","operator_group_id":1},{"originator":"APPLE","operator_group_id":1},{"originator":"APPLECARE","operator_group_id":1},{"originator":"HelloYo","operator_group_id":1},{"originator":"Banderolka","operator_group_id":1},{"originator":"Flixbus","operator_group_id":1},{"originator":"AuthCode","operator_group_id":1},{"originator":"EKOORTOS","operator_group_id":1},{"originator":"SmileTaxi","operator_group_id":1},{"originator":"SignetBank","operator_group_id":1},{"originator":"OSHRM","operator_group_id":1},{"originator":"Travelpost","operator_group_id":1},{"originator":"TVMAPP","operator_group_id":1},{"originator":"Hodly","operator_group_id":1},{"originator":"AGLSMS","operator_group_id":1},{"originator":"Seylan Bank","operator_group_id":1},{"originator":"BICS","operator_group_id":1},{"originator":"Fidelity","operator_group_id":1},{"originator":"TW Team","operator_group_id":1},{"originator":"ePayments","operator_group_id":1},{"originator":"AUTHENTIC ","operator_group_id":1},{"originator":"Yllo","operator_group_id":1},{"originator":"PROCREDIT","operator_group_id":1},{"originator":"INCODE","operator_group_id":1},{"originator":"Loyalco","operator_group_id":1},{"originator":"LoopConnect","operator_group_id":1},{"originator":"My Mechanic","operator_group_id":1},{"originator":"OMNIYAT","operator_group_id":1},{"originator":"tome","operator_group_id":1},{"originator":"WASEL","operator_group_id":1},{"originator":"DOMAIN","operator_group_id":1},{"originator":"Globitex","operator_group_id":1},{"originator":"Jugl","operator_group_id":1},{"originator":"Frank","operator_group_id":1},{"originator":"Nickelodeon","operator_group_id":1},{"originator":"MOHITO.COM","operator_group_id":1},{"originator":"SINSAY.COM ","operator_group_id":1},{"originator":"CROPP.COM","operator_group_id":1},{"originator":"HOUSE BRAND ","operator_group_id":1},{"originator":"MamaSharit","operator_group_id":1},{"originator":"TAPPortugal","operator_group_id":1},{"originator":"CMLink","operator_group_id":1},{"originator":"IOST","operator_group_id":1},{"originator":"DatingLab","operator_group_id":1},{"originator":"PLAB","operator_group_id":1},{"originator":"PERLAB","operator_group_id":1},{"originator":"TDL","operator_group_id":1},{"originator":"TDLTDL","operator_group_id":1},{"originator":"IBT","operator_group_id":1},{"originator":"CLRTRP","operator_group_id":1},{"originator":"1CUC.com","operator_group_id":1},{"originator":"Moschat","operator_group_id":1},{"originator":"Singo","operator_group_id":1},{"originator":"Noizz","operator_group_id":1},{"originator":"Hago","operator_group_id":1},{"originator":"YOYI","operator_group_id":1},{"originator":"YYLIVE","operator_group_id":1},{"originator":"OPPO","operator_group_id":1},{"originator":"Realme","operator_group_id":1},{"originator":"ENTRUST","operator_group_id":1},{"originator":"Cloopen","operator_group_id":1},{"originator":"CITYREFUND","operator_group_id":1},{"originator":"PLINK","operator_group_id":1},{"originator":"SCORUM","operator_group_id":1},{"originator":"TINDER","operator_group_id":1},{"originator":"TRILLER","operator_group_id":1},{"originator":"TUNECORE","operator_group_id":1},{"originator":"NAMECHEAP","operator_group_id":1},{"originator":"MAILCHIMP","operator_group_id":1},{"originator":"TWILIO","operator_group_id":1},{"originator":"DING","operator_group_id":1},{"originator":"MIGR","operator_group_id":1},{"originator":"BFSP.BY","operator_group_id":1},{"originator":"EGlobal","operator_group_id":1},{"originator":"Admitad","operator_group_id":1},{"originator":"ANTI CORP","operator_group_id":1},{"originator":"DUKASCOPY","operator_group_id":1},{"originator":"IRISEE.GE","operator_group_id":1},{"originator":"hiu","operator_group_id":1},{"originator":"Secure","operator_group_id":1},{"originator":"RIOT GAMES","operator_group_id":1},{"originator":"Okta","operator_group_id":1},{"originator":"LOCALLETH","operator_group_id":1},{"originator":"Nomadcar","operator_group_id":1},{"originator":"Babyshop","operator_group_id":1},{"originator":"Heptral","operator_group_id":1},{"originator":"Jouz","operator_group_id":1},{"originator":"Azericard","operator_group_id":1},{"originator":"VTBARMENIA","operator_group_id":1},{"originator":"ExpressPay","operator_group_id":1},{"originator":"Bulex","operator_group_id":1},{"originator":"Galactic","operator_group_id":1},{"originator":"BottegaV","operator_group_id":1},{"originator":"FUBT","operator_group_id":1},{"originator":"TopTop","operator_group_id":1},{"originator":"MICO","operator_group_id":1},{"originator":"KittyLive","operator_group_id":1},{"originator":"Boomplay","operator_group_id":1},{"originator":"Boomsing","operator_group_id":1},{"originator":"PayNet","operator_group_id":1},{"originator":"MC Bbonus","operator_group_id":1},{"originator":"FOExCOR","operator_group_id":1},{"originator":"ESTERIA","operator_group_id":1},{"originator":"PNBBanka","operator_group_id":1},{"originator":"PNBPIN","operator_group_id":1},{"originator":"PNBQueue","operator_group_id":1},{"originator":"IMLAPP.RU","operator_group_id":1},{"originator":"Idram","operator_group_id":1},{"originator":"BOT","operator_group_id":1},{"originator":"HACKERONE","operator_group_id":1},{"originator":"MRGRDN","operator_group_id":1},{"originator":"FINANGEL","operator_group_id":1},{"originator":"GUTSTickets","operator_group_id":1},{"originator":"ACB Inc.","operator_group_id":1},{"originator":"UBI Trial","operator_group_id":1},{"originator":"Vautomotive","operator_group_id":1},{"originator":"Vodafone","operator_group_id":1},{"originator":"Vodafone Au","operator_group_id":1},{"originator":"VODAFONE-A","operator_group_id":1},{"originator":"Alibaba","operator_group_id":1},{"originator":"Badoo","operator_group_id":1},{"originator":"Chappy","operator_group_id":1},{"originator":"DMarket","operator_group_id":1},{"originator":"Alipay","operator_group_id":1},{"originator":"Blacklane","operator_group_id":1},{"originator":"Blendr","operator_group_id":1},{"originator":"Bumble","operator_group_id":1},{"originator":"ENERGOTRUCK","operator_group_id":1},{"originator":"F-Club","operator_group_id":1},{"originator":"Fiesta","operator_group_id":1},{"originator":"HotOrNot","operator_group_id":1},{"originator":"Huggle","operator_group_id":1},{"originator":"INANOMO","operator_group_id":1},{"originator":"IQ_Option","operator_group_id":1},{"originator":"IQOption","operator_group_id":1},{"originator":"Jollychic","operator_group_id":1},{"originator":"KakaoC","operator_group_id":1},{"originator":"NAVERLINE","operator_group_id":1},{"originator":"Classerium","operator_group_id":1},{"originator":"ROZA","operator_group_id":1},{"originator":"SNOW","operator_group_id":1},{"originator":"LINE","operator_group_id":1},{"originator":"Snapchat","operator_group_id":1},{"originator":"INTERCOM","operator_group_id":1},{"originator":"USMS","operator_group_id":1},{"originator":"NTC","operator_group_id":1},{"originator":"hiu","operator_group_id":1},{"originator":"IML.app","operator_group_id":1}],"existingDirections":[{"operator_group_id":1,"service_type_id":4},{"operator_group_id":1,"service_type_id":5},{"operator_group_id":2,"service_type_id":5},{"operator_group_id":3,"service_type_id":4},{"operator_group_id":4,"service_type_id":5},{"operator_group_id":13,"service_type_id":5},{"operator_group_id":15,"service_type_id":4}]},"smsc":{"operators":[{"text":"Мегафон (платно): ","operator_group_id":1,"service_type_id":5,"regexp":"Мегафон \\(платно\\): "},{"text":"Мегафон (бесплатно): ","operator_group_id":1,"service_type_id":4,"regexp":"Мегафон \\(бесплатно\\): "},{"text":"МТС: ","operator_group_id":3,"service_type_id":4,"regexp":"МТС: "},{"text":"Теле2 (платно): ","operator_group_id":4,"service_type_id":5,"regexp":"Теле2 \\(платно\\): "},{"text":"Теле2 (бесплатно): ","operator_group_id":4,"service_type_id":4,"regexp":"Теле2 \\(бесплатно\\): "},{"text":"Билайн (платно): ","operator_group_id":2,"service_type_id":5,"regexp":"Билайн \\(платно\\): "},{"text":"Билайн (бесплатно): ","operator_group_id":2,"service_type_id":4,"regexp":"Билайн \\(бесплатно\\): "}],"statuses":[{"text":"допущено оператором","registration_status_id":3},{"text":"не принято оператором","registration_status_id":4},{"text":"необходимы подтверждающие документы","registration_status_id":7},{"text":"отправлено на регистрацию","registration_status_id":2},{"text":"ожидает регистрации","registration_status_id":2}]},"mts":{"statuses":[{"is_incorrect_inn":"0","registration_status_id":"3","text":"ИНН ок, документов нет"},{"is_incorrect_inn":"0","registration_status_id":"3","text":"на 20.12.2018"},{"is_incorrect_inn":"0","registration_status_id":"3","text":"ок"},{"is_incorrect_inn":"0","registration_status_id":"3","text":"ИНН ок, докум. Ок"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"преждоставить документ"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"необходимо письмо о нераспространении рекламы на алкоголь"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"иностранная организация, необходимо предоставить документы"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"аббревиатура, необходимо предоставить документы"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"зарегистрирован товарный знак, необходимо изменить имя и предоставить документы"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"существует домен, необходимо предоставить документы"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"существует домен, необходимо предоставить документы или изменить имя"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"зарегистрированный ТЗ, предоставить документ или изменить Имя"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"нет совпадения"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"предоставить документ"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"зарегистрированный ТЗ, изменить или предоставить документ"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"Предоставить документы"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"Гарантийное письмо на другого агента"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"Документы на другое юр.лицо"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"документы не подстверждают принажлежность подписи"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"В письме указано неизвестное юрлицо"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"Предоставить документы. Гарантийные письма допустимы только от ИП"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"Документы на другого человека"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"Домен принадлежит другому лицу"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"необходимы документы"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"Докутенты на другую организацию. А также необходимо письмо о нераспространении рекламы о курении"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"Необходимы подтверждающие документы, письмо от организации не принимается"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"Необходимы другие подтверждающие документы"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"Общее имя, рекомендуется изменить в соответствии с товарным знаком"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"Необходимы подтвердающие документы"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"Документ не подтверждает право использование подписи"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"Документы на другое лицо"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"Письмо для другого агента"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"Предоставить документы или изменить подпись по совпадению."},{"is_incorrect_inn":"0","registration_status_id":"7","text":"Другое юр.лицо в документах"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"Документы на тругое юр лицо"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"Срок действия документа истек"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"Предоставить подтверждающие документы и письмо о нераспространнии рекламы пива"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"Прикладываемые документы не соответствуют подписи"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"Документы на другое юр лицо"},{"is_incorrect_inn":"1","registration_status_id":"4","text":"нкорректный ИНН"},{"is_incorrect_inn":"1","registration_status_id":"4","text":"ИНН другого лица"},{"is_incorrect_inn":"1","registration_status_id":"4","text":"инн другой компании"},{"is_incorrect_inn":"1","registration_status_id":"4","text":"некорректный ИНН, агрегационное"},{"is_incorrect_inn":"1","registration_status_id":"4","text":"инн другого ИП"},{"is_incorrect_inn":"1","registration_status_id":"4","text":"ИНН пренадлежит ООО Акация\", слово Русалка не упоминается\""},{"is_incorrect_inn":"1","registration_status_id":"4","text":"инн компании, которая прекратила деятельность"},{"is_incorrect_inn":"1","registration_status_id":"4","text":"некорректный ИНН или данные"},{"is_incorrect_inn":"1","registration_status_id":"4","text":"некорректный ИНН"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"Непонятная подпись для получателя"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"имя общее"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"Общее имя"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"Ликвидировано"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"Подпись общая, рекомендуем изменить до полного совпадения"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"Деятельность прекращена"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"Предоставить подтверждающие документы"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"Общее имя, рекомендуем изменить на полное совпадение"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"Некорректные данные"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"Необходимо изменить на полное совпадение"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"Очень общее имя, необходимо дополнить подпись, например ООО\" или кодом региона\""},{"is_incorrect_inn":"0","registration_status_id":"4","text":"Подпись общая, необходимо изменить до полного совпадения"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"Подпись не отображает наименование организации и её деятельность"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"Письмо о нераспространении рекламы алкоголя"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"Подпись общая, необходимо изменить до полного совпадения или предоставить документы"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"необходимо предоставить документы"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"агрегационное имя"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"действие прекращено"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"агрегационное"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"компания называется по другому"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"совпадение с наименованием, есть сайт"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"совпадение с наименованием"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"физ лицо"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"агрегационное имя "},{"is_incorrect_inn":"0","registration_status_id":"4","text":"агрегационное имя + зарегистрирован товарный знак "},{"is_incorrect_inn":"0","registration_status_id":"4","text":"некорректно указано название организации"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"агрегационное имя, рекомендуем к имени добавить код региона"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"зарегистрированный домен, изменить Имя, добавить признак региона, города"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"агрегационное, изменить"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"зарегистрированный домен, добавить S"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"агрегационное, изменить согласно домену prvsmp"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"Имя собственное, добавить ТД"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"добавить ТД или регион, город"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"Подпись общая, необходимо изменить на полное совпадение"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"Общая подпись"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"Письмо о нераспространнии рекламы алкоголя"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"Общее имя, рекомендуется изменить в соответствии с доменом"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"Имя общее, рекомендуется изменить в соответствии с доменом"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"Недопустимый символ"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"Общее имя, предлагаем изменить в соответствии с товарным знаком"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"ИнН ок, документов нет"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"Имя общее"},{"is_incorrect_inn":"1","registration_status_id":"4","text":"Некорректный ИНН"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"деятельность прекращена"},{"is_incorrect_inn":"0","registration_status_id":"7","text":"Необходимы документы"},{"is_incorrect_inn":"0","registration_status_id":"4","text":"Очень общее имя, необходимо дополнить подпись, например \"ООО\" или кодом региона"},{"is_incorrect_inn":"1","registration_status_id":"4","text":"ИНН пренадлежит ООО \"Акация\", слово Русалка не упоминается"},{"is_incorrect_inn":"0","registration_status_id":"3","text":"на 01.02.2019"},{"is_incorrect_inn":"0","registration_status_id":"3","text":"2019-02-10 00:00:00"},{"is_incorrect_inn":"0","registration_status_id":"3","text":"43506"}]}}}
+{
+	"originatorImporter": {
+		"all": {
+			"globalOriginators": [
+				{
+					"originator": "ALIPAY",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "Alpari",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "Amazon",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "AMWAY",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "Apple",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "authmsg",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "Badoo",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "BangkokAir",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "Betfair",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "BlaBlaCar",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "Blockchain",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "Booking",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "Booking.com",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "DHL",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "DHLEXPRESS",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "Electropay",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "Facebook",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "Galaxy",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "GameXP",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "Google",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "ICloud",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "IMO",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "INFOSMS",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "Instagram",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "INTERCOM",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "INTINF",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "KakaoTalk",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "LINe",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "LPTracker",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "Lufthansa",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "MaxiMarkets",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "Microsoft",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "MoneyTalk",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "myCom",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "NAVERLINE",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "NixMoney",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "NXSMS",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "OKPAY",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "OTPSMS",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "PayAnyWay",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "Payeer.com",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "PayPal",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "PHILIPS",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "PlayPass",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "Samsung",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "Skype",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "Snapchat",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "Telegram",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "Twitter",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "Uber",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "Viber",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "WalletOne",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "Wargaming",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "WeChat",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "WhatsApp",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "WhatsCall",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "Xiaomi",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "Yahoo",
+					"operator_group_id": 2
+				},
+				{
+					"originator": "#ИМЯ?",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "PLEIN",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "AbsGamers",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "AcademPoker",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Adobe",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Agoda",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "AGROPOISK",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Air France",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Airbnb",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "aliexpress",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "AliPay",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Alpari",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "alshaer.com",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "AMAZON",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "AMWAY",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "APPCODE",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Apple",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Azure",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BADOO",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BangkokAir",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "WstrnUnion",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Alibaba",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "AppleiCloud",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "AppleStore",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Autosprite",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Baanan",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Badoo.com",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BANDUS",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Blendr",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "CamScanner",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Chappy",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "ENERGOTRUCK",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Extranet",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "F-Club",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Fiesta",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "GitHub",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Glopart.ru",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "HotorNot",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "huawei",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Imo Code",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "IQ+Option",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "JD.ru",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Confide",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "cubie",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Dafiti",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Deliveroo",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "fanatics",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Flipkart",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Flipkey",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "foursquare",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Freshdesk",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Generali",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "GFG",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "GO SMS",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "FOREXCLUB",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Ayyo",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "nyxcosmetic",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "UberService",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BeeTalk",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Betfair",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BingoHall",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Bitcoin",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BlaBlaCar",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BLINDSPOT",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Blockchain",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Booking",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Booking.com",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Bumble",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "CallsApp",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "ChatOn",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Chitchat",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Dating.com",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "DHL",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Ding",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Di-pay.club",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Dropbox",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "eBay",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "eduget.com",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "XBOX games",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "KakaoC",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Kopikot",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "LeEco",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "LeRee",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "MuzApp",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "NixMoney ",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "NumBuster",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "NXverify",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Outbox",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Pingdom",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Quantum",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Roamer",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "SAP",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Skillaz",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "SNOW",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Stalker",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Tango",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Tencent QQ",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Truecaller",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "UBERRUSSIA",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Vestiaire",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Hive",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "HP",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "ICICI Bank",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "ING",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Itau",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Jabong",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Jumia",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Kakao ",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Keeper",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Kik",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Leomaster",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "LG",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Salesforce",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Ayyo Movies",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Urban Decay",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "CallMe",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Electropay",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Emirates",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "ePayService",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Eskhata",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "EVENTUM",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Evernote",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Ezycloud",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "FACEBOOK",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "FastFriend",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Firechat",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Galaxy",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "GameNews",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "gamestore",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "GameXP",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Google",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "GroupMe",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Hangouts",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Helixmoney",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Hotmail",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Huggle",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "XGame",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "weibo",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "WURussia",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Xapo",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Yolla",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Youtube ",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "ZambaCaller",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "ZCLOUD",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BlackLane",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "VFS",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "VFSSMS",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "UOB",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "AmberShark",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "EPA",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "FML Group",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Lazada",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "NetOne",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Nimses",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "ringID",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Ptester",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Exmo",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Logmein",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "M4Marry",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Mapfre",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Mayzus",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Messenger",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Metlife",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "mgm",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Mico",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Mirage",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Mo+",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Mobu",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "QUELLE",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Efun",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "4game",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Reebok",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "IKEAWIFI",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "iCloud",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "IKEA FAMILY",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "IMO",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Infomessage",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "instaforex",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Instagram",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "INTERCOM",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Investec",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "iTunes",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "JackpotCity",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "JoinUP",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "KakaoTalk",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "KLM",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "LINE",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "LinkApp",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "LinkedIn",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "LITB",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Zurich",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Lufthansa",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "LuLu",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Xiaomi",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "24option",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "AMD",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "beline",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Dukascopy",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "foodpanda",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Glide",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Homestay",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Jongla",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Markets.com",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Meitu",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "NetEase",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Nettia",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "NOTICE",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Path",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "RINGCV",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "ROBOFOREX",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Tantan",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Trade12",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Twoo",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "ukit",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "xCFD",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Myntra",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Namshi",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "netcode",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "NetQin",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Nobelapp",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "numberbook",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Nymgo",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "oamc",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Olala",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "OTO Global",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Pal+",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "LaRedoute",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "TRPMSG",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Fayrix",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "WU Russia",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Payture",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "MasterCard",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "MaxiMarkets",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "McAfee",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "MeetMe",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Microsoft",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "MOGO",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "MS_Verify",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "YouTube",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "NAVERLINE",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Netflix",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "NFC",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "NixMoney",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "nlstar.com",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Norton",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "NXSMS",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "OKPAY",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "OnApp",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "OnlineGames",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "ONVERIFY",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "XMATTERS",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Zalo",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "FMl",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "m-service",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BetBoom",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BingoLive24",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Esports.bet",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "FXTM",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "svadba.com",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "VIPole",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "aliases",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "ABRITEL",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "KFC BATTLE",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "AIRASIA",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "AJURA",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "ALLIANZ",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "AMBANK",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "ANYTALK",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "ANZBANK",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "AOL",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Quantas",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "ringhop",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Santander",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Seven Luck",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Shopclues",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Shots",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Shpock",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Slack",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "smartcycle",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Snapdeal",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Soundcloud",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Space VoIP",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Oriflame",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Shell",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "IKEA",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "PLUSPAY",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "FISHKA KFC",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "ooVoo",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Pay Pro",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "PayAnyWay",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "PayBox",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Payeer.com",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "PayLater",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "PayMe",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "PayPal",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Paysystem",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "PHILIPS",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "play2money",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "PlayPass",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "PokerStars",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "PRMTRC",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Qiwi",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Reservise",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Samsung",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "SAS",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Skype",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Snapchat",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Yahoo",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "APPLEREQ",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "APPLERESP",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "ARENANET",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "AUTHY",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "AVAST",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "AVIVA",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "AYABANK",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "AZARLIVE",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "AZNOG",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BARODABANK",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "belneft",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BENBRIA",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BIGO",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BLUEMAIL",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BMOBILE",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BOOKDOC",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Betmaster",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BOSSREV",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BOURSORAMA",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BULLIONSTAR",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Target Hero",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Tata motors",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Telintel",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Tencent",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Trello",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Tribe",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Trium",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "tumblr",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "UC Browser",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "v2uclub",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Vonage",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Fonbet",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "MANGO",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "CNET",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Wakie",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "SOMA",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Steam",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "TAOBAO",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Telegram",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "TeleVerify",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Topface",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Twitter",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Uber",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "UltraPay",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Verify",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Viber",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "VisaService",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Wallet One",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Wargaming",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "waze",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "WeChat",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "WhatsApp",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "WhatsCall",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Wire",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "WORLDTRACER",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "CACTUS",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "CAFETRIO",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "CEX",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "CIMB",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "CISCO",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "CLEANMASTER",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "COINBASE",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "COMFI",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "CONNECT",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "CORNERCARD",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "COUCHSURF",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "CRESCENDOCT",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "DAILYDEAL",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "DINGTONE",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "DOMLEC",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "DUO",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "FAMILO",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "FOREX",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "FOTOPLACE",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "FREELANCER",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "FRESHFOREX",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BNP Paribas",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "btree4u",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Canara Bank",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "catchall",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Clicksure",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "CM backup",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "CMCM",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Coco",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "HDFC Bank",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "HelloFresh",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Hike",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BaltPlay",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Adidas",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Eteam",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "ShoppingMap",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "MAC",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "GOLDHILL",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "GOSMS",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "GPS",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "GRAB",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "GRABPAY",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "HIVEMOBILE",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "HLBBANK",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "HOMEAWAY",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "HSBC",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "IMDB",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "IMESSAGE",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "IROKOTV",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "LASTPASS",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "LIBON",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "LIFE360",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "LOKLOK",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "LYFT",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "MAILCHIMP",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "MAILGUN",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "MALAYSIAAIR",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "MAUKERJA",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "MAXTHON",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "MAYBANK",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "MCDONALDS",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "MCENT",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "MONEYGRAM",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "MONZOON",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "MOPLUS",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "MQL5",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "mytaxi.com",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "NAMECHEAP",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "NAVER",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "NEXTPLUS",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "OFFICE365",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "OTP_BASIC",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "PAYEER",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "PAYTOO",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "PERISCOPE",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "PIRATE",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "QUISK",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "REBTEL",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Wasabee",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Wells Fargo",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Whoscall",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Xender",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Yik Tak",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Money Map",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "MSFT",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Mxit",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "My7Club",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Life 360",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Livechat",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Kwai ",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "KFC",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "OTPSMS",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "G2A ",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Privileges",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "RINBOO",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "ROYALMOBILE",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "SAGICOR",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "SAYHI",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "SBIINB",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "SHADII",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "SKOUT",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "SKRILL",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "smartcall",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "SNAAPY",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "STANCHART",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "TALKU",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "TAPEACALL",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "TIMEHOP",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "TINDER",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "TRANSFER",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "TRAVELOKA",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "TRIPADVISOR",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "VERSY",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "VIPPIE",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "VOXOFON",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "VOXOX",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "VOXOXO",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "WAZAPP",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "WebMoney",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "WECALL",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Wickr",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "WIFICHANGI",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "WORDPRESS",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "WOWAPP",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "XOOM",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "YEECALL",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "YUP",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "YUPPTV",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "ZOHO",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "AppMe",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Askmebazaar",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "ATC Cable",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "AXA",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Axisbank",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Barclays",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BBVA",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Spotify",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Square",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Talkray",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Zalora",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Phhhoto",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "pinterest",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "PowerGold",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "ofo",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Zendesk",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Lloyds",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "MANGOMan",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Unilever",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Drotr ",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Zenly",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "SPICApp",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Backblaze",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Paymo",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "PepsiCo",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Upwork",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "AGROBAZAR",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "AIG",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "AIRSERBIA",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Altassian",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "TWILIO",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BBM",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BBT",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "FLIPAGRAM",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "FREESPIN",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "GENERIC",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "KIBO",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "LPTracker",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "MEECHA",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "NUTCALL",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "oDesk",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "OMGATES",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "OTP",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "SIMBOX",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "APPBOOKING",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "GAMEFLIP",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "MQL",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "SESSUPPORT",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "SINGAL",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "STRIPE",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "STUDYPOOL",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "WATSONS",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Hilti",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Jo Malone",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Uber.ru",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Bristol",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "topshop",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "CS",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "PHOTODEMY",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "inglot",
+					"operator_group_id": 4
+				},
+				{
+					"originator": ".CS.",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "AquaChudesa",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "calvinklein",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Bridgestone",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "DEMIX",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Pandora",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Phone CodeG ",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "YY.COM",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "ammopay",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "2keys",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "HARIBO",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "haribo.ru",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "KIABI ",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Webmoney.ru",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "MC.KHL.RU.",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "NOIZZ",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "pay-me.ru",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "VBR",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Coccodrillo",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "OfficeHQ",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Snap_Vrfy",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "IBT",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "EGlobal",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "alpha",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BITCON",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Bet-Boom",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BET-BOOM",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Bitcon",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Paymoney",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "PayMoney",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "A.McQueen",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Armani",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Baccarat",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Bentley",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Billionaire",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "SunGrp",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BLV",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BOTTEGA",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BRIONI",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BURBERRY",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "CELINE",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "BOTIMS ",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "ConcertHall",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "CR_Baccarat",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "D\u0026GABBANA",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "DSQUARED2",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "EmilioPucci",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "ValveVerify",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "KITON",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "La_Perla",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Lalique",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "LANVIN",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "LORO_PIANA",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "PhoneCode",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Zegna",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "R.CAVALLI",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "CHLOE",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "KidStoreBLV",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "TDM",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Heptral",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "OTP_tlsgn ",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "NexmoSMS",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Ricom",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "CloudCom",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "APPLECARE",
+					"operator_group_id": 4
+				},
+				{
+					"originator": "Yllo",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "AbsGamers",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "AcademPoker",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Agoda",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "AIRBNB",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Alibaba",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "aliexpress",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ALIPAY",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Alpari",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Amazon",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "APPCODE",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Apple",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "AppleiCloud",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "AppleStore",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Autosprite",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Baanan",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Badoo",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Badoo.com",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "BANDUS",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "BangkokAir",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "BeeTalk",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Betfair",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Blendr",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Blockchain",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Bumble",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "CallsApp",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "CamScanner",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Chappy",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ChatOn",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Dating.com",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Electropay",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ENERGOTRUCK",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ePayService",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Eskhata",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "EVENTUM",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Extranet",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Facebook",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "F-Club",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Fiesta",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "GameNews",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "gamestore",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "GameXP",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "GitHub",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Glopart.ru",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Google",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Helixmoney",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "HotorNot",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "huawei",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Huggle",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "iCloud",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "IMO",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Imo Code",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "instaforex",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Instagram",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "IQ+Option",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "iTunes",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "JackpotCity",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "JD.ru",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "JoinUP",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "KakaoC",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "KakaoTalk",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Kopikot",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "LeEco",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "LeRee",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "LINE",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "LinkApp",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "LinkedIn",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "LITB",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Lufthansa",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "MasterCard",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "MaxiMarkets",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Microsoft",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "MOGO",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "MS_Verify",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "MuzApp",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "NAVERLINE",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "NFC",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "NixMoney ",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "NumBuster",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "NXSMS",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "NXverify",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "OKPAY",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "OnApp",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "OnlineGames",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ONVERIFY",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ooVoo",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Outbox",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Pay Pro",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "PayBox",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Payeer.com",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "PayLater",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Paysystem",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Pingdom",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "play2money",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "PlayPass",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Quantum",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Roamer",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "SAP",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Skillaz",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Skype",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Snapchat",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "SNOW",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "SOMA",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Stalker",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Steam",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Tango",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "TAOBAO",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Telegram",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Tencent QQ",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Truecaller",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Twitter",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Uber",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "UBERRUSSIA",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Vestiaire",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Viber",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "VisaService",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Wallet One",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Wargaming",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "WeChat",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "weibo",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "WhatsApp",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "WhatsCall",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Wire",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "WORLDTRACER",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "WstrnUnion",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "WURussia",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Xapo",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "XBOX games",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "XGame",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Xiaomi",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Yahoo",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Yolla",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Youtube ",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ZambaCaller",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ZCLOUD",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "BlackLane",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "PayPal",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "VFS",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "VFSSMS",
+					"operator_group_id": 1
+				},
+				{
+					"originator": " UOB",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "AmberShark",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "BITCON",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "EPA",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "FML Group",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Lazada",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "NetOne",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Nimses",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ringID",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Waze",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Ptester",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Exmo",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "24option",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "AMD",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "beline",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Dukascopy",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "foodpanda",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Glide",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Homestay",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "INTERCOM",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Jongla",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Markets.com",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Meitu",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "NetEase",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Nettia",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "NOTICE",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Path",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "RINGCV",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ROBOFOREX",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Tantan",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Trade12",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Twoo",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ukit",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "xCFD",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Zalo",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "FMl",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "BetBoom",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Bet-Boom",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "BET-BOOM",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "BingoLive24",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Esports.bet",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "FXTM",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "svadba.com",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "QSMS",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Daum",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "CoopBank",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Meizu",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "AdvCash",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "PayiQ ",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "TELE_SIGN",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "TL_SGN ",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Tlsign",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "telesign",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "TLSGN",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "EXNESS",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Nas-Broker",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Windbet",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "OTP_tlsgn",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Tlsgn_otp",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "IntegraPay",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "PRMTRC",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "KaVoService",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "DesertOps",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "cninfo",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "MOMO",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ChiGap",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "OTPSMS",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Mailchimp",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "tour4tour",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "C Med",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "YOUDIALOG",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "YouDialog",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Youdialog",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "youdialog",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Next Group",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Mashreq",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Iamreefer",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "YotiID",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "H P",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "UFX",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "CLICKNBOAT",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "MTB",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "NAVER",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Chummy",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Youtube",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ofo",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "BOCMessage",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "LIUJO SPA",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "CNET",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "TAOVIP",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "medbank.lt",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "BOC Message",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "GIRTEKA ",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Taxify",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "TALKTOUCH",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "JDRU",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Hot or Not",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "IQOption",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Bunasta",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Wari",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Alcatel",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "AIR ASTANA",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "OTP",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Ezviz",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "DSX",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Dmarket",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "YunGO",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "WellGot",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "RHBank",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Pincd",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Msgbrd",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Mcconcierge",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "GLOVent",
+					"operator_group_id": 1
+				},
+				{
+					"originator": " BOTIMS",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "MessageBird",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "MegaChat",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "BITHUMB",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "MashreqBank",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "SBIINB",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Blizzard",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Dropbox",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Forex4you",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Meetme",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Skout",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "BUTB.BY",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ECP.BY",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "MiTalk",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "EA",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "MOBILNIK.KG",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "HEPSICEBNDE",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Fayrix",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "INANOMO",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "PushMe",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "LIKE",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ProNet",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "UNIBANK ",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "iDiscount",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Bookitnet",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "LUMINOR",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Ding",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "EniNews",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Just2Trade",
+					"operator_group_id": 1
+				},
+				{
+					"originator": " Microsoft",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Shell",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "BaltIntBank",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Bank.M2M.EU",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Rigensis",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "iR-sms",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Alfaparcel",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "HotSpotVPN",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "izobility",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ErsteBank",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Modem2ls",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "VoxTorrent",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Smsimapp",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Looksery",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "minutta",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "izyskanije",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "MusicMsgr",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Nymgo",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Marathonbet",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Titanium, fly.me",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "WISPI",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "BLINDSPOT",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "PDapp",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "OrNot",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "BBM",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Youroam",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Adjarabet",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Jollychic",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "INGRAD",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "WinLine",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Eseye",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Adobe",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Backblaze Inc.",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Zzzzz.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "12.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "1bags.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Adentina.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Alfatron.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Alloplus.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Ananas.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Aromir.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Astravit.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Belkomfort",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Belvti.com",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Beregeja.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Betp.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "BOBR.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Bobrio.com",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Bookhole.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Bykhov.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Comandir.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Deloton.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Dimoha.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Dinamed.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Doggydog.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Dostavim.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Driant.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Dtshop.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Erydit.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Golden.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Goldmark.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "HelpdeskBY",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Hotimsk.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Idinasvetby",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Inex.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "iqarenda.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Ivacevdrev",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Kamaev.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Kirovsk.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Kroy.bel",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Kypi-tut.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Lovifish.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Lu4she.bel",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Malam.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Media.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Medtut.bel",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Minoblsantr",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Modnyytrakt",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Mtex.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Mybrands.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Mylo.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "MySoligorsk",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Ofisdom.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Paperapress",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Pekidoma.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Perevedi.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Polese.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Pshop.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Rn-profi.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Savish.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Sekator.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Selaton.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Siger.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Smartdom.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Smart-minsk",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Stomost.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Tea4u.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Telepult.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "T-yarn.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Vam-svet.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Vanechka.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Voengrad.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Websvet.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Weekend.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "OrangeMD",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Digi",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Vodafone",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "DenizBank",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "AEROBILET",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "KUVEYTTURK",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Cryptaur",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "BeeRent",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "RingCaptcha",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Paymoney",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "EsteriaINFO",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Medcentras",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Transporeon",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "UKCamp",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Mango",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Dreamlines",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Involatus",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "RETN",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Coinbase",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "eBay",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "GOOSEberry",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "forspo.com",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Phone Code",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "MeinFernbus",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "gg_sms",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "gg_info",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "HKAirlines",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "HK Airlines",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "StanChart",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Girteka",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Kuhni_Bel",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "SMSvinjetes",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "LOCALETH",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "WUListens",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "autobrit.by",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "GRK_M-1",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "KRC.KORONA",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "EUROdengi",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Eobot",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "EcoTaxi.kz",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "StartTaxikz",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Ofree",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ROYAL_MINSK",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "uTrader",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ROZA",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "AYKAMA",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "PHOTODEMY",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "GOLDCOACH",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Moneyto",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "QCLOUD",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "MaxiTrade",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Phone CodeG",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "CloudCom",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "LTsms",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "InterFly",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Leonbets",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "FNB",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "RoyalPay",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "REMEXIM",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Classerium",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Binance",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Vialet",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "SGBL.SMS",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Qunar",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Qunar12",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Qunar20",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Qunar2034",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Qunar2142",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Qunar2151",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Qunar2153",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Qunar2666",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Qunar2797",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Qunar3",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Qunar4391",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Qunar4537",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Qunar4953",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Qunar5013",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Qunar5406",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Qunar5410",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Qunar5465",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Qunar5701",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Qunar5811",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Qunar6081",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Qunar6114",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Qunar6255",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "A.Karpeko",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "FastWeb",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "TWApp",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ZEGNA",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ELBANK SAL",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "YY.COM",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "IQ+Option",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "IQ_Option",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "POMELLATO",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Pomellato",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "AstroBank",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "DigitalAMS",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "AMRA_BANK",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "HANATRAVEL",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "TCELL WiFi",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Quartel",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Banuba",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "cninfo",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Tmaster",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "BIP",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "OKTOS",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "TURNA.COM",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Mercuryo",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "YARDIMELI",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "UNDSS TR",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "COURSEBOOK",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "MottoJoy",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "JollyChic",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "JollyInfo",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "payboy",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Boomware",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "PayMoney",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "MarkaVIP",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Bytedance",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Kudizmo",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "RZRPAY",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "LogMeIn",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Fura",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "PayIQ",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Investing",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "LiteFx",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Pregnabit",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "HAGO",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "NOIZZ",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "YYCOM",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "SBIGLS",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "SBIBNK",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "CBSSBI",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "PayiQ",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "VERIFY",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Masterpass",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "CUBETV",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "metodsilva",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Tway",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Qunar6042",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Backblaze",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "UNIBANK",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "4B2.com",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "TD-HIKE",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "TAOVIP",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Replika.ai",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "SHCLWH",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "AlpariForex",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "AlpariTotal",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "RIBBANK",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "SartRossi",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "FIFA Info",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "YYLIVE",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "OperaWifi",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Vezuha",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "GARANTI",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "twayair",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "LiteForex",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Terminus",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "BANDEROLKA",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ReservHD",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "TBBiBank",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "PROCREDITBA",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "YILDIZHOLD",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Travel_Sok",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "APPLE",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "APPLECARE",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "HelloYo",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Banderolka",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Flixbus",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "AuthCode",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "EKOORTOS",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "SmileTaxi",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "SignetBank",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "OSHRM",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Travelpost",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "TVMAPP",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Hodly",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "AGLSMS",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Seylan Bank",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "BICS",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Fidelity",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "TW Team",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ePayments",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "AUTHENTIC ",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Yllo",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "PROCREDIT",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "INCODE",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Loyalco",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "LoopConnect",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "My Mechanic",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "OMNIYAT",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "tome",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "WASEL",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "DOMAIN",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Globitex",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Jugl",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Frank",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Nickelodeon",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "MOHITO.COM",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "SINSAY.COM ",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "CROPP.COM",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "HOUSE BRAND ",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "MamaSharit",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "TAPPortugal",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "CMLink",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "IOST",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "DatingLab",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "PLAB",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "PERLAB",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "TDL",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "TDLTDL",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "IBT",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "CLRTRP",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "1CUC.com",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Moschat",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Singo",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Noizz",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Hago",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "YOYI",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "YYLIVE",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "OPPO",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Realme",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ENTRUST",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Cloopen",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "CITYREFUND",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "PLINK",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "SCORUM",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "TINDER",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "TRILLER",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "TUNECORE",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "NAMECHEAP",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "MAILCHIMP",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "TWILIO",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "DING",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "MIGR",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "BFSP.BY",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "EGlobal",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Admitad",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ANTI CORP",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "DUKASCOPY",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "IRISEE.GE",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "hiu",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Secure",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "RIOT GAMES",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Okta",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "LOCALLETH",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Nomadcar",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Babyshop",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Heptral",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Jouz",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Azericard",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "VTBARMENIA",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ExpressPay",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Bulex",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Galactic",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "BottegaV",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "FUBT",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "TopTop",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "MICO",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "KittyLive",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Boomplay",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Boomsing",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "PayNet",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "MC Bbonus",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "FOExCOR",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ESTERIA",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "PNBBanka",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "PNBPIN",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "PNBQueue",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "IMLAPP.RU",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Idram",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "BOT",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "HACKERONE",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "MRGRDN",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "FINANGEL",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "GUTSTickets",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ACB Inc.",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "UBI Trial",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Vautomotive",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Vodafone",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Vodafone Au",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "VODAFONE-A",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Alibaba",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Badoo",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Chappy",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "DMarket",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Alipay",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Blacklane",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Blendr",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Bumble",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ENERGOTRUCK",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "F-Club",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Fiesta",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "HotOrNot",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Huggle",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "INANOMO",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "IQ_Option",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "IQOption",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Jollychic",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "KakaoC",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "NAVERLINE",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Classerium",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "ROZA",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "SNOW",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "LINE",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "Snapchat",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "INTERCOM",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "USMS",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "NTC",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "hiu",
+					"operator_group_id": 1
+				},
+				{
+					"originator": "IML.app",
+					"operator_group_id": 1
+				}
+			],
+			"existingDirections": [
+				{
+					"operator_group_id": 1,
+					"service_type_id": 4
+				},
+				{
+					"operator_group_id": 1,
+					"service_type_id": 5
+				},
+				{
+					"operator_group_id": 2,
+					"service_type_id": 5
+				},
+				{
+					"operator_group_id": 3,
+					"service_type_id": 4
+				},
+				{
+					"operator_group_id": 4,
+					"service_type_id": 5
+				},
+				{
+					"operator_group_id": 13,
+					"service_type_id": 5
+				},
+				{
+					"operator_group_id": 15,
+					"service_type_id": 4
+				}
+			]
+		},
+		"smsc": {
+			"operators": [
+				{
+					"text": "Мегафон (платно): ",
+					"operator_group_id": 1,
+					"service_type_id": 5,
+					"regexp": "Мегафон \\(платно\\): "
+				},
+				{
+					"text": "Мегафон (бесплатно): ",
+					"operator_group_id": 1,
+					"service_type_id": 4,
+					"regexp": "Мегафон \\(бесплатно\\): "
+				},
+				{
+					"text": "МТС: ",
+					"operator_group_id": 3,
+					"service_type_id": 4,
+					"regexp": "МТС: "
+				},
+				{
+					"text": "Теле2 (платно): ",
+					"operator_group_id": 4,
+					"service_type_id": 5,
+					"regexp": "Теле2 \\(платно\\): "
+				},
+				{
+					"text": "Теле2 (бесплатно): ",
+					"operator_group_id": 4,
+					"service_type_id": 4,
+					"regexp": "Теле2 \\(бесплатно\\): "
+				},
+				{
+					"text": "Билайн (платно): ",
+					"operator_group_id": 2,
+					"service_type_id": 5,
+					"regexp": "Билайн \\(платно\\): "
+				}
+			],
+			"statuses": [
+				{
+					"text": "допущено оператором",
+					"registration_status_id": 3
+				},
+				{
+					"text": "не принято оператором",
+					"registration_status_id": 4
+				},
+				{
+					"text": "необходимы подтверждающие документы",
+					"registration_status_id": 7
+				},
+				{
+					"text": "отправлено на регистрацию",
+					"registration_status_id": 2
+				},
+				{
+					"text": "ожидает регистрации",
+					"registration_status_id": 2
+				}
+			]
+		},
+		"mts": {
+			"statuses": [
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "3",
+					"text": "ИНН ок, документов нет"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "3",
+					"text": "на 20.12.2018"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "3",
+					"text": "ок"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "3",
+					"text": "ИНН ок, докум. Ок"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "преждоставить документ"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "необходимо письмо о нераспространении рекламы на алкоголь"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "иностранная организация, необходимо предоставить документы"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "аббревиатура, необходимо предоставить документы"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "зарегистрирован товарный знак, необходимо изменить имя и предоставить документы"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "существует домен, необходимо предоставить документы"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "существует домен, необходимо предоставить документы или изменить имя"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "зарегистрированный ТЗ, предоставить документ или изменить Имя"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "нет совпадения"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "предоставить документ"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "зарегистрированный ТЗ, изменить или предоставить документ"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "Предоставить документы"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "Гарантийное письмо на другого агента"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "Документы на другое юр.лицо"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "документы не подстверждают принажлежность подписи"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "В письме указано неизвестное юрлицо"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "Предоставить документы. Гарантийные письма допустимы только от ИП"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "Документы на другого человека"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "Домен принадлежит другому лицу"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "необходимы документы"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "Докутенты на другую организацию. А также необходимо письмо о нераспространении рекламы о курении"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "Необходимы подтверждающие документы, письмо от организации не принимается"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "Необходимы другие подтверждающие документы"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "Общее имя, рекомендуется изменить в соответствии с товарным знаком"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "Необходимы подтвердающие документы"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "Документ не подтверждает право использование подписи"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "Документы на другое лицо"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "Письмо для другого агента"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "Предоставить документы или изменить подпись по совпадению."
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "Другое юр.лицо в документах"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "Документы на тругое юр лицо"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "Срок действия документа истек"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "Предоставить подтверждающие документы и письмо о нераспространнии рекламы пива"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "Прикладываемые документы не соответствуют подписи"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "Документы на другое юр лицо"
+				},
+				{
+					"is_incorrect_inn": "1",
+					"registration_status_id": "4",
+					"text": "нкорректный ИНН"
+				},
+				{
+					"is_incorrect_inn": "1",
+					"registration_status_id": "4",
+					"text": "ИНН другого лица"
+				},
+				{
+					"is_incorrect_inn": "1",
+					"registration_status_id": "4",
+					"text": "инн другой компании"
+				},
+				{
+					"is_incorrect_inn": "1",
+					"registration_status_id": "4",
+					"text": "некорректный ИНН, агрегационное"
+				},
+				{
+					"is_incorrect_inn": "1",
+					"registration_status_id": "4",
+					"text": "инн другого ИП"
+				},
+				{
+					"is_incorrect_inn": "1",
+					"registration_status_id": "4",
+					"text": "ИНН пренадлежит ООО Акация\", слово Русалка не упоминается\""
+				},
+				{
+					"is_incorrect_inn": "1",
+					"registration_status_id": "4",
+					"text": "инн компании, которая прекратила деятельность"
+				},
+				{
+					"is_incorrect_inn": "1",
+					"registration_status_id": "4",
+					"text": "некорректный ИНН или данные"
+				},
+				{
+					"is_incorrect_inn": "1",
+					"registration_status_id": "4",
+					"text": "некорректный ИНН"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "Непонятная подпись для получателя"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "имя общее"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "Общее имя"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "Ликвидировано"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "Подпись общая, рекомендуем изменить до полного совпадения"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "Деятельность прекращена"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "Предоставить подтверждающие документы"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "Общее имя, рекомендуем изменить на полное совпадение"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "Некорректные данные"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "Необходимо изменить на полное совпадение"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "Очень общее имя, необходимо дополнить подпись, например ООО\" или кодом региона\""
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "Подпись общая, необходимо изменить до полного совпадения"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "Подпись не отображает наименование организации и её деятельность"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "Письмо о нераспространении рекламы алкоголя"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "Подпись общая, необходимо изменить до полного совпадения или предоставить документы"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "необходимо предоставить документы"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "агрегационное имя"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "действие прекращено"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "агрегационное"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "компания называется по другому"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "совпадение с наименованием, есть сайт"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "совпадение с наименованием"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "физ лицо"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "агрегационное имя "
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "агрегационное имя + зарегистрирован товарный знак "
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "некорректно указано название организации"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "агрегационное имя, рекомендуем к имени добавить код региона"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "зарегистрированный домен, изменить Имя, добавить признак региона, города"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "агрегационное, изменить"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "зарегистрированный домен, добавить S"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "агрегационное, изменить согласно домену prvsmp"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "Имя собственное, добавить ТД"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "добавить ТД или регион, город"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "Подпись общая, необходимо изменить на полное совпадение"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "Общая подпись"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "Письмо о нераспространнии рекламы алкоголя"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "Общее имя, рекомендуется изменить в соответствии с доменом"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "Имя общее, рекомендуется изменить в соответствии с доменом"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "Недопустимый символ"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "Общее имя, предлагаем изменить в соответствии с товарным знаком"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "ИнН ок, документов нет"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "Имя общее"
+				},
+				{
+					"is_incorrect_inn": "1",
+					"registration_status_id": "4",
+					"text": "Некорректный ИНН"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "деятельность прекращена"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "7",
+					"text": "Необходимы документы"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "4",
+					"text": "Очень общее имя, необходимо дополнить подпись, например \"ООО\" или кодом региона"
+				},
+				{
+					"is_incorrect_inn": "1",
+					"registration_status_id": "4",
+					"text": "ИНН пренадлежит ООО \"Акация\", слово Русалка не упоминается"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "3",
+					"text": "на 01.02.2019"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "3",
+					"text": "2019-02-10 00:00:00"
+				},
+				{
+					"is_incorrect_inn": "0",
+					"registration_status_id": "3",
+					"text": "43506"
+				}
+			]
+		}
+	}
+}

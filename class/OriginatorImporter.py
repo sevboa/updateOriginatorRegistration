@@ -48,8 +48,11 @@ class originatorImporter:
                 ])
             Originator = originatorsDict.get(key)
             if Originator != None:
-                if Originator.getStatusPriority() >= originator.getStatusPriority():
-                    continue
+                try:
+                    if Originator.getStatusPriority() >= originator.getStatusPriority():
+                        continue
+                except TypeError:
+                    print(type(Originator.getStatusPriority()))
             originatorsDict.update({key: originator})
         counter.lastTell('deduplicated')
         return list(originatorsDict.values())

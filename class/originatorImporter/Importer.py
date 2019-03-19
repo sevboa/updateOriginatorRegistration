@@ -95,12 +95,15 @@ class importer:
             self.ExistingDirectionsCache.update({str(direction['operator_group_id']) + ';' + str(direction['service_type_id'])})
     
     def outerOriginatorsAppend(self, originator):
-        if self.ExistingDirectiinsCache.get(str(originator.operatorGroupId + ';' + str(originator.ServiceTypeId)) != None:
+        directionKey = str(originator.OperatorGroupId) + ';' + str(originator.ServiceTypeId)
+        if originator.Originator != '':
+            ''
+        
+        if self.ExistingDirectionsCache.isdisjoint({directionKey}):
             originator.StatusId = 0
-            self.Originators.add(originator)
+            #self.Originators.add(originator)
 
-        elif !(self.GlobalOriginatorsCache.isdisjoint({originator.Originator + ';' + str(originator.OperatorGroupId)}) and 
-         originator.Originator != ''):
+        elif self.GlobalOriginatorsCache.isdisjoint({originator.Originator + ';' + str(originator.OperatorGroupId)}) == False:
             originator.StatusId = 8
             self.Originators.add(originator)
 
