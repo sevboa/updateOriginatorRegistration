@@ -19,12 +19,13 @@ Originators = originatorImporter()
 ### от сих ==>
 
 #Originators.originatorsImport(importerBeeline('Beeline_21.12.2018.csv'))
-Originators.originatorsImport(importerSmsc('SMSC_18.03.2019.csv'))
-#Originators.originatorsImport(importerTele2('Tele2_21.12.2018.csv'))
-#Originators.originatorsImport(importerMts('MTS_12.02.2019.xlsx'))
-#Originators.originatorsImport(importerMts('MTS_error_21.12.2018.xlsx'))
+#Originators.originatorsImport(importerSmsc('SMSC_18.03.2019.csv'))
+Originators.originatorsImport(importerTele2('Tele2_21.12.2018.csv'))
+Originators.originatorsImport(importerMts('MTS_12.02.2019.xlsx'))
+Originators.originatorsImport(importerMts('MTS_error_21.12.2018.xlsx'))
+#
 
-### <== до сих переместить в класс OriginatorImporter и добавить автоматический определитель свежего файла
+### <== до сих переместить в класс OriginatorImporter и добавить автоматический определитель свежего файла? или лучше MVC?
 
 
 ## Сохранение в файл

@@ -18,4 +18,4 @@ class importerTele2(importer):
             quit()
 
     def input(self, string):
-        self.outerOriginatorsAppend(string)
+        self.outerOriginatorsAppend(originatorTele2(string))
