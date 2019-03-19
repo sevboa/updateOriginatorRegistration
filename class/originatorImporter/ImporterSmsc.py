@@ -59,7 +59,7 @@ class importerSmsc(importer):
         
         if string['Оператор'] != '' and string['Оператор'] != ' Теле2 (бесплатно): допущено оператором':
             if re.match(r'^\s*$', string['Оператор']) == None:
-                print('\'' + string['Оператор'] + '\'')
+                print(string['Имя'] + ' ' + '\'' + string['Оператор'] + '\'')
 
     def OriginatorsABBCCheck(self, originator):
         ABArrayKey = originator.OriginatorChange + ";" + str(originator.OperatorGroupId) + ";" + str(originator.ServiceTypeId) + ";" + str(originator.StatusId)
