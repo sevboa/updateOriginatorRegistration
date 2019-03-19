@@ -32,7 +32,6 @@ class importerSmsc(importer):
     
     def input(self, string):
         
-
         for operator_group_key in self.OperatorsCache.keys():
             operator_group_find, operator_group_regexp = self.OperatorsCache[operator_group_key]
             string['operator_group_id'], string['service_type_id'] = operator_group_key.split(';')
@@ -55,6 +54,9 @@ class importerSmsc(importer):
                         string['Оператор'] = re.sub(operator_group_regexp + string['status'] + r'\s*', '', string['Оператор'])
                         string.update(originator_change=string['Имя'])
                         self.appendSmscOriginator(string)
+            if re.search(operator_group_regexp, string['Оператор']) != None:
+                string['Оператор'] = re.sub(operator_group_regexp, '', string['Оператор'])
+        
         if string['Оператор'] != '' and string['Оператор'] != ' Теле2 (бесплатно): допущено оператором':
             if re.match(r'^\s*$', string['Оператор']) == None:
                 print('\'' + string['Оператор'] + '\'')

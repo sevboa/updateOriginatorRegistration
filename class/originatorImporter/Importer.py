@@ -12,6 +12,8 @@ class importer:
     Originators = set()
     GlobalOriginators = list()
     GlobalOriginatorsCache = set()
+    ExistingDirections = list()
+    ExistingDirectionsCache = set()
     OriginatorsString = set()
     
     def __init__(self, fileName):
@@ -25,6 +27,10 @@ class importer:
         self.loadGlobalOriginators()
 
         self.createGlobalOriginatorsCache()
+        
+        self.ExistingDirections.extend(self.Config['all']['existingDirections'])
+        	
+        self.createExistingDirectionsCache()
         
         print('import ' + fileName + ' ...')
 
@@ -84,10 +90,19 @@ class importer:
         for globalOriginator in self.GlobalOriginators:
             self.GlobalOriginatorsCache.update({globalOriginator['originator'] + ';' + str(globalOriginator['operator_group_id'])})
     
+    def createExistingDirectionsCache(self):
+        for direction in self.ExistingDirections:
+            self.ExistingDirectionsCache.update({str(direction['operator_group_id']) + ';' + str(direction['service_type_id'])})
+    
     def outerOriginatorsAppend(self, originator):
-        if (self.GlobalOriginatorsCache.isdisjoint({originator.Originator + ';' + str(originator.OperatorGroupId)}) and 
-         originator.Originator != ''):
-            self.Originators.add(originator)
-        else:
+        if self.ExistingDirectiinsCache.get(str(originator.operatorGroupId + ';' + str(originator.ServiceTypeId)) != None:
             originator.StatusId = 0
+            self.Originators.add(originator)
+
+        elif !(self.GlobalOriginatorsCache.isdisjoint({originator.Originator + ';' + str(originator.OperatorGroupId)}) and 
+         originator.Originator != ''):
+            originator.StatusId = 8
+            self.Originators.add(originator)
+
+        else:
             self.Originators.add(originator)
