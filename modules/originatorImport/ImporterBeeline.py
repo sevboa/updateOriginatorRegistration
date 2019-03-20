@@ -1,20 +1,19 @@
-#import sys
 import re
 import csv
 
-from Importer import importer
-from OriginatorTele2 import originatorTele2
+from modules.originatorImport.Importer import importer
+from modules.originatorImport.OriginatorBeeline import originatorBeeline
 
-class importerTele2(importer):
+class importerBeeline(importer):
     
     def load(self, extension, providerCode, fileName):
-        if extension == 'csv' and providerCode in ('Tele2'):
+        if extension == 'csv' and providerCode in ('Beeline'):
             with open('./originators/' + fileName, 'r', encoding='cp1251') as fileCsv:
-                for string in csv.reader(fileCsv, delimiter=';'):
+                for string in csv.DictReader(fileCsv, delimiter=';'):
                     self.input(string)
         else:
             print('Неподдерживаемое расширение входящего файла!')
             quit()
 
     def input(self, string):
-        self.outerOriginatorsAppend(originatorTele2(string))
+        self.outerOriginatorsAppend(originatorBeeline(string))

@@ -1,13 +1,14 @@
 import csv
 import re
-#import sys
 
 from openpyxl import load_workbook
 
-from ..ConfigParserJson import configParserJson
+from modules.ConfigParserJson import configParserJson
 
 class importer:
-    Config = configParserJson().originatorImporter['importer']
+    # pylint: disable = no-member
+    importerConfig = configParserJson().originatorImport['importer']
+    originatorConfig = configParserJson().originatorImport['originator']
     Originators = set()
     GlobalOriginators = list()
     GlobalOriginatorsCache = set()
@@ -27,7 +28,7 @@ class importer:
 
         self.createGlobalOriginatorsCache()
         
-        self.ExistingDirections.extend(self.Config['existingDirections'])
+        self.ExistingDirections.extend(self.importerConfig['ExistingDirections'])
         	
         self.createExistingDirectionsCache()
         
@@ -78,7 +79,7 @@ class importer:
         ''
     
     def loadGlobalOriginators(self):
-        for globalOriginator in self.Config['globalOriginators']:
+        for globalOriginator in self.importerConfig['GlobalOriginators']:
             self.GlobalOriginators.append(globalOriginator)
             if globalOriginator['operator_group_id'] == 1:
                 globalOriginatorYota = globalOriginator.copy()
@@ -94,19 +95,16 @@ class importer:
             self.ExistingDirectionsCache.update({str(direction['operator_group_id']) + ';' + str(direction['service_type_id'])})
     
     def outerOriginatorsAppend(self, originator):
-        try:
-            if originator.Originator != '':
-                directionKey = str(originator.OperatorGroupId) + ';' + str(originator.ServiceTypeId)
+        if originator.Originator != '':
+            directionKey = str(originator.OperatorGroupId) + ';' + str(originator.ServiceTypeId)
 
-                if self.ExistingDirectionsCache.isdisjoint({directionKey}):
-                    originator.StatusId = 0
-                    #self.Originators.add(originator)
-                
-                elif self.GlobalOriginatorsCache.isdisjoint({originator.Originator + ';' + str(originator.OperatorGroupId)}) == False:
-                    #originator.StatusId = 8
-                    self.Originators.add(originator)
-                
-                else:
-                    self.Originators.add(originator)
-        except AttributeError:
-            ''
+            if self.ExistingDirectionsCache.isdisjoint({directionKey}):
+                originator.StatusId = 0
+                #self.Originators.add(originator)
+            
+            elif self.GlobalOriginatorsCache.isdisjoint({originator.Originator + ';' + str(originator.OperatorGroupId)}) == False:
+                #originator.StatusId = 8
+                self.Originators.add(originator)
+            
+            else:
+                self.Originators.add(originator)

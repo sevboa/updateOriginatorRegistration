@@ -1,6 +1,5 @@
-#import sys
 
-from Originator import originator
+from modules.originatorImport.Originator import originator
 
 class originatorBt(originator):
     mtsStatuses = dict({
@@ -94,7 +93,7 @@ class originatorBt(originator):
         'Общее имя, предлагаем изменить в соответствии с товарным знаком': '4;0'
     })
     
-    def __init__(self, stringObject):
+    def create(self, stringObject, onlySuccess):
         self.ProviderId = 11
         self.Originator = stringObject[0].value
         self.OriginatorChange = self.Originator

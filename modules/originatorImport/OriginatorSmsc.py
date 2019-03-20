@@ -1,12 +1,11 @@
 import re
-#import sys
 from html.parser import HTMLParser
 
-from Originator import originator
+from modules.originatorImport.Originator import originator
 
 class originatorSmsc(originator):
     
-    def __init__(self, string):
+    def create(self, string, onlySuccess):
         #if string['Статус'] == 'Допущено' and string['Имя'] != '' and string['Оператор'] != '':
         #if string['Имя'] == 'Alta-Soft':
             self.ProviderId = int(16)

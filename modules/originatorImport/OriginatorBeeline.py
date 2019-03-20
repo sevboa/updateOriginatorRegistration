@@ -1,10 +1,9 @@
-#import sys
 
-from Originator import originator
+from modules.originatorImport.Originator import originator
 
 class originatorBeeline(originator):
     
-    def __init__(self, string):
+    def create(self, string, onlySuccess):
         self.ProviderId = 10
         self.Originator = string['Имя отправителя']
         self.OriginatorChange = self.Originator

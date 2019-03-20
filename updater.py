@@ -22,6 +22,7 @@ class updater:
         with ZipFile(self.ArhiveName, 'r') as zipFile:
             try:
                 shutil.rmtree('class/', ignore_errors=False, onerror=None)
+                shutil.rmtree('modules/', ignore_errors=False, onerror=None)
             except(FileNotFoundError):
                 ''
             try:
@@ -30,6 +31,10 @@ class updater:
                 ''
             try:   
                 os.remove('update.py')
+            except(FileNotFoundError):
+                ''
+            try:
+                os.remove('main.py')
             except(FileNotFoundError):
                 ''
             for name in zipFile.namelist():

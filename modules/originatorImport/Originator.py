@@ -1,5 +1,8 @@
+from modules.ConfigParserJson import configParserJson
+
 class originator:
-    Config = configParserJson().originatorImporter['']
+    # pylint: disable = no-member
+    originatorConfig = configParserJson().originatorImport['originator']
     ProviderId = int()
     Originator = str()
     OriginatorChange = str()
@@ -10,62 +13,25 @@ class originator:
     ServiceTypeId = int()
     StatusId = int()
     AccountId = str()
-    ServiceTypes = dict({
-        '5': 'Платная регистрация',
-        '4': 'Бесплатная регистрация'
-    })
-    OperatorsGroups = dict({
-        '2': 'Билайн',
-        '1': 'Мегафон',
-        '3': 'МТС',
-        '4': 'Теле2',
-        '15': 'Yota'
-    })
-    Statuses = dict({
-        '3': 'Зарегистрированно',
-        '4': 'Отклонено',
-        '7': 'Недостаточно документов',
-        '2': 'отправлено на регистрацию'
-    })
-    Providers = dict({
-        '10': 'Beeline',
-        '11': 'MTS',
-        '16': 'SMSC',
-        '31': 'Tele2',
-        '47': 'BT'
-    })
-    StatusesPriority = dict({
-        '3': 7,
-        '4': 1,
-        '7': 4,
-        '2': 5,
-        '0': 0,
-        '8': 8
-    })
+    ServiceTypes = dict()
+    OperatorsGroups = dict()
+    Statuses = dict()
+    Providers = dict()
+    StatusesPriority = dict()
 
-    def __init__(self, fileName):
+    def __init__(self, string, onlySuccess = False):
+        self.ServiceTypes = self.originatorConfig['ServiceTypes']
+        self.OperatorsGroups = self.originatorConfig['OperatorsGroups']
+        self.Statuses = self.originatorConfig['Statuses']
+        self.StatusesPriority = self.originatorConfig['StatusesPriority']
+        self.Providers = self.originatorConfig['Providers']
+        
         self.loadConfig()
-        
-        
 
-        self.Originators.clear()
+        self.create(string, onlySuccess)
 
-        extension = fileName.split('.')[-1]
-        providerCode = fileName.split('_')[0]
-        
-        self.loadGlobalOriginators()
-
-        self.createGlobalOriginatorsCache()
-        
-        self.ExistingDirections.extend(self.Config['all']['existingDirections'])
-        	
-        self.createExistingDirectionsCache()
-        
-        print('import ' + fileName + ' ...')
-
-        self.load(extension, providerCode, fileName)
-
-        print('import ' + fileName + ' complete')
+    def loadConfig(self):
+        ''
 
     def checkInn(self, inn):
         if len(inn) not in (10, 12) or int(inn) == 0:

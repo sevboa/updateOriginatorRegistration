@@ -1,7 +1,7 @@
 import sys
 import time
 
-class Counter:
+class counter:
     def __init__(self, count, delay):
         self.Count = count
         self.Form = '%' + str(len(list(str(count))) + 2) + 's/'
@@ -59,7 +59,7 @@ class Counter:
 ## Тестирование (при импорте не отрабатывает)
 if __name__ == "__main__":
     a = [1,2,3]
-    counter = Counter(len(a), 0.5)
+    counter = counter(len(a), 0.5)
     b = time.time()
     counter.step('Hello')
     time.sleep(0.9)

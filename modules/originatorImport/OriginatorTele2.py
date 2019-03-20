@@ -1,9 +1,8 @@
-#import sys
 
-from Originator import originator
+from modules.originatorImport.Originator import originator
 
 class originatorTele2(originator):
-    def __init__(self, string):
+    def create(self, string, onlySuccess):
         if string[5] != '':
             self.ProviderId = 31
             self.Originator = string[5]

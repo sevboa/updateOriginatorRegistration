@@ -1,32 +1,31 @@
 import codecs
 import csv
 import io
-#import sys
 from time import sleep
 
-from modules.Counter import Counter
+from modules.Counter import counter
 from modules.dbPostgre import dbPostgre
 
 def sortingByFieldNames(innerList, fieldNames):
     params = fieldNames.copy()
-    counter = Counter(len(params), 5.0)
+    Counter = counter(len(params), 5.0)
     params.reverse()
     innerList = dedublicateListDict(innerList)
     for param in params:
-        counter.step('sorting...')
+        Counter.step('sorting...')
         innerList.sort(key=lambda k: k[param])
-    counter.lastTell('sorted')
+    Counter.lastTell('sorted')
     return innerList
 
 def sortingObjects(innerList, fieldNames):
     params = fieldNames.copy()
-    counter = Counter(len(params), 5.0)
+    Counter = counter(len(params), 5.0)
     params.reverse()
     innerList = dedublicateListDict(innerList)
     for param in params:
-        counter.step('sorting...')
+        Counter.step('sorting...')
         innerList.sort(key=lambda k: param)
-    counter.lastTell('sorted')
+    Counter.lastTell('sorted')
     return innerList
 
 def csvLoad(fileName, fieldNames):
@@ -34,11 +33,11 @@ def csvLoad(fileName, fieldNames):
         try:
             with io.open(fileName, 'r', encoding='utf-8-sig') as fileCsv:
                 print('\r load ' + fileName + '                        ')
-                counter = Counter(len(io.open(fileName, 'r', encoding='utf-8-sig').readlines()) - 1, 0.2)
+                Counter = counter(len(io.open(fileName, 'r', encoding='utf-8-sig').readlines()) - 1, 0.2)
                 innerData = csv.DictReader(fileCsv, delimiter=';')
                 outStrings = list()
                 for string in innerData:
-                    counter.step('data load...')
+                    Counter.step('data load...')
                     outString = dict()
                     for stringKey in string.keys():
                         if stringKey in fieldNames:
@@ -46,7 +45,7 @@ def csvLoad(fileName, fieldNames):
                                 string[stringKey] = ''
                             outString.update({stringKey: str(string[stringKey])})
                     outStrings.append(outString)
-            counter.lastTell(' data loaded')
+            Counter.lastTell(' data loaded')
             outStrings = sortingByFieldNames(outStrings, fieldNames)
             return outStrings
         except PermissionError:
@@ -58,14 +57,14 @@ def csvUnload(innerStrings, fileNameOut, fieldNames):
         try:
             with open('./output/' + fileNameOut, 'w', newline='', encoding='utf-8-sig') as outFile:
                 print('\r unload to ' + fileNameOut + '                        ')
-                counter = Counter(len(innerStrings), 0.2)
+                Counter = counter(len(innerStrings), 0.2)
                 writer = csv.DictWriter(outFile, delimiter=';', fieldnames=fieldNames)
                 writer.writeheader()
                 for string in innerStrings:
-                    counter.step('data unload...')
+                    Counter.step('data unload...')
                     inner_dict = string
                     writer.writerow(inner_dict)
-            counter.lastTell('data unloaded')
+            Counter.lastTell('data unloaded')
             outFile.close()
             print(' complete')
             break
@@ -87,7 +86,7 @@ def generateInsertSql(table, suffix, innerData, maxStrings):
     try:
         keys = list(data[0].keys())
         query = str()
-        counter = Counter(len(innerData), 0.2)
+        Counter = counter(len(innerData), 0.2)
         while len(data):
             queryList = list([
                 'INSERT INTO ' + table,
@@ -97,7 +96,7 @@ def generateInsertSql(table, suffix, innerData, maxStrings):
             strings = list()
             i = int()
             while i < maxStrings and len(data):
-                counter.step('generate...')
+                Counter.step('generate...')
                 dataString = data.pop(0)
                 params = list()
                 for key in keys:
@@ -114,7 +113,7 @@ def generateInsertSql(table, suffix, innerData, maxStrings):
                 i += 1
             queryList.append(', '.join(strings))
             query = '\n'.join([query, ''.join(queryList) + ';'])
-        counter.lastTell('generated')
+        Counter.lastTell('generated')
         f = open('./sql_queries/' + table + '_' + suffix + '.sql', 'w')
         f.write(query)
         print('   complete')

@@ -1,34 +1,34 @@
-#import sys
+import sys
 import re
 
 from modules.Commons import csvUnload, sortingByFieldNames
 from modules.ConfigParserJson import configParserJson
 from modules.OriginatorImporter import originatorImporter
 
-from modules.originatorImporter.Importer import importer
-from modules.originatorImporter.ImporterBeeline import importerBeeline
-from modules.originatorImporter.ImporterMts import importerMts
-from modules.originatorImporter.ImporterSmsc import importerSmsc
-from modules.originatorImporter.ImporterTele2 import importerTele2
+from modules.originatorImport.Importer import importer
+from modules.originatorImport.ImporterBeeline import importerBeeline
+from modules.originatorImport.ImporterMts import importerMts
+from modules.originatorImport.ImporterSmsc import importerSmsc
+from modules.originatorImport.ImporterTele2 import importerTele2
 
 ## Начало программы
 
 ### подгрузка конфигов
-Config = configParserJson('.config.json')
+Config = configParserJson()
 
 ### подгрузка импортера
 Originators = originatorImporter()
 
 ### от сих ==>
 
-#Originators.originatorsImport(importerBeeline('Beeline_21.12.2018.csv'))
-#Originators.originatorsImport(importerSmsc('SMSC_18.03.2019.csv'))
-Originators.originatorsImport(importerTele2('Tele2_21.12.2018.csv'))
-Originators.originatorsImport(importerMts('MTS_12.02.2019.xlsx'))
-Originators.originatorsImport(importerMts('MTS_error_21.12.2018.xlsx'))
+#Originators.importOriginators(importerBeeline('Beeline_21.12.2018.csv'))
+#Originators.importOriginators(importerSmsc('SMSC_18.03.2019.csv'))
+#Originators.importOriginators(importerTele2('Tele2_21.12.2018.csv'))
+Originators.importOriginators(importerMts('MTS_12.02.2019.xlsx'))
+#Originators.importOriginators(importerMts('MTS_error_21.12.2018.xlsx'))
 #
 
-### <== до сих переместить в класс OriginatorImporter и добавить автоматический определитель свежего файла? или лучше MVC?
+### <== до сих переместить в класс originatorImport и добавить автоматический определитель свежего файла? или лучше MVC?
 
 
 ## Сохранение в файл

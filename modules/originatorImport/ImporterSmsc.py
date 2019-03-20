@@ -1,9 +1,8 @@
 import csv
 import re
-#import sys
 
-from Importer import importer
-from OriginatorSmsc import originatorSmsc
+from modules.originatorImport.Importer import importer
+from modules.originatorImport.OriginatorSmsc import originatorSmsc
 
 
 class importerSmsc(importer):
@@ -15,14 +14,14 @@ class importerSmsc(importer):
     OriginatorsBC = dict()
 
     def loadConfig(self):
-        self.Statuses.extend(self.Config['smsc']['Statuses'])
+        self.Statuses.extend(self.importerConfig['smsc']['Statuses'])
         self.createStatusesCache()
-        self.Operators.extend(self.Config['smsc']['Operators'])
+        self.Operators.extend(self.importerConfig['smsc']['Operators'])
         self.createOperatorsCache()
     
     def load(self, extension, providerCode, fileName):
         if extension == 'csv' and providerCode in ('SMSC'):
-            with open(self.Config['OriginatorsPath'] + fileName, 'r', encoding='cp1251') as fileCsv:
+            with open(self.importerConfig['OriginatorsPath'] + fileName, 'r', encoding='cp1251') as fileCsv:
                 for string in csv.DictReader(fileCsv, delimiter=';'):
                     self.input(string)
         else:
@@ -42,13 +41,13 @@ class importerSmsc(importer):
                 if string['Оператор'].find(operator_group_find + string['status']) != -1:
                     result = re.search(r'(?<=' + operator_group_regexp + string['status'] + r' \()[^\)]*', string['Оператор'])
                     if result != None:
-                        result2 = re.search(operator_group_regexp + string['status'] + r' \(.{0,11}\)\s*', string['Оператор'])
+                        #result2 = re.search(operator_group_regexp + string['status'] + r' \(.{0,11}\)\s*', string['Оператор'])
                         #print('\'' + result2.group(0) + '\'')
                         string['Оператор'] = re.sub(operator_group_regexp + string['status'] + r' \(.{0,11}\)\s*', '', string['Оператор'])
                         string.update(originator_change=result.group(0))
                         self.appendSmscOriginator(string)
                     else:
-                        result2 = re.search(operator_group_regexp + string['status'] + r'\s*', string['Оператор'])
+                        #result2 = re.search(operator_group_regexp + string['status'] + r'\s*', string['Оператор'])
                         #print('\'' + result2.group(0) + '\'')
                         string['Оператор'] = re.sub(operator_group_regexp + string['status'] + r'\s*', '', string['Оператор'])
                         string.update(originator_change=string['Имя'])

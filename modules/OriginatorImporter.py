@@ -1,20 +1,18 @@
 import csv
 import re
-import sys
 from copy import copy
 from operator import attrgetter
 
 import openpyxl
 
-from .Counter import Counter
-
+from modules.Counter import counter
 
 
 class originatorImporter:
     Originators = list()
     OriginatorsByOperatorsGropupId = dict()
     
-    def originatorsImport(self, ProviderImporter):
+    def importOriginators(self, ProviderImporter):
         self.Originators.extend(
             self.deduplicate(
                 list(
@@ -37,9 +35,9 @@ class originatorImporter:
 
     def deduplicate(self, originatorsList):
         originatorsDict = dict()
-        counter = Counter(len(originatorsList), 0.5)
+        Counter = counter(len(originatorsList), 0.5)
         for originator in originatorsList:
-            counter.step('deduplicate...')
+            Counter.step('deduplicate...')
             key = ';'.join([
                 str(originator.Originator), 
                 str(originator.ServiceTypeId), 
@@ -50,7 +48,7 @@ class originatorImporter:
                 if Originator.getStatusPriority() >= originator.getStatusPriority():
                     continue
             originatorsDict.update({key: originator})
-        counter.lastTell('deduplicated')
+        Counter.lastTell('deduplicated')
         return list(originatorsDict.values())
 
     def sqlGenerate(self, originators, count):
@@ -147,11 +145,11 @@ class originatorImporter:
         self.OriginatorsByOperatorsGropupId[str(originator.operatorGroup())].append(originator)
 
     def sortOriginators(self, params):
-        counter = Counter(len(params), 5.0)
+        Counter = counter(len(params), 5.0)
         for param in params:
-            counter.step('sorting...')
+            Counter.step('sorting...')
             self.Originators.sort(key=attrgetter(param))
-        counter.lastTell('sorted')
+        Counter.lastTell('sorted')
 
     def outputListDict(self):
         originators = list()
@@ -182,36 +180,3 @@ class originatorImporter:
         queryList.append(query)
         print('sql generated')
         return query
-
-
-## Тестирование (при импорте не отрабатывает)
-if __name__ == "__main__":
-
-    sys.path.append('./originatorImporter')
-    sys.path.append('./class/originatorImporter')
-    from ImporterBeeline import importerBeeline
-    from ImporterSmsc import importerSmsc
-    from ImporterTele2 import importerTele2
-    from ImporterMts import importerMts
-    
-    
-    Originators = originatorImporter()
-    
-    Originators.originatorsImport(importerBeeline('Beeline_21.12.2018.csv'))
-    Originators.originatorsImport(importerSmsc('SMSC_12.12.2018_test.csv'))
-    Originators.originatorsImport(importerTele2('Tele2_21.12.2018.csv'))
-    Originators.originatorsImport(importerMts('MTS_21.12.2018.xlsx'))
-    Originators.originatorsImport(importerMts('MTS_error_21.12.2018.xlsx'))
-    #Originators.originatorsImport(importerBt('Beeline_21.12.2018.csv'))
-    for originator in Originators.Originators:
-        print(originator.output())
-    
-    '''
-    print(exportMotiv('Motiv_old.xlsx'))
-    print(exportBeeline('Beeline_09.06.2018.csv')[0])
-    print(exportTele2Template('Tele2_template_old.csv')[0])
-    
-    print(exportTele2('Tele2_23.07.2018.csv')[0])
-    print(exportMts('MTS_23.07.2018.xlsx')[0])
-    '''
-    #print(Strings[0])
