@@ -2,6 +2,8 @@
 import re
 
 from modules.Commons import csvUnload, sortingByFieldNames
+from modules.ConfigParserJson import configParserJson
+from modules.OriginatorImporter import originatorImporter
 
 from modules.originatorImporter.Importer import importer
 from modules.originatorImporter.ImporterBeeline import importerBeeline
@@ -10,6 +12,11 @@ from modules.originatorImporter.ImporterSmsc import importerSmsc
 from modules.originatorImporter.ImporterTele2 import importerTele2
 
 ## Начало программы
+
+### подгрузка конфигов
+Config = configParserJson('.config.json')
+
+### подгрузка импортера
 Originators = originatorImporter()
 
 ### от сих ==>
