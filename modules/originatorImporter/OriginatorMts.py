@@ -1,10 +1,8 @@
 import csv
 import re
-import sys
+#import sys
 
 from Originator import originator
-
-sys.path.append('./class/originatorImporter')
 
 class originatorMts(originator):
     rejectMessageMts = dict()

@@ -1,9 +1,8 @@
 import re
-import sys
+#import sys
 
 from openpyxl import load_workbook
 
-sys.path.append('./class/originatorImporter')
 from Importer import importer
 from OriginatorMts import originatorMts
 

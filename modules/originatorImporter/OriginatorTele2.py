@@ -1,6 +1,5 @@
-import sys
+#import sys
 
-sys.path.append('./class/originatorImporter')
 from Originator import originator
 
 class originatorTele2(originator):

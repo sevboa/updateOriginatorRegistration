@@ -1,8 +1,7 @@
 import re
-import sys
+#import sys
 import csv
 
-sys.path.append('./class/originatorImporter')
 from Importer import importer
 from OriginatorBeeline import originatorBeeline
 

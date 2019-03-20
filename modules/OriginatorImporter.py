@@ -6,7 +6,6 @@ from operator import attrgetter
 
 import openpyxl
 
-sys.path.append('./class')
 from Counter import Counter
 
 

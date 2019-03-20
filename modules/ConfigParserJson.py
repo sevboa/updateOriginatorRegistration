@@ -10,7 +10,7 @@ def singleton(configParserJson):
 
 @singleton
 class configParserJson:
-    def __init__(self, filePath='config.json'):
+    def __init__(self, filePath='../config.json'):
         with open(filePath, 'r', encoding='utf-8') as configFile: #открываем файл на чтение
             data = json.load(configFile) #загружаем из файла данные в словарь data
             for key in data.keys():

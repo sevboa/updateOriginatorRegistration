@@ -1,8 +1,7 @@
-import sys
+#import sys
 import re
 import csv
 
-sys.path.append('./class/originatorImporter')
 from Importer import importer
 from OriginatorTele2 import originatorTele2
 

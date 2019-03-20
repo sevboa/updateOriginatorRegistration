@@ -1,11 +1,9 @@
 import csv
 import re
-import sys
+#import sys
 
-sys.path.append('./class/originatorImporter')
 from Importer import importer
 from OriginatorSmsc import originatorSmsc
-import sys
 
 
 class importerSmsc(importer):

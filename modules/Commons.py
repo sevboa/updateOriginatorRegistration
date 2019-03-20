@@ -1,11 +1,11 @@
 import codecs
 import csv
 import io
-import sys
+#import sys
 from time import sleep
 
-from classes.Counter import Counter
-from classes.dbPostgre import dbPostgre
+from modules.Counter import Counter
+from modules.dbPostgre import dbPostgre
 
 def sortingByFieldNames(innerList, fieldNames):
     params = fieldNames.copy()

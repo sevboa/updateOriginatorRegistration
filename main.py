@@ -1,15 +1,13 @@
-import sys
+#import sys
 import re
 
-from classes.Commons import csvUnload, sortingByFieldNames
+from modules.Commons import csvUnload, sortingByFieldNames
 
-from classes.originatorImporter.Importer import importer
-
-sys.path.append('./class/originatorImporter')
-from ImporterBeeline import importerBeeline
-from ImporterMts import importerMts
-from ImporterSmsc import importerSmsc
-from ImporterTele2 import importerTele2
+from modules.originatorImporter.Importer import importer
+from modules.originatorImporter.ImporterBeeline import importerBeeline
+from modules.originatorImporter.ImporterMts import importerMts
+from modules.originatorImporter.ImporterSmsc import importerSmsc
+from modules.originatorImporter.ImporterTele2 import importerTele2
 
 ## Начало программы
 Originators = originatorImporter()
