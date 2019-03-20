@@ -4,9 +4,8 @@ import io
 import sys
 from time import sleep
 
-sys.path.append('./class')
-from Counter import Counter
-from dbPostgre import dbPostgre
+from classes.Counter import Counter
+from classes.dbPostgre import dbPostgre
 
 def sortingByFieldNames(innerList, fieldNames):
     params = fieldNames.copy()

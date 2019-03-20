@@ -7,6 +7,7 @@ from Importer import importer
 from OriginatorSmsc import originatorSmsc
 import sys
 
+
 class importerSmsc(importer):
     Statuses = list()
     StatusesCache = dict()
@@ -16,14 +17,14 @@ class importerSmsc(importer):
     OriginatorsBC = dict()
 
     def loadConfig(self):
-        self.Statuses.extend(self.Config['smsc']['statuses'])
+        self.Statuses.extend(self.Config['smsc']['Statuses'])
         self.createStatusesCache()
-        self.Operators.extend(self.Config['smsc']['operators'])
+        self.Operators.extend(self.Config['smsc']['Operators'])
         self.createOperatorsCache()
     
     def load(self, extension, providerCode, fileName):
         if extension == 'csv' and providerCode in ('SMSC'):
-            with open('./originators/' + fileName, 'r', encoding='cp1251') as fileCsv:
+            with open(self.Config['OriginatorsPath'] + fileName, 'r', encoding='cp1251') as fileCsv:
                 for string in csv.DictReader(fileCsv, delimiter=';'):
                     self.input(string)
         else:

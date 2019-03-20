@@ -1,6 +1,35 @@
 import sys
 import json
 import csv
+import pg8000
+
+class a:
+    def __init__(
+        self, 
+        ident: int, 
+        max_num: int, 
+        name: str
+    ):
+        self._ident = ident
+        self._max_num = max_num
+        self._name = name
+    
+    def __getitem__(self, qwe):
+        return self._ident + 1
+    
+    def __setitem__(self, qwe, ident):
+        self._ident = ident
+    
+    def __call__(self):
+        return self._ident, self._max_num, self._name
+     
+b = a(1,3,'ewr')
+
+b['qwe'] = 5
+
+print(b['qwe'])
+
+exit()
 
 RejectMessageMts = list()
 

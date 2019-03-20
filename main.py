@@ -1,11 +1,9 @@
 import sys
 import re
 
-sys.path.append('./class')
-from Commons import csvUnload, sortingByFieldNames
+from classes.Commons import csvUnload, sortingByFieldNames
 
-sys.path.append('./originatorImporter')
-from OriginatorImporter import originatorImporter
+from classes.originatorImporter.Importer import importer
 
 sys.path.append('./class/originatorImporter')
 from ImporterBeeline import importerBeeline

@@ -1,4 +1,5 @@
 class originator:
+    Config = configParserJson().originatorImporter['']
     ProviderId = int()
     Originator = str()
     OriginatorChange = str()
@@ -41,6 +42,30 @@ class originator:
         '0': 0,
         '8': 8
     })
+
+    def __init__(self, fileName):
+        self.loadConfig()
+        
+        
+
+        self.Originators.clear()
+
+        extension = fileName.split('.')[-1]
+        providerCode = fileName.split('_')[0]
+        
+        self.loadGlobalOriginators()
+
+        self.createGlobalOriginatorsCache()
+        
+        self.ExistingDirections.extend(self.Config['all']['existingDirections'])
+        	
+        self.createExistingDirectionsCache()
+        
+        print('import ' + fileName + ' ...')
+
+        self.load(extension, providerCode, fileName)
+
+        print('import ' + fileName + ' complete')
 
     def checkInn(self, inn):
         if len(inn) not in (10, 12) or int(inn) == 0:

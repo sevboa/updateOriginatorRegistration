@@ -4,11 +4,10 @@ import sys
 
 from openpyxl import load_workbook
 
-sys.path.append('./class')
-from ConfigParserJson import configParserJson
+from ..ConfigParserJson import configParserJson
 
 class importer:
-    Config = configParserJson().originatorImporter
+    Config = configParserJson().originatorImporter['importer']
     Originators = set()
     GlobalOriginators = list()
     GlobalOriginatorsCache = set()
@@ -28,7 +27,7 @@ class importer:
 
         self.createGlobalOriginatorsCache()
         
-        self.ExistingDirections.extend(self.Config['all']['existingDirections'])
+        self.ExistingDirections.extend(self.Config['existingDirections'])
         	
         self.createExistingDirectionsCache()
         
@@ -79,7 +78,7 @@ class importer:
         ''
     
     def loadGlobalOriginators(self):
-        for globalOriginator in self.Config['all']['globalOriginators']:
+        for globalOriginator in self.Config['globalOriginators']:
             self.GlobalOriginators.append(globalOriginator)
             if globalOriginator['operator_group_id'] == 1:
                 globalOriginatorYota = globalOriginator.copy()

@@ -1,7 +1,8 @@
 {
 	"originatorImporter": {
-		"all": {
-			"globalOriginators": [
+		"importer":{
+			"OriginatorsPath": "./originators/",
+			"GlobalOriginators": [
 				{
 					"originator": "ALIPAY",
 					"operator_group_id": 2
@@ -5491,7 +5492,7 @@
 					"operator_group_id": 1
 				}
 			],
-			"existingDirections": [
+			"ExistingDirections": [
 				{
 					"operator_group_id": 1,
 					"service_type_id": 4
@@ -5520,563 +5521,584 @@
 					"operator_group_id": 15,
 					"service_type_id": 4
 				}
-			]
-		},
-		"smsc": {
-			"operators": [
-				{
-					"text": "Мегафон (платно): ",
-					"operator_group_id": 1,
-					"service_type_id": 5,
-					"regexp": "Мегафон \\(платно\\): "
-				},
-				{
-					"text": "Мегафон (бесплатно): ",
-					"operator_group_id": 1,
-					"service_type_id": 4,
-					"regexp": "Мегафон \\(бесплатно\\): "
-				},
-				{
-					"text": "МТС: ",
-					"operator_group_id": 3,
-					"service_type_id": 4,
-					"regexp": "МТС: "
-				},
-				{
-					"text": "Теле2 (платно): ",
-					"operator_group_id": 4,
-					"service_type_id": 5,
-					"regexp": "Теле2 \\(платно\\): "
-				},
-				{
-					"text": "Теле2 (бесплатно): ",
-					"operator_group_id": 4,
-					"service_type_id": 4,
-					"regexp": "Теле2 \\(бесплатно\\): "
-				},
-				{
-					"text": "Билайн (платно): ",
-					"operator_group_id": 2,
-					"service_type_id": 5,
-					"regexp": "Билайн \\(платно\\): "
-				}
 			],
-			"statuses": [
-				{
-					"text": "допущено оператором",
-					"registration_status_id": 3
-				},
-				{
-					"text": "не принято оператором",
-					"registration_status_id": 4
-				},
-				{
-					"text": "необходимы подтверждающие документы",
-					"registration_status_id": 7
-				},
-				{
-					"text": "отправлено на регистрацию",
-					"registration_status_id": 2
-				},
-				{
-					"text": "ожидает регистрации",
-					"registration_status_id": 2
-				}
-			]
+			"smsc": {
+				"Operators": [
+					{
+						"text": "Мегафон (платно): ",
+						"operator_group_id": 1,
+						"service_type_id": 5,
+						"regexp": "Мегафон \\(платно\\): "
+					},
+					{
+						"text": "Мегафон (бесплатно): ",
+						"operator_group_id": 1,
+						"service_type_id": 4,
+						"regexp": "Мегафон \\(бесплатно\\): "
+					},
+					{
+						"text": "МТС: ",
+						"operator_group_id": 3,
+						"service_type_id": 4,
+						"regexp": "МТС: "
+					},
+					{
+						"text": "Теле2 (платно): ",
+						"operator_group_id": 4,
+						"service_type_id": 5,
+						"regexp": "Теле2 \\(платно\\): "
+					},
+					{
+						"text": "Теле2 (бесплатно): ",
+						"operator_group_id": 4,
+						"service_type_id": 4,
+						"regexp": "Теле2 \\(бесплатно\\): "
+					},
+					{
+						"text": "Билайн (платно): ",
+						"operator_group_id": 2,
+						"service_type_id": 5,
+						"regexp": "Билайн \\(платно\\): "
+					}
+				],
+				"Statuses": [
+					{
+						"text": "допущено оператором",
+						"registration_status_id": 3
+					},
+					{
+						"text": "не принято оператором",
+						"registration_status_id": 4
+					},
+					{
+						"text": "необходимы подтверждающие документы",
+						"registration_status_id": 7
+					},
+					{
+						"text": "отправлено на регистрацию",
+						"registration_status_id": 2
+					},
+					{
+						"text": "ожидает регистрации",
+						"registration_status_id": 2
+					}
+				]
+			},
+			"mts": {
+				
+			}
 		},
-		"mts": {
-			"statuses": [
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "3",
-					"text": "ИНН ок, документов нет"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "3",
-					"text": "на 20.12.2018"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "3",
-					"text": "ок"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "3",
-					"text": "ИНН ок, докум. Ок"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "преждоставить документ"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "необходимо письмо о нераспространении рекламы на алкоголь"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "иностранная организация, необходимо предоставить документы"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "аббревиатура, необходимо предоставить документы"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "зарегистрирован товарный знак, необходимо изменить имя и предоставить документы"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "существует домен, необходимо предоставить документы"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "существует домен, необходимо предоставить документы или изменить имя"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "зарегистрированный ТЗ, предоставить документ или изменить Имя"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "нет совпадения"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "предоставить документ"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "зарегистрированный ТЗ, изменить или предоставить документ"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "Предоставить документы"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "Гарантийное письмо на другого агента"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "Документы на другое юр.лицо"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "документы не подстверждают принажлежность подписи"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "В письме указано неизвестное юрлицо"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "Предоставить документы. Гарантийные письма допустимы только от ИП"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "Документы на другого человека"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "Домен принадлежит другому лицу"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "необходимы документы"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "Докутенты на другую организацию. А также необходимо письмо о нераспространении рекламы о курении"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "Необходимы подтверждающие документы, письмо от организации не принимается"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "Необходимы другие подтверждающие документы"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "Общее имя, рекомендуется изменить в соответствии с товарным знаком"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "Необходимы подтвердающие документы"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "Документ не подтверждает право использование подписи"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "Документы на другое лицо"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "Письмо для другого агента"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "Предоставить документы или изменить подпись по совпадению."
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "Другое юр.лицо в документах"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "Документы на тругое юр лицо"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "Срок действия документа истек"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "Предоставить подтверждающие документы и письмо о нераспространнии рекламы пива"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "Прикладываемые документы не соответствуют подписи"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "Документы на другое юр лицо"
-				},
-				{
-					"is_incorrect_inn": "1",
-					"registration_status_id": "4",
-					"text": "нкорректный ИНН"
-				},
-				{
-					"is_incorrect_inn": "1",
-					"registration_status_id": "4",
-					"text": "ИНН другого лица"
-				},
-				{
-					"is_incorrect_inn": "1",
-					"registration_status_id": "4",
-					"text": "инн другой компании"
-				},
-				{
-					"is_incorrect_inn": "1",
-					"registration_status_id": "4",
-					"text": "некорректный ИНН, агрегационное"
-				},
-				{
-					"is_incorrect_inn": "1",
-					"registration_status_id": "4",
-					"text": "инн другого ИП"
-				},
-				{
-					"is_incorrect_inn": "1",
-					"registration_status_id": "4",
-					"text": "ИНН пренадлежит ООО Акация\", слово Русалка не упоминается\""
-				},
-				{
-					"is_incorrect_inn": "1",
-					"registration_status_id": "4",
-					"text": "инн компании, которая прекратила деятельность"
-				},
-				{
-					"is_incorrect_inn": "1",
-					"registration_status_id": "4",
-					"text": "некорректный ИНН или данные"
-				},
-				{
-					"is_incorrect_inn": "1",
-					"registration_status_id": "4",
-					"text": "некорректный ИНН"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "Непонятная подпись для получателя"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "имя общее"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "Общее имя"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "Ликвидировано"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "Подпись общая, рекомендуем изменить до полного совпадения"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "Деятельность прекращена"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "Предоставить подтверждающие документы"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "Общее имя, рекомендуем изменить на полное совпадение"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "Некорректные данные"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "Необходимо изменить на полное совпадение"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "Очень общее имя, необходимо дополнить подпись, например ООО\" или кодом региона\""
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "Подпись общая, необходимо изменить до полного совпадения"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "Подпись не отображает наименование организации и её деятельность"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "Письмо о нераспространении рекламы алкоголя"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "Подпись общая, необходимо изменить до полного совпадения или предоставить документы"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "необходимо предоставить документы"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "агрегационное имя"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "действие прекращено"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "агрегационное"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "компания называется по другому"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "совпадение с наименованием, есть сайт"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "совпадение с наименованием"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "физ лицо"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "агрегационное имя "
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "агрегационное имя + зарегистрирован товарный знак "
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "некорректно указано название организации"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "агрегационное имя, рекомендуем к имени добавить код региона"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "зарегистрированный домен, изменить Имя, добавить признак региона, города"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "агрегационное, изменить"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "зарегистрированный домен, добавить S"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "агрегационное, изменить согласно домену prvsmp"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "Имя собственное, добавить ТД"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "добавить ТД или регион, город"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "Подпись общая, необходимо изменить на полное совпадение"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "Общая подпись"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "Письмо о нераспространнии рекламы алкоголя"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "Общее имя, рекомендуется изменить в соответствии с доменом"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "Имя общее, рекомендуется изменить в соответствии с доменом"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "Недопустимый символ"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "Общее имя, предлагаем изменить в соответствии с товарным знаком"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "ИнН ок, документов нет"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "Имя общее"
-				},
-				{
-					"is_incorrect_inn": "1",
-					"registration_status_id": "4",
-					"text": "Некорректный ИНН"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "деятельность прекращена"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "7",
-					"text": "Необходимы документы"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "4",
-					"text": "Очень общее имя, необходимо дополнить подпись, например \"ООО\" или кодом региона"
-				},
-				{
-					"is_incorrect_inn": "1",
-					"registration_status_id": "4",
-					"text": "ИНН пренадлежит ООО \"Акация\", слово Русалка не упоминается"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "3",
-					"text": "на 01.02.2019"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "3",
-					"text": "2019-02-10 00:00:00"
-				},
-				{
-					"is_incorrect_inn": "0",
-					"registration_status_id": "3",
-					"text": "43506"
-				}
-			]
+		"originator":{
+			"OperatorsGroups": {
+
+			},
+			"ServiceTypes": {
+				"5": "Платная регистрация",
+				"4": "Бесплатная регистрация"
+			},
+			"Statuses": {
+				
+			},
+			"StatusesPriority": {
+				
+			},
+			"Providers": {
+				
+			},
+			"mts": {
+				"Statuses": [
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "3",
+						"text": "ИНН ок, документов нет"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "3",
+						"text": "на 20.12.2018"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "3",
+						"text": "ок"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "3",
+						"text": "ИНН ок, докум. Ок"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "преждоставить документ"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "необходимо письмо о нераспространении рекламы на алкоголь"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "иностранная организация, необходимо предоставить документы"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "аббревиатура, необходимо предоставить документы"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "зарегистрирован товарный знак, необходимо изменить имя и предоставить документы"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "существует домен, необходимо предоставить документы"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "существует домен, необходимо предоставить документы или изменить имя"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "зарегистрированный ТЗ, предоставить документ или изменить Имя"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "нет совпадения"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "предоставить документ"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "зарегистрированный ТЗ, изменить или предоставить документ"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "Предоставить документы"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "Гарантийное письмо на другого агента"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "Документы на другое юр.лицо"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "документы не подстверждают принажлежность подписи"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "В письме указано неизвестное юрлицо"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "Предоставить документы. Гарантийные письма допустимы только от ИП"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "Документы на другого человека"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "Домен принадлежит другому лицу"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "необходимы документы"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "Докутенты на другую организацию. А также необходимо письмо о нераспространении рекламы о курении"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "Необходимы подтверждающие документы, письмо от организации не принимается"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "Необходимы другие подтверждающие документы"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "Общее имя, рекомендуется изменить в соответствии с товарным знаком"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "Необходимы подтвердающие документы"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "Документ не подтверждает право использование подписи"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "Документы на другое лицо"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "Письмо для другого агента"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "Предоставить документы или изменить подпись по совпадению."
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "Другое юр.лицо в документах"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "Документы на тругое юр лицо"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "Срок действия документа истек"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "Предоставить подтверждающие документы и письмо о нераспространнии рекламы пива"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "Прикладываемые документы не соответствуют подписи"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "Документы на другое юр лицо"
+					},
+					{
+						"is_incorrect_inn": "1",
+						"registration_status_id": "4",
+						"text": "нкорректный ИНН"
+					},
+					{
+						"is_incorrect_inn": "1",
+						"registration_status_id": "4",
+						"text": "ИНН другого лица"
+					},
+					{
+						"is_incorrect_inn": "1",
+						"registration_status_id": "4",
+						"text": "инн другой компании"
+					},
+					{
+						"is_incorrect_inn": "1",
+						"registration_status_id": "4",
+						"text": "некорректный ИНН, агрегационное"
+					},
+					{
+						"is_incorrect_inn": "1",
+						"registration_status_id": "4",
+						"text": "инн другого ИП"
+					},
+					{
+						"is_incorrect_inn": "1",
+						"registration_status_id": "4",
+						"text": "ИНН пренадлежит ООО Акация\", слово Русалка не упоминается\""
+					},
+					{
+						"is_incorrect_inn": "1",
+						"registration_status_id": "4",
+						"text": "инн компании, которая прекратила деятельность"
+					},
+					{
+						"is_incorrect_inn": "1",
+						"registration_status_id": "4",
+						"text": "некорректный ИНН или данные"
+					},
+					{
+						"is_incorrect_inn": "1",
+						"registration_status_id": "4",
+						"text": "некорректный ИНН"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "Непонятная подпись для получателя"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "имя общее"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "Общее имя"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "Ликвидировано"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "Подпись общая, рекомендуем изменить до полного совпадения"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "Деятельность прекращена"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "Предоставить подтверждающие документы"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "Общее имя, рекомендуем изменить на полное совпадение"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "Некорректные данные"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "Необходимо изменить на полное совпадение"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "Очень общее имя, необходимо дополнить подпись, например ООО\" или кодом региона\""
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "Подпись общая, необходимо изменить до полного совпадения"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "Подпись не отображает наименование организации и её деятельность"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "Письмо о нераспространении рекламы алкоголя"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "Подпись общая, необходимо изменить до полного совпадения или предоставить документы"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "необходимо предоставить документы"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "агрегационное имя"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "действие прекращено"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "агрегационное"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "компания называется по другому"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "совпадение с наименованием, есть сайт"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "совпадение с наименованием"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "физ лицо"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "агрегационное имя "
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "агрегационное имя + зарегистрирован товарный знак "
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "некорректно указано название организации"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "агрегационное имя, рекомендуем к имени добавить код региона"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "зарегистрированный домен, изменить Имя, добавить признак региона, города"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "агрегационное, изменить"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "зарегистрированный домен, добавить S"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "агрегационное, изменить согласно домену prvsmp"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "Имя собственное, добавить ТД"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "добавить ТД или регион, город"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "Подпись общая, необходимо изменить на полное совпадение"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "Общая подпись"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "Письмо о нераспространнии рекламы алкоголя"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "Общее имя, рекомендуется изменить в соответствии с доменом"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "Имя общее, рекомендуется изменить в соответствии с доменом"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "Недопустимый символ"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "Общее имя, предлагаем изменить в соответствии с товарным знаком"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "ИнН ок, документов нет"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "Имя общее"
+					},
+					{
+						"is_incorrect_inn": "1",
+						"registration_status_id": "4",
+						"text": "Некорректный ИНН"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "деятельность прекращена"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "7",
+						"text": "Необходимы документы"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "4",
+						"text": "Очень общее имя, необходимо дополнить подпись, например \"ООО\" или кодом региона"
+					},
+					{
+						"is_incorrect_inn": "1",
+						"registration_status_id": "4",
+						"text": "ИНН пренадлежит ООО \"Акация\", слово Русалка не упоминается"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "3",
+						"text": "на 01.02.2019"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "3",
+						"text": "2019-02-10 00:00:00"
+					},
+					{
+						"is_incorrect_inn": "0",
+						"registration_status_id": "3",
+						"text": "43506"
+					}
+				]
+			}
 		}
 	}
 }
