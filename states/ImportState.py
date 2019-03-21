@@ -1,0 +1,38 @@
+
+from states.SelectProviderState import selectProviderState
+from states.SelectFileState import selectFileState
+
+class importState:
+    def getText(self, controller):
+        if controller.Provider != '':
+                print('Поставщик: ' + controller.Provider)
+        else:
+            print('поставщик неуказан')
+        if controller.FileName != '':
+            print('Имя файла: ' + controller.FileName)
+        else:
+            print('файл неуказан')
+
+    def getHelp(self):
+        print('[p]provider')
+        print('[f]file_name')
+        print('[s]setting')
+        print('[ok]start_import')
+
+    def invokeCommand(self, controller):
+        if   controller.Input in ('p','provider'):
+            controller.setState(selectProviderState())
+        elif controller.Input in ('f','file_name'):
+            controller.setState(selectFileState())
+        elif controller.Input in ('s', 'setting'):
+            print('Вот настройки')
+        elif controller.Input in ('ok','start_import'):
+            if controller.Provider == '' or controller.FileName == '':
+                print('Недостаточно данных для импорта!')
+            else:
+                print('Начало импорта...')
+                #controller.setState(selectFileState())
+        
+        else:
+            print('ошибка!')
+            controller.getHelp()

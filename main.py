@@ -1,6 +1,28 @@
 import sys
 import re
 
+from states.StateController import stateController
+from states.ImportState import importState
+
+print('    Татьяна 0.3')
+print(' Добро пожаловать!')
+print(' Данная программа предназначена для парсинга')
+print(' файлов регистраций имен поставщиков.')
+print(' P.S. для помощи введите \'h\'\n')
+
+Controller = stateController(importState())
+
+while Controller.Active:
+    Controller.getText()
+    Controller.input()
+    Controller.invokeCommand()
+    print('===================================')
+
+
+exit()
+####################################
+
+
 from modules.Commons import csvUnload, sortingByFieldNames
 from modules.ConfigParserJson import configParserJson
 from modules.OriginatorImporter import originatorImporter
@@ -24,7 +46,7 @@ Originators = originatorImporter()
 #Originators.importOriginators(importerBeeline('Beeline_21.12.2018.csv'))
 #Originators.importOriginators(importerSmsc('SMSC_18.03.2019.csv'))
 #Originators.importOriginators(importerTele2('Tele2_21.12.2018.csv'))
-Originators.importOriginators(importerMts('MTS_12.02.2019.xlsx'))
+Originators.importOriginators(importerMts('MTS_20.12.2018.xlsx'))
 #Originators.importOriginators(importerMts('MTS_error_21.12.2018.xlsx'))
 #
 
