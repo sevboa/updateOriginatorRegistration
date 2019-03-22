@@ -7,11 +7,30 @@ import openpyxl
 
 from modules.Counter import counter
 
+from modules.originatorImport.ImporterBeeline import importerBeeline
+from modules.originatorImport.ImporterMts import importerMts
+from modules.originatorImport.ImporterSmsc import importerSmsc
+from modules.originatorImport.ImporterTele2 import importerTele2
+
 
 class originatorImporter:
     Originators = list()
     OriginatorsByOperatorsGropupId = dict()
     
+    def __init__(self, provider, fileName):
+        if   provider == 'beeline':
+            self.importOriginators(importerBeeline(fileName))
+        elif provider == 'mts':
+            self.importOriginators(importerMts(fileName))
+        elif provider == 'tele2':
+            self.importOriginators(importerTele2(fileName))
+        elif provider == 'smsc':
+            self.importOriginators(importerSmsc(fileName))
+        else:
+            print(provider + ' пока не работает!')
+            pause()
+            exit()
+
     def importOriginators(self, ProviderImporter):
         self.Originators.extend(
             self.deduplicate(

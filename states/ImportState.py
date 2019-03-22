@@ -1,6 +1,7 @@
 
 from states.SelectProviderState import selectProviderState
 from states.SelectFileState import selectFileState
+from modules.OriginatorImporter import originatorImporter
 
 class importState:
     def getText(self, controller):
@@ -30,8 +31,7 @@ class importState:
             if controller.Provider == '' or controller.FileName == '':
                 print('Недостаточно данных для импорта!')
             else:
-                print('Начало импорта...')
-                #controller.setState(selectFileState())
+                originatorImporter(controller.Provider, controller.FileName)
         
         else:
             print('ошибка!')

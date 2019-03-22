@@ -14,7 +14,7 @@ class selectProviderState:
         print('[t]tele2')
         print('[m]motiv (не работает)')
         print('[s]smsc')
-        print('[bt]bt')
+        print('[bt]bt (не работает)')
         print('\n[c]cancel')
 
     def invokeCommand(self, controller):
@@ -33,8 +33,7 @@ class selectProviderState:
             controller.Provider = 'smsc'
             controller.backState()
         elif controller.Input in ('bt','bt'):
-            controller.Provider = 'bt'
-            controller.backState()
+            print('bt пока не работает!')
         elif controller.Input in ('c', 'cancel'):
             controller.backState()
         else:
