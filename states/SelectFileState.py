@@ -11,9 +11,9 @@ class selectFileState:
 
     def getText(self, controller):
         if controller.FileName == '':
-            print('Укажите имя файла:')
+            print('\nВыберите файл:')
         else:
-            print('Укажите имя файла(' + controller.FileName + '):')
+            print('\nВыберите файл(' + controller.FileName + '):')
 
     def getHelp(self):
         i = 1

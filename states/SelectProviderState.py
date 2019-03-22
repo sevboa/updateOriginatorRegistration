@@ -4,9 +4,9 @@ class selectProviderState:
     
     def getText(self, controller):
         if controller.Provider == '':
-            print('Укажите провайдера:')
+            print('\nУкажите провайдера:')
         else:
-            print('Укажите провайдера(' + controller.Provider + '):')
+            print('\nУкажите провайдера(' + controller.Provider + '):')
 
     def getHelp(self):
         print('[b]beeline')

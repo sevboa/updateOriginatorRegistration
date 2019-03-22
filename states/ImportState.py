@@ -6,13 +6,14 @@ from modules.OriginatorImporter import originatorImporter
 class importState:
     def getText(self, controller):
         if controller.Provider != '':
-                print('Поставщик: ' + controller.Provider)
+                print(' Поставщик: ' + controller.Provider)
         else:
-            print('поставщик неуказан')
+            print(' Поставщик: ' + 'не выбран')
         if controller.FileName != '':
-            print('Имя файла: ' + controller.FileName)
+            print(' Файл: ' + controller.FileName)
         else:
-            print('файл неуказан')
+            print(' Файл: ' + 'не выбран')
+        print('\nВыберите пункт меню:')
 
     def getHelp(self):
         print('[p]provider')

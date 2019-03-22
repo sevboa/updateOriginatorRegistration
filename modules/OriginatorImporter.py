@@ -188,10 +188,10 @@ class originatorImporter:
         return sorted(list(spellingOriginators))
             
 
-    def spellingOriginatorsSqlGenerate(self):
+    def spellingOriginatorsSqlGenerate(self, provider):
         queryList = list()
-        queryBegin = 'CREATE TABLE originators_spelling_smsc(originator text, case_sensitive int);'
-        queryBegin += '\nINSERT INTO originators_spelling_smsc(originator, case_sensitive) \nVALUES \n'
+        queryBegin = 'CREATE TABLE originators_spelling_' + provider + '(originator text, case_sensitive int);'
+        queryBegin += '\nINSERT INTO originators_spelling_' + provider + '(originator, case_sensitive) \nVALUES \n'
         queryMiddleList = list()
         queryMiddleString = str()
         for spellingOriginator in self.getAllSpellingOriginators():
@@ -254,7 +254,7 @@ class originatorImporter:
 
         ## Генерация запроса написания имен
     def exportAllSqlFile(self, provider):
-        querySpellingString = self.spellingOriginatorsSqlGenerate()
+        querySpellingString = self.spellingOriginatorsSqlGenerate(provider)
         querySpellingString = re.sub(r'\n+\s+', ' ', querySpellingString)
         querySpellingString = re.sub(r'\s+\n+', ' ', querySpellingString)
         querySpellingString = re.sub(r'\n+', ' ', querySpellingString)
