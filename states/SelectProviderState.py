@@ -1,41 +1,30 @@
 
+from states.BaseState import baseState
 
-class selectProviderState:
+class selectProviderState(baseState):
     
-    def getText(self, controller):
-        if controller.Provider == '':
-            print('\nУкажите провайдера:')
-        else:
-            print('\nУкажите провайдера(' + controller.Provider + '):')
-
-    def getHelp(self):
-        print('[b]beeline')
-        print('[m]mts')
-        print('[t]tele2')
-        print('[m]motiv (не работает)')
-        print('[s]smsc')
-        print('[bt]bt (не работает)')
-        print('\n[c]cancel')
+    def loadData(self, controller):
+        self.addCommand('b',    'beeline')
+        self.addCommand('m',    'mts')
+        self.addCommand('t',    'tele2')
+        self.addCommand('s',   'smsc')
+        self.addCommand('mt',   'motiv', 'не работает!')
+        self.addCommand('bt',   'bt', 'не работает!')
+        self.addSystemCommand('c',   'cancel')
+        
+        self.Message = 'Укажите провайдера:'
 
     def invokeCommand(self, controller):
-        if   controller.Input in ('b','beeline'):
-            controller.Provider = 'beeline'
-            controller.backState()
-        elif controller.Input in ('m','mts'):
-            controller.Provider = 'mts'
-            controller.backState()
-        elif controller.Input in ('t','tele2'):
-            controller.Provider = 'tele2'
-            controller.backState()
-        elif controller.Input in ('m','motiv'):
-            print('motiv пока не работает!')
-        elif controller.Input in ('s','smsc'):
-            controller.Provider = 'smsc'
-            controller.backState()
-        elif controller.Input in ('bt','bt'):
-            print('bt пока не работает!')
-        elif controller.Input in ('c', 'cancel'):
-            controller.backState()
-        else:
+        command = list(filter(lambda person: controller.Input in person['aliases'], list(self.Commands + self.SystemCommands)))
+        commandName = command[0]['name']
+        
+        if len(command) < 1:
             print('ошибка!')
             controller.getHelp()
+        elif commandName == 'cancel':
+            controller.backState()
+        elif commandName in ('motiv', 'bt'):
+            print(commandName + ' пока не работает!')
+        else:
+            controller.Provider = commandName
+            controller.backState()

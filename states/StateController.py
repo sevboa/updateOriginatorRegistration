@@ -1,16 +1,13 @@
 
 from states.ImportState import importState
 
-class stateController:
+class stateController():
     Active = True
     _context = object()
     Input = str()
 
     Provider = str()
     FileName = str()
-
-    def __init__(self, state):
-        self.setState(state)
 
     def input(self):
         self.Input = input('> ')
@@ -19,9 +16,8 @@ class stateController:
         self._context.getText(self)
     
     def getHelp(self):
-        print('Доступные комманды:')
+        print(' Доступные комманды:')
         self._context.getHelp()
-        print('\n[q]quit')
 
     def setState(self, state):
         self._context = state
@@ -38,4 +34,4 @@ class stateController:
         else:
             self._context.invokeCommand(self)
     def backState(self):
-        self._context = importState()
+        self._context = importState(self)

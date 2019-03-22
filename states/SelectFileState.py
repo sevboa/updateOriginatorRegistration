@@ -1,38 +1,35 @@
 import os
+from states.BaseState import baseState
 
-
-class selectFileState:
-    
+class selectFileState(baseState):
+    Directory = str()
     Files = list()
 
-    def __init__(self):
-        self.Files = os.listdir('./originators')
+    def loadData(self, controller):
+        self.Directory = './originators'
+        self.Files = os.listdir(self.Directory)
         self.Files.remove('.gitkeep')
-
-    def getText(self, controller):
-        if controller.FileName == '':
-            print('\nВыберите файл:')
-        else:
-            print('\nВыберите файл(' + controller.FileName + '):')
-
-    def getHelp(self):
-        i = 1
-        for fileName in self.Files:
-            print('[' + str(i) + ']' + fileName)
-            i = i + 1
-        print('\n[c]cancel')
+        
+        self.addCommand(        'd',    'directory',    self.Directory)
+        
+        for fileNameNum in range(len(self.Files)):
+            self.addCommand(    str(fileNameNum + 1), self.Files[fileNameNum])
+        
+        self.addSystemCommand(  'c',    'cancel')
+        
+        self.Message = 'Выберите файл:'
 
     def invokeCommand(self, controller):
-        try:
-            if int(controller.Input) <= len(self.Files):
-                controller.FileName = self.Files[int(controller.Input) - 1]
-                controller.backState()
-        except ValueError:
-            if self.Files.count(controller.Input) > 0:
-                controller.FileName = controller.Input
-                controller.backState()
-            elif controller.Input in ('c', 'cancel'):
-                controller.backState()
-            else:
-                print('ошибка!')
-                controller.getHelp()
+        command = list(filter(lambda person: controller.Input in person['aliases'], list(self.Commands + self.SystemCommands)))
+        commandName = command[0]['name']
+        
+        if len(command) < 1:
+            print('ошибка!')
+            controller.getHelp()
+        elif commandName == 'directory':
+            print(commandName + ' пока не работает!')
+        elif commandName == 'cancel':
+            controller.backState()
+        else:
+            controller.FileName = commandName
+            controller.backState()
