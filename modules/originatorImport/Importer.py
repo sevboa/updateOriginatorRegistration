@@ -7,8 +7,8 @@ from modules.ConfigParserJson import configParserJson
 
 class importer:
     # pylint: disable = no-member
-    importerConfig = configParserJson().originatorImport['importer']
-    originatorConfig = configParserJson().originatorImport['originator']
+    importerConfig = configParserJson().importer
+    originatorConfig = configParserJson().originator
     Originators = set()
     GlobalOriginators = list()
     GlobalOriginatorsCache = set()

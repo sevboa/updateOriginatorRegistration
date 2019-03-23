@@ -8,8 +8,8 @@ class originatorMts(originator):
     MtsStatusesCache = dict()
 
     def loadConfig(self):
-        self.MtsStatuses.extend(self.originatorConfig['mts']['Statuses'])
-        self.MtsStatusesCache.update(self.originatorConfig['mts']['StatusesCache'])
+        self.MtsStatuses.extend(self.importerConfig['mts']['Statuses'])
+        self.MtsStatusesCache.update(self.importerConfig['mts']['StatusesCache'])
 
     def create(self, stringObject, onlySuccess):
         self.ProviderId = 11

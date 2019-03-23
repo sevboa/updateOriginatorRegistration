@@ -2,7 +2,8 @@ from modules.ConfigParserJson import configParserJson
 
 class originator:
     # pylint: disable = no-member
-    originatorConfig = configParserJson().originatorImport['originator']
+    importerConfig = configParserJson().importer
+    originatorConfig = configParserJson().originator
     ProviderId = int()
     Originator = str()
     OriginatorChange = str()
