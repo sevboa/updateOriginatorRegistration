@@ -9,10 +9,10 @@ from modules.originatorImport.OriginatorMts import originatorMts
 class importerMts(importer):
     
     def loadConfig(self):
-        ''
-    
-    def load(self, extension, providerCode, fileName):
         self.createMtsStatusesCache()
+            
+    def load(self, extension, providerCode, fileName):
+        
         if extension == 'xlsx' and providerCode in ('MTS'):
             wb = load_workbook(filename = './originators/' + fileName)
             for sheetName in wb.sheetnames[:1]:

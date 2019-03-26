@@ -3,13 +3,7 @@ import re
 
 from modules.originatorImport.Originator import originator
 
-class originatorMts(originator):
-    MtsStatuses = list()
-    MtsStatusesCache = dict()
-
-    def loadConfig(self):
-        self.MtsStatuses.extend(self.importerConfig['mts']['Statuses'])
-        self.MtsStatusesCache.update(self.importerConfig['mts']['StatusesCache'])
+class originatorMts(originator)
 
     def create(self, stringObject, onlySuccess):
         self.ProviderId = 11
@@ -26,12 +20,12 @@ class originatorMts(originator):
             
         else:
             stateMessage = str(stringObject[3].value)
-            statusAndIsIncorrectInn = self.MtsStatusesCache.get(stateMessage)
+            statusAndIsIncorrectInn = self.importerConfig['mts']['StatusesCache'].get(stateMessage)
             if statusAndIsIncorrectInn == None:
                 print(str(stringObject[3].value))
                 print('Неожиданный статус!')
                 #writeCsv.writerow([stringObject[3].value, '', ''])
-                self.MtsStatusesCache.update({stringObject[3].value : '0' + ';' + '0'})
+                self.importerConfig['mts']['StatusesCache'].update({stringObject[3].value : '0' + ';' + '0'})
             elif statusAndIsIncorrectInn != '0;0':
                 ''
             else:
