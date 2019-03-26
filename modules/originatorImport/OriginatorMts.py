@@ -3,7 +3,7 @@ import re
 
 from modules.originatorImport.Originator import originator
 
-class originatorMts(originator)
+class originatorMts(originator):
 
     def create(self, stringObject, onlySuccess):
         self.ProviderId = 11

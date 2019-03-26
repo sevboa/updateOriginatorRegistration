@@ -36,9 +36,9 @@ class importerMts(importer):
             quit()
 
     def createMtsStatusesCache(self):
-        self.originatorConfig['mts']['StatusesCache'] = dict()
-        for status in self.originatorConfig['mts']['Statuses']:
-            self.originatorConfig['mts']['StatusesCache'].update({status['text'] : str(status['registration_status_id']) + ';' + str(status['is_incorrect_inn'])})
+        self.importerConfig['mts']['StatusesCache'] = dict()
+        for status in self.importerConfig['mts']['Statuses']:
+            self.importerConfig['mts']['StatusesCache'].update({status['text'] : str(status['registration_status_id']) + ';' + str(status['is_incorrect_inn'])})
 
     
         
