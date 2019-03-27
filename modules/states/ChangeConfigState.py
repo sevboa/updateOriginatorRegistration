@@ -1,9 +1,9 @@
 
 from modules.states.BaseState import baseState
 
-class selectConfigState(baseState):
+class changeConfigState(baseState):
     
-    def __init__(self, controller):
+    def __init__(self, controller, config):
         super().__init__(controller)
         params = dir(controller.Config)
         for param in params:

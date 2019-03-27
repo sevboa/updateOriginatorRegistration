@@ -10,7 +10,8 @@ class importState(baseState):
     Provider = str()
     FileName = str()
     
-    def loadData(self, controller):
+    def __init__(self, controller):
+        super().__init__(controller)
         self.Provider = controller.Provider
         self.FileName = controller.FileName
         

@@ -1,15 +1,17 @@
 
 class baseState:
-    FirstRun = True
+    FirstRun = bool()
     Commands = list()
     SystemCommands = list()
     Message = str()
+    Controller = object()
 
     def __init__(self, controller):
+        self.FirstRun = True
         self.Commands.clear()
         self.SystemCommands.clear()
         self.addSystemCommand('q', 'quit')
-        self.loadData(controller)
+        self.Controller = controller
 
     def addCommand(self, shortName, fullName, option=None):
         self.Commands.append(
@@ -53,5 +55,8 @@ class baseState:
         print('')
         for command in self.SystemCommands:
             print(' [' + command['aliases'][0] + '] ' + command['aliases'][1])
+
+    def reset(self):
+        self.__init__(self.Controller)
 
     

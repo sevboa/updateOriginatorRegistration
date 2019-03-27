@@ -3,7 +3,8 @@ from modules.states.BaseState import baseState
 
 class selectProviderState(baseState):
     
-    def loadData(self, controller):
+    def __init__(self, controller):
+        super().__init__(controller)
         self.addCommand('b',    'beeline')
         self.addCommand('m',    'mts')
         self.addCommand('t',    'tele2')

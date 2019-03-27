@@ -5,7 +5,8 @@ class selectFileState(baseState):
     Directory = str()
     Files = list()
 
-    def loadData(self, controller):
+    def __init__(self, controller):
+        super().__init__(controller)
         self.Directory = './originators'
         self.Files = os.listdir(self.Directory)
         self.Files.remove('.gitkeep')

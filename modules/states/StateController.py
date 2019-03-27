@@ -1,10 +1,10 @@
 
-from modules.states.ImportState import importState
 from modules.ConfigParserJson import configParserJson
 
 class stateController():
     Active = True
     _context = object()
+    _previousContext = object()
     Input = str()
 
     Provider = str()
@@ -23,13 +23,14 @@ class stateController():
         self._context.getHelp()
 
     def setState(self, state):
+        self._previousContext = self._context
         self._context = state
 
     def invokeCommand(self):
         if self.Input == '':
             print('пустой ввод')
             self.getHelp()
-        if self.Input in ('h', 'help'):
+        elif self.Input in ('h', 'help'):
             self.getHelp()
         elif self.Input in ('q', 'quit'):
             print('Выходим')
@@ -37,4 +38,5 @@ class stateController():
         else:
             self._context.invokeCommand(self)
     def backState(self):
-        self._context = importState(self)
+        self._previousContext.reset()
+        self.setState(self._previousContext)
