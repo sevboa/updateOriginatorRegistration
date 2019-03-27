@@ -1,5 +1,6 @@
 
 from states.ImportState import importState
+from modules.ConfigParserJson import configParserJson
 
 class stateController():
     Active = True
@@ -8,6 +9,8 @@ class stateController():
 
     Provider = str()
     FileName = str()
+    
+    Config = configParserJson()
 
     def input(self):
         self.Input = input('> ')

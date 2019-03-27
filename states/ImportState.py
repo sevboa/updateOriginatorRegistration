@@ -2,6 +2,7 @@
 from states.BaseState import baseState
 from states.SelectProviderState import selectProviderState
 from states.SelectFileState import selectFileState
+from states.SelectConfigState import selectConfigState
 from modules.OriginatorImporter import originatorImporter
 
 class importState(baseState):
@@ -30,8 +31,8 @@ class importState(baseState):
             controller.setState(selectProviderState(controller))
         elif commandName == 'file_name':
             controller.setState(selectFileState(controller))
-        elif commandName == 'setting':
-            print(commandName + ' пока не работает!')
+        elif commandName == 'setings':
+            controller.setState(selectConfigState(controller))
         elif commandName == 'start_import':
             if controller.Provider == '' or controller.FileName == '':
                 print('Недостаточно данных для импорта!')

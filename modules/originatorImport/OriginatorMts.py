@@ -24,7 +24,6 @@ class originatorMts(originator):
             if statusAndIsIncorrectInn == None:
                 print(str(stringObject[3].value))
                 print('Неожиданный статус!')
-                #writeCsv.writerow([stringObject[3].value, '', ''])
                 self.importerConfig['mts']['StatusesCache'].update({stringObject[3].value : '0' + ';' + '0'})
             elif statusAndIsIncorrectInn != '0;0':
                 ''
