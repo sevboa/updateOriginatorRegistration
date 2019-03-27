@@ -1,5 +1,13 @@
 {
-	    "importer":{
+		"dataBase":{
+			"type": "postgreSQL",
+			"host": "192.168.11.227",
+			"port": "5432",
+			"database": "easysms",
+			"user": "easysms",
+			"password": "895erfk967jsdfjhlwfdju83gfkkr"
+		},
+		"importer":{
 			"OriginatorsPath": "./originators/",
 			"GlobalOriginators": [
 		        {
