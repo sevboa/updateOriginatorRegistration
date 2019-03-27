@@ -1,8 +1,8 @@
 import sys
 import re
 
-from states.StateController import stateController
-from states.ImportState import importState
+from modules.states.StateController import stateController
+from modules.states.ImportState import importState
 
 print('    Татьяна 0.4')
 print(' Добро пожаловать!')

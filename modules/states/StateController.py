@@ -1,5 +1,5 @@
 
-from states.ImportState import importState
+from modules.states.ImportState import importState
 from modules.ConfigParserJson import configParserJson
 
 class stateController():

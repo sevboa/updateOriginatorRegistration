@@ -1,9 +1,10 @@
 
-from states.BaseState import baseState
-from states.SelectProviderState import selectProviderState
-from states.SelectFileState import selectFileState
-from states.SelectConfigState import selectConfigState
 from modules.OriginatorImporter import originatorImporter
+
+from modules.states.BaseState import baseState
+from modules.states.SelectProviderState import selectProviderState
+from modules.states.SelectFileState import selectFileState
+from modules.states.SelectConfigState import selectConfigState
 
 class importState(baseState):
     Provider = str()
