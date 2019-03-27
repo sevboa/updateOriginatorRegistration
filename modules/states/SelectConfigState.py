@@ -24,3 +24,4 @@ class selectConfigState(baseState):
             controller.backState()
         else:
             print('выбран раздел ' + commandName)
+            controller.setState(changeConfigState(controller, commandName))
