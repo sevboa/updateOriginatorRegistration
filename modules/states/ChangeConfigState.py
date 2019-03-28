@@ -3,15 +3,19 @@ from modules.states.BaseState import baseState
 
 class changeConfigState(baseState):
     
-    def __init__(self, controller, config):
+    ConfigPart = dict()
+    
+    def __init__(self, controller, configPart):
         super().__init__(controller)
-        params = dir(controller.Config)
+        self.ConfigPart = configPart
+        params = self.ConfigPart.keys()
         for param in params:
+            print(param)
             if param[0] != '_':
-                self.addCommand(param[0], param)
+                self.addCommand(param[0], param, self.ConfigPart[param])
         self.addSystemCommand('c',   'cancel')
         
-        self.Message = 'Выберите раздел:'
+        self.Message = 'Выберите параметр:'
 
     def invokeCommand(self, controller):
         command = list(filter(lambda person: controller.Input in person['aliases'], list(self.Commands + self.SystemCommands)))

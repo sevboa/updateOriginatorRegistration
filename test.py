@@ -3,7 +3,10 @@ import json
 import csv
 import os
 
-print(list([1,2,3] + [4,5,6]))
+a = dict({'asd':dict({'dfg':5})})
+b = a['asd']
+b['dfg']=6
+print(len(str(a)[:5]))
 
 exit()
 

@@ -14,12 +14,20 @@ class baseState:
         self.Controller = controller
 
     def addCommand(self, shortName, fullName, option=None):
+        
+        if type(option) == type(dict()):
+            Option = '{' + str(list(option.keys())) + '}'
+        elif type(option) == type(list()):
+            Option =  '[' + str(len(option)) + ']'
+        else:
+            Option = option
         self.Commands.append(
             dict(
                 name = fullName,
                 aliases = [shortName, fullName],
-                option = option
+                option = Option
             )
+            
         )
 
     def addSystemCommand(self, shortName, fullName):

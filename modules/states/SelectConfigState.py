@@ -1,5 +1,6 @@
 
 from modules.states.BaseState import baseState
+from modules.states.ChangeConfigState import changeConfigState
 
 class selectConfigState(baseState):
     
@@ -24,4 +25,4 @@ class selectConfigState(baseState):
             controller.backState()
         else:
             print('выбран раздел ' + commandName)
-            controller.setState(changeConfigState(controller, commandName))
+            controller.setState(changeConfigState(controller, controller.Config.__dict__.get(commandName)))
