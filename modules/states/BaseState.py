@@ -24,7 +24,7 @@ class baseState:
         self.Commands.append(
             dict(
                 name = fullName,
-                aliases = [shortName, fullName],
+                aliases = [shortName.lower(), fullName],
                 option = Option
             )
             

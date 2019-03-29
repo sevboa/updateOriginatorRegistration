@@ -18,13 +18,21 @@ class changeConfigState(baseState):
         self.Message = 'Выберите параметр:'
 
     def invokeCommand(self, controller):
-        command = list(filter(lambda person: controller.Input in person['aliases'], list(self.Commands + self.SystemCommands)))
-        commandName = command[0]['name']
+        command = list(
+        	filter(
+        		lambda person: controller.Input in person['aliases'], 
+        		list(
+        			self.Commands + self.SystemCommands
+        		)
+        	)
+        )
         
         if len(command) < 1:
             print('ошибка!')
             controller.getHelp()
-        elif commandName == 'cancel':
-            controller.backState()
         else:
-            print('выбран раздел ' + commandName)
+            commandName = command[0]['name'].lower()
+            if commandName == 'cancel':
+                controller.backState()
+            else:
+                print('выбран раздел ' + commandName)
