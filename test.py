@@ -3,6 +3,12 @@ import json
 import csv
 import os
 
+
+a = '1\''
+print(a.isalnum())
+
+exit()
+
 a = dict({'asd':dict({'dfg':5})})
 b = a['asd']
 b['dfg']=6

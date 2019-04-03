@@ -8,7 +8,7 @@ print('    Татьяна 0.4')
 print(' Добро пожаловать!')
 print(' Данная программа предназначена для парсинга')
 print(' файлов регистраций имен поставщиков.')
-print(' P.S. для помощи введите \'h\'\n')
+print(' P.S. для помощи введите \'?\'\n')
 
 Controller = stateController()
 Controller.setState(importState(Controller))

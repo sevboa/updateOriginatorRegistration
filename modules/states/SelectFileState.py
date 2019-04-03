@@ -20,17 +20,14 @@ class selectFileState(baseState):
         
         self.Message = 'Выберите файл:'
 
-    def invokeCommand(self, controller):
-        command = list(filter(lambda person: controller.Input in person['aliases'], list(self.Commands + self.SystemCommands)))
-        commandName = command[0]['name']
+    def invokeCommand(self):
+        command = self.Controller.Command
+        commandName = command['name']
         
-        if len(command) < 1:
-            print('ошибка!')
-            controller.getHelp()
-        elif commandName == 'directory':
+        if commandName == 'directory':
             print(commandName + ' пока не работает!')
         elif commandName == 'cancel':
-            controller.backState()
+            self.Controller.backState()
         else:
-            controller.FileName = commandName
-            controller.backState()
+            self.Controller.FileName = commandName
+            self.Controller.backState()

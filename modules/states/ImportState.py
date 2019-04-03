@@ -12,8 +12,8 @@ class importState(baseState):
     
     def __init__(self, controller):
         super().__init__(controller)
-        self.Provider = controller.Provider
-        self.FileName = controller.FileName
+        self.Provider = self.Controller.Provider
+        self.FileName = self.Controller.FileName
         
         self.addCommand('p',    'provider',    self.Provider)
         self.addCommand('f',    'file_name',   self.FileName)
@@ -22,21 +22,18 @@ class importState(baseState):
         
         self.Message = 'Выберите пункт меню:'
 
-    def invokeCommand(self, controller):
-        command = list(filter(lambda person: controller.Input in person['aliases'], list(self.Commands + self.SystemCommands)))
-        commandName = command[0]['name']
+    def invokeCommand(self):
+        command = self.Controller.Command
+        commandName = command['name']
         
-        if len(command) < 1:
-            print('ошибка!')
-            controller.getHelp()
-        elif commandName == 'provider':
-            controller.setState(selectProviderState(controller))
+        if commandName == 'provider':
+            self.Controller.setState(selectProviderState(self.Controller))
         elif commandName == 'file_name':
-            controller.setState(selectFileState(controller))
+            self.Controller.setState(selectFileState(self.Controller))
         elif commandName == 'setings':
-            controller.setState(selectConfigState(controller))
+            self.Controller.setState(selectConfigState(self.Controller))
         elif commandName == 'start_import':
-            if controller.Provider == '' or controller.FileName == '':
+            if self.Controller.Provider == '' or self.Controller.FileName == '':
                 print('Недостаточно данных для импорта!')
             else:
-                originatorImporter(controller.Provider, controller.FileName)
+                originatorImporter(self.Controller.Provider, self.Controller.FileName)

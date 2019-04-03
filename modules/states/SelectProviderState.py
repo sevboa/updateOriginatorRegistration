@@ -15,17 +15,14 @@ class selectProviderState(baseState):
         
         self.Message = 'Укажите провайдера:'
 
-    def invokeCommand(self, controller):
-        command = list(filter(lambda person: controller.Input in person['aliases'], list(self.Commands + self.SystemCommands)))
-        commandName = command[0]['name']
+    def invokeCommand(self):
+        command = self.Controller.Command
+        commandName = command['name']
         
-        if len(command) < 1:
-            print('ошибка!')
-            controller.getHelp()
-        elif commandName == 'cancel':
-            controller.backState()
+        if commandName == 'cancel':
+            self.Controller.backState()
         elif commandName in ('motiv', 'bt'):
             print(commandName + ' пока не работает!')
         else:
-            controller.Provider = commandName
-            controller.backState()
+            self.Controller.Provider = commandName
+            self.Controller.backState()

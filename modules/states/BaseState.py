@@ -15,17 +15,12 @@ class baseState:
 
     def addCommand(self, shortName, fullName, option=None):
         
-        if type(option) == type(dict()):
-            Option = '{' + str(list(option.keys())) + '}'
-        elif type(option) == type(list()):
-            Option =  '[' + str(len(option)) + ']'
-        else:
-            Option = option
+        
         self.Commands.append(
             dict(
                 name = fullName,
                 aliases = [shortName.lower(), fullName],
-                option = Option
+                option = option
             )
             
         )
@@ -47,10 +42,20 @@ class baseState:
                 print(' [' + command['aliases'][0] + '] ' + command['aliases'][1], end='')
                 if command.get('option') != None:
                     print(' | ', end='')
-                    if command['option'] == '':
-                        print('не выбрано')
+                    if type(command['option']) == type(str()):
+                        if command['option'] == '':
+                            print('не выбрано')
+                        else:
+                            print('\'' + str(command['option']) + '\'')
+                    elif type(command['option']) == type(dict()):
+                        print('{' + str(list(command['option'].keys())) + '}')
+                    elif type(command['option']) == type(list()):
+                        print('[' + str(len(command['option'])) + ']')
+                    elif type(command['option']) == type(int()):
+                        print(str(command['option']))
                     else:
-                        print(command['option'])
+                        print('неизвестный тип!')
+                    
                 else:
                     print('')
             self.FirstRun = False
