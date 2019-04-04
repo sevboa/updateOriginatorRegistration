@@ -13,7 +13,8 @@ def singleton(configParserJson):
 class configParserJson:
     
     Data = dict()
-    Cursour = list()
+    Part = dict()
+    Cursor = list()
     
     def __init__(self, filePath='config.json'):
         with open(filePath, 'r', encoding='utf-8') as configFile: #открываем файл на чтение
@@ -22,20 +23,26 @@ class configParserJson:
             for key in data.keys():
                 self.__dict__[key] = data[key]
                 
-    def getChildPart(self, key):
-        self.Cursour.append(key)
-        return self.getCursourPart()
+    def setChildPart(self, key):
+        self.Cursor.append(key)
+        self.setCursorPart()
     
-    def getParentPart(self):
-        self.Cursour.pop(-1)
-        return self.getCursourPart()
+    def setParentPart(self):
+        self.Cursor.pop(-1)
+        self.setCursorPart()
         
-    def getCursourPart(self):
-        configPart = self.Data
-        for key in self.Cursour:
-            configPart = configPart[key]
-        print(self.Cursour)
-        return configPart
+    def setCursorPart(self):
+        self.Part = self.Data
+        if len(self.Cursor) > 0:
+            for key in self.Cursor:
+                self.Part = self.Part.get(key)
+            print(self.Cursor)
+    
+    def setPartParam(self, key, value):
+        if type(self.Part[key]) == type(value):
+            self.Part[key] = value
+        else:
+            print('Тип параметра не совпадает с типом значения!')
     
 
 

@@ -6,11 +6,10 @@ from modules.ConfigParserJson import configParserJson
 
 Config = configParserJson()
 
-print(Config.getChildPart('importer').keys())
-print(Config.getChildPart('smsc').keys())
-print(Config.getChildPart('Statuses'))
-print(Config.getParentPart().keys())
-print(Config.getParentPart().keys())
+Config.setChildPart('dataBase')
+Config.setPartParam('port', 4566)
+Config.setParentPart()
+print(Config.dataBase)
 
 
 exit()
