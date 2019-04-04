@@ -22,6 +22,7 @@ class configParserJson:
             self.Data = dict(data)
             for key in data.keys():
                 self.__dict__[key] = data[key]
+        self.setCursorPart()
                 
     def setChildPart(self, key):
         self.Cursor.append(key)

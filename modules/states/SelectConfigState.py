@@ -23,5 +23,5 @@ class selectConfigState(baseState):
         else:
             print('выбран раздел ' + commandName)
             if type(self.Controller.ConfigPart.__dict__.get(commandName)) == type(dict()):
-                self.Controller.ConfigPart = self.Controller.ConfigPart.__dict__.get(commandName)
+                self.Controller.Config.setChildPart(commandName)
                 self.Controller.setState(changeConfigState(self.Controller))
