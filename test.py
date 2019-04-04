@@ -2,10 +2,16 @@ import sys
 import json
 import csv
 import os
+from modules.ConfigParserJson import configParserJson
 
+Config = configParserJson()
 
-a = '1\''
-print(a.isalnum())
+print(Config.getChildPart('importer').keys())
+print(Config.getChildPart('smsc').keys())
+print(Config.getChildPart('Statuses'))
+print(Config.getParentPart().keys())
+print(Config.getParentPart().keys())
+
 
 exit()
 
